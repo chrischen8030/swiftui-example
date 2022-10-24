@@ -159,7 +159,7 @@ struct BookAppAnimationHome: View {
             Button {
                 dismiss()
             } label: {
-                Image(systemName: "arrowshape.backward")
+                Image(systemName: "backward")
             }
 
             Text("Bookio")
@@ -188,7 +188,7 @@ struct BookAppAnimationHome: View {
     }
 }
 
-struct Home_Previews: PreviewProvider {
+struct BookAppAnimationHome_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }

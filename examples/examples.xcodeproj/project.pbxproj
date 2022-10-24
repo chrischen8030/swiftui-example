@@ -21,6 +21,17 @@
 		64E7FC90290606F900D6AA9A /* IsometricView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E7FC8E290606F900D6AA9A /* IsometricView.swift */; };
 		64E7FC932906071E00D6AA9A /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E7FC922906071E00D6AA9A /* Book.swift */; };
 		64E7FC962906080A00D6AA9A /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E7FC952906080A00D6AA9A /* AppModel.swift */; };
+		64E7FC9B29065A5200D6AA9A /* ScrollIndicatorHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E7FC9A29065A5200D6AA9A /* ScrollIndicatorHome.swift */; };
+		64E7FC9D29065A6900D6AA9A /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E7FC9C29065A6900D6AA9A /* Character.swift */; };
+		64E7FCA329066D2400D6AA9A /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E7FCA229066D2400D6AA9A /* Product.swift */; };
+		64E7FCA829066D2D00D6AA9A /* ShoeUIBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E7FCA429066D2D00D6AA9A /* ShoeUIBaseView.swift */; };
+		64E7FCA929066D2D00D6AA9A /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E7FCA529066D2D00D6AA9A /* DetailView.swift */; };
+		64E7FCAA29066D2D00D6AA9A /* ShoeUIHomeHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E7FCA629066D2D00D6AA9A /* ShoeUIHomeHome.swift */; };
+		64E7FCAB29066D2D00D6AA9A /* CustomCurveShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E7FCA729066D2D00D6AA9A /* CustomCurveShape.swift */; };
+		64E7FCAD29066D3500D6AA9A /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E7FCAC29066D3500D6AA9A /* BaseViewModel.swift */; };
+		64E7FCAF290673EA00D6AA9A /* Nike_Air_Jordan.scn in Resources */ = {isa = PBXBuildFile; fileRef = 64E7FCAE290673EA00D6AA9A /* Nike_Air_Jordan.scn */; };
+		64E7FCB6290675BB00D6AA9A /* CustomSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E7FCB4290675BB00D6AA9A /* CustomSceneView.swift */; };
+		64E7FCB7290675BB00D6AA9A /* _DShoeHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E7FCB5290675BB00D6AA9A /* _DShoeHome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +68,17 @@
 		64E7FC8E290606F900D6AA9A /* IsometricView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsometricView.swift; sourceTree = "<group>"; };
 		64E7FC922906071E00D6AA9A /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		64E7FC952906080A00D6AA9A /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		64E7FC9A29065A5200D6AA9A /* ScrollIndicatorHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollIndicatorHome.swift; sourceTree = "<group>"; };
+		64E7FC9C29065A6900D6AA9A /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		64E7FCA229066D2400D6AA9A /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		64E7FCA429066D2D00D6AA9A /* ShoeUIBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoeUIBaseView.swift; sourceTree = "<group>"; };
+		64E7FCA529066D2D00D6AA9A /* DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		64E7FCA629066D2D00D6AA9A /* ShoeUIHomeHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoeUIHomeHome.swift; sourceTree = "<group>"; };
+		64E7FCA729066D2D00D6AA9A /* CustomCurveShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCurveShape.swift; sourceTree = "<group>"; };
+		64E7FCAC29066D3500D6AA9A /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		64E7FCAE290673EA00D6AA9A /* Nike_Air_Jordan.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Nike_Air_Jordan.scn; sourceTree = "<group>"; };
+		64E7FCB4290675BB00D6AA9A /* CustomSceneView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSceneView.swift; sourceTree = "<group>"; };
+		64E7FCB5290675BB00D6AA9A /* _DShoeHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = _DShoeHome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +127,8 @@
 		645927962905F79A00BA55BE /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				64E7FCB0290673F700D6AA9A /* Assets */,
+				64E7FC94290607FB00D6AA9A /* Model */,
 				64E7FC8A290606B800D6AA9A /* Apps */,
 				645927972905F79A00BA55BE /* examplesApp.swift */,
 				645927982905F79A00BA55BE /* ContentView.swift */,
@@ -153,7 +177,9 @@
 		64E7FC8A290606B800D6AA9A /* Apps */ = {
 			isa = PBXGroup;
 			children = (
-				64E7FC94290607FB00D6AA9A /* Model */,
+				64E7FCB22906742E00D6AA9A /* 3DShoeApp */,
+				64E7FC9E29066CF300D6AA9A /* ShoeUI */,
+				64E7FC9729065A1200D6AA9A /* ScrollIndicator */,
 				64E7FC8B290606C300D6AA9A /* BookAppAnimation */,
 			);
 			path = Apps;
@@ -191,6 +217,101 @@
 				64E7FC952906080A00D6AA9A /* AppModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		64E7FC9729065A1200D6AA9A /* ScrollIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				64E7FC9929065A3100D6AA9A /* Model */,
+				64E7FC9829065A2900D6AA9A /* View */,
+			);
+			path = ScrollIndicator;
+			sourceTree = "<group>";
+		};
+		64E7FC9829065A2900D6AA9A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64E7FC9A29065A5200D6AA9A /* ScrollIndicatorHome.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		64E7FC9929065A3100D6AA9A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				64E7FC9C29065A6900D6AA9A /* Character.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		64E7FC9E29066CF300D6AA9A /* ShoeUI */ = {
+			isa = PBXGroup;
+			children = (
+				64E7FCA129066D1500D6AA9A /* Model */,
+				64E7FCA029066D0500D6AA9A /* ViewModel */,
+				64E7FC9F29066CFE00D6AA9A /* View */,
+			);
+			path = ShoeUI;
+			sourceTree = "<group>";
+		};
+		64E7FC9F29066CFE00D6AA9A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64E7FCA429066D2D00D6AA9A /* ShoeUIBaseView.swift */,
+				64E7FCA729066D2D00D6AA9A /* CustomCurveShape.swift */,
+				64E7FCA529066D2D00D6AA9A /* DetailView.swift */,
+				64E7FCA629066D2D00D6AA9A /* ShoeUIHomeHome.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		64E7FCA029066D0500D6AA9A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				64E7FCAC29066D3500D6AA9A /* BaseViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		64E7FCA129066D1500D6AA9A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				64E7FCA229066D2400D6AA9A /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		64E7FCB0290673F700D6AA9A /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				64E7FCB12906741700D6AA9A /* 3D */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		64E7FCB12906741700D6AA9A /* 3D */ = {
+			isa = PBXGroup;
+			children = (
+				64E7FCAE290673EA00D6AA9A /* Nike_Air_Jordan.scn */,
+			);
+			path = 3D;
+			sourceTree = "<group>";
+		};
+		64E7FCB22906742E00D6AA9A /* 3DShoeApp */ = {
+			isa = PBXGroup;
+			children = (
+				64E7FCB32906759100D6AA9A /* View */,
+			);
+			path = 3DShoeApp;
+			sourceTree = "<group>";
+		};
+		64E7FCB32906759100D6AA9A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64E7FCB4290675BB00D6AA9A /* CustomSceneView.swift */,
+				64E7FCB5290675BB00D6AA9A /* _DShoeHome.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -318,6 +439,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64E7FCAF290673EA00D6AA9A /* Nike_Air_Jordan.scn in Resources */,
 				645927C32905F79B00BA55BE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,11 +474,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				64E7FC90290606F900D6AA9A /* IsometricView.swift in Sources */,
+				64E7FCB6290675BB00D6AA9A /* CustomSceneView.swift in Sources */,
 				64E7FC962906080A00D6AA9A /* AppModel.swift in Sources */,
+				64E7FCA329066D2400D6AA9A /* Product.swift in Sources */,
+				64E7FCAD29066D3500D6AA9A /* BaseViewModel.swift in Sources */,
 				645927C12905F79B00BA55BE /* ContentView.swift in Sources */,
 				64E7FC8F290606F900D6AA9A /* BookAppAnimationHome.swift in Sources */,
+				64E7FCA929066D2D00D6AA9A /* DetailView.swift in Sources */,
 				64E7FC932906071E00D6AA9A /* Book.swift in Sources */,
 				645927BF2905F79B00BA55BE /* examplesApp.swift in Sources */,
+				64E7FCA829066D2D00D6AA9A /* ShoeUIBaseView.swift in Sources */,
+				64E7FC9B29065A5200D6AA9A /* ScrollIndicatorHome.swift in Sources */,
+				64E7FCAA29066D2D00D6AA9A /* ShoeUIHomeHome.swift in Sources */,
+				64E7FC9D29065A6900D6AA9A /* Character.swift in Sources */,
+				64E7FCB7290675BB00D6AA9A /* _DShoeHome.swift in Sources */,
+				64E7FCAB29066D2D00D6AA9A /* CustomCurveShape.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -527,7 +659,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -557,7 +689,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
