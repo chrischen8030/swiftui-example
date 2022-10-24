@@ -97,7 +97,7 @@ struct BookAppAnimationHome: View {
         }
         .tabViewStyle(.page(indexDisplayMode: .never))
         .background {
-            Image("BG")
+            Image("BG_BookAppAnimation")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
         }

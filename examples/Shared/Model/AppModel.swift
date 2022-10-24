@@ -14,6 +14,7 @@ enum SwiftUIApps: String, CaseIterable{
     case scrollIndicator = "scrollIndicator"
     case shoeUI = "shoeUI"
     case threeDShoeApp = "3DShoeApp"
+    case parallaxCards = "ParallaxCards"
     @ViewBuilder
     func appHome()-> some View {
         switch self {
@@ -28,6 +29,8 @@ enum SwiftUIApps: String, CaseIterable{
                 _DShoeHome()
             })
             .preferredColorScheme(.dark)
+        case .parallaxCards:
+            ParallaxCardsHome()
             
         }
     }
