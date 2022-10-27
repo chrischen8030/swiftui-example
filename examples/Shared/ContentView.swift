@@ -8,30 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var showNext: Bool = false
-    @State var selectedApp:SwiftUIApps = .bookAppAnimation
+    @State var showNext: SwiftUIApps?
     var body: some View{
         List(SwiftUIApps.allCases, id: \.self) { app in
             Button(action: {
-                print("11\(app)")
-                self.selectedApp = app;
-                self.showNext = true;
-                print("11\(String(describing: self.selectedApp))")
-
+                self.showNext = app;
             }) {
                 Text(app.rawValue)
             }
-        }.fullScreenCover(isPresented: $showNext,onDismiss: {
-            self.showNext = false
-        }) {
-//            if let app = self.selectedApp?.appHome(){
-//                app
-//            }else {
-//                Text("No demo").onAppear(){
-//                    print("app:\(String(describing: self.selectedApp))")
-//                }
-//            }
-            self.selectedApp.appHome()
+        }.fullScreenCover(item: $showNext,onDismiss: {
+            self.showNext = nil
+        }) { item in
+            item.appHome()
         }
     }
 }

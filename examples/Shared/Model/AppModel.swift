@@ -9,12 +9,21 @@ import Foundation
 import SwiftUI
 
 
-enum SwiftUIApps: String, CaseIterable{
-    case bookAppAnimation = "bookAppAnimation"
-    case scrollIndicator = "scrollIndicator"
-    case shoeUI = "shoeUI"
-    case threeDShoeApp = "3DShoeApp"
-    case parallaxCards = "ParallaxCards"
+enum SwiftUIApps: String, CaseIterable, Identifiable{
+    var id: String {
+        UUID().uuidString
+    }
+
+    case bookAppAnimation = "bookAppAnimationHome"
+    case scrollIndicator = "scrollIndicatorHome"
+    case shoeUI = "shoeUIHome"
+    case threeDShoeApp = "3DShoeAppHome"
+    case parallaxCards = "ParallaxCardsHome"
+    case animationChallenge4 = "AnimationChallenge4Home"
+    case animationHack = "AnimationHackHome"
+    case breatheAnimation = "BreatheAnimationHome"
+    case boomerangCardsHome = "BoomerangCardsHome"
+    case animatedTabIconsMainView = "AnimatedTabIconsMainView"
     @ViewBuilder
     func appHome()-> some View {
         switch self {
@@ -31,6 +40,16 @@ enum SwiftUIApps: String, CaseIterable{
             .preferredColorScheme(.dark)
         case .parallaxCards:
             ParallaxCardsHome()
+        case .animationChallenge4:
+            AnimationChallenge4Home()
+        case .animationHack:
+            AnimationHackHome()
+        case .breatheAnimation:
+            BreatheAnimationHome()
+        case .boomerangCardsHome:
+            BoomerangCardsHome()
+        case .animatedTabIconsMainView:
+            AnimatedTabIconsMainView()
             
         }
     }
