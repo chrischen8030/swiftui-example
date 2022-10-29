@@ -13,7 +13,8 @@ enum SwiftUIApps: String, CaseIterable, Identifiable{
     var id: String {
         UUID().uuidString
     }
-
+    
+    case appleLandMarkHome = "AppleLandMarkHome"
     case bookAppAnimation = "bookAppAnimationHome"
     case scrollIndicator = "scrollIndicatorHome"
     case shoeUI = "shoeUIHome"
@@ -30,9 +31,12 @@ enum SwiftUIApps: String, CaseIterable, Identifiable{
     case pencilHome = "PencilHome"
     case lottieRatingBar = "lottieRatingBar"
     case netflixSplashScreen = "NetflixSplashScreen"
+    case animatedIndicatorHome = "AnimatedIndicatorHome"
     @ViewBuilder
     func appHome()-> some View {
         switch self {
+        case .appleLandMarkHome:
+            AppleLandMarkHome()
         case .bookAppAnimation:
             BookAppAnimationHome()
         case .scrollIndicator:
@@ -68,6 +72,8 @@ enum SwiftUIApps: String, CaseIterable, Identifiable{
             LottieRatingBarHome()
         case .netflixSplashScreen:
             NetflixSplashScreen()
+        case .animatedIndicatorHome:
+            AnimatedIndicatorHome()
             
         }
     }
