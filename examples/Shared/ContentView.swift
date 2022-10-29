@@ -10,17 +10,21 @@ import SwiftUI
 struct ContentView: View {
     @State var showNext: SwiftUIApps?
     var body: some View{
-        List(SwiftUIApps.allCases, id: \.self) { app in
-            Button(action: {
-                self.showNext = app;
-            }) {
-                Text(app.rawValue)
+        VStack {
+            Text("\(SwiftUIApps.allCases.count)")
+            List(SwiftUIApps.allCases, id: \.self) { app in
+                Button(action: {
+                    self.showNext = app;
+                }) {
+                    Text(app.rawValue)
+                }
+            }.fullScreenCover(item: $showNext,onDismiss: {
+                self.showNext = nil
+            }) { item in
+                item.appHome()
             }
-        }.fullScreenCover(item: $showNext,onDismiss: {
-            self.showNext = nil
-        }) { item in
-            item.appHome()
         }
+
     }
 }
 

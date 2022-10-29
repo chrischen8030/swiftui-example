@@ -15,6 +15,11 @@
 		6405179E290938310088AB0F /* BreatheType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6405179D290938310088AB0F /* BreatheType.swift */; };
 		640517AE29093B470088AB0F /* BoomerangCardsHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640517AB29093B470088AB0F /* BoomerangCardsHome.swift */; };
 		640517AF29093B470088AB0F /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640517AD29093B470088AB0F /* Card.swift */; };
+		6455464D290BC3CD00205AD3 /* NetflixSplashScreenHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6455464B290BC3CD00205AD3 /* NetflixSplashScreenHome.swift */; };
+		6455464E290BC3CD00205AD3 /* NetflixSplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6455464C290BC3CD00205AD3 /* NetflixSplashScreen.swift */; };
+		64554650290BC3E100205AD3 /* logo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6455464F290BC3E100205AD3 /* logo.gif */; };
+		64554653290BC4E200205AD3 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 64554652290BC4E200205AD3 /* SDWebImage */; };
+		64554656290BC59C00205AD3 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 64554655290BC59C00205AD3 /* SDWebImageSwiftUI */; };
 		645927B02905F79B00BA55BE /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645927AF2905F79B00BA55BE /* Tests_iOS.swift */; };
 		645927B22905F79B00BA55BE /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645927B12905F79B00BA55BE /* Tests_iOSLaunchTests.swift */; };
 		645927BC2905F79B00BA55BE /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645927BB2905F79B00BA55BE /* Tests_macOS.swift */; };
@@ -25,6 +30,18 @@
 		645927C22905F79B00BA55BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645927982905F79A00BA55BE /* ContentView.swift */; };
 		645927C32905F79B00BA55BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 645927992905F79B00BA55BE /* Assets.xcassets */; };
 		645927C42905F79B00BA55BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 645927992905F79B00BA55BE /* Assets.xcassets */; };
+		64B1740C290B964F001DD5A8 /* ParseMarkdownToHTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B1740A290B964F001DD5A8 /* ParseMarkdownToHTML.swift */; };
+		64B1740D290B964F001DD5A8 /* MarkdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B1740B290B964F001DD5A8 /* MarkdownView.swift */; };
+		64B1740F290B9674001DD5A8 /* MarkdownHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B1740E290B9673001DD5A8 /* MarkdownHome.swift */; };
+		64B17415290B9797001DD5A8 /* Ink in Frameworks */ = {isa = PBXBuildFile; productRef = 64B17414290B9797001DD5A8 /* Ink */; settings = {ATTRIBUTES = (Weak, ); }; };
+		64B1741B290BADDF001DD5A8 /* DCardAnimationAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B17418290BADDF001DD5A8 /* DCardAnimationAlbum.swift */; };
+		64B1741C290BADDF001DD5A8 /* DCardAnimationHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B1741A290BADDF001DD5A8 /* DCardAnimationHome.swift */; };
+		64B17422290BB547001DD5A8 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B1741F290BB546001DD5A8 /* Food.swift */; };
+		64B17423290BB547001DD5A8 /* AdvancedAnimationHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B17421290BB547001DD5A8 /* AdvancedAnimationHome.swift */; };
+		64B17427290BB874001DD5A8 /* PencilHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B17425290BB874001DD5A8 /* PencilHome.swift */; };
+		64B1742C290BBFAB001DD5A8 /* LtAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B1742B290BBFAB001DD5A8 /* LtAnimationView.swift */; };
+		64B1742E290BBFB4001DD5A8 /* Rating.json in Resources */ = {isa = PBXBuildFile; fileRef = 64B1742D290BBFB4001DD5A8 /* Rating.json */; };
+		64B17430290BBFF0001DD5A8 /* LottieRatingBarHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B1742F290BBFF0001DD5A8 /* LottieRatingBarHome.swift */; };
 		64E7FC8F290606F900D6AA9A /* BookAppAnimationHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E7FC8D290606F900D6AA9A /* BookAppAnimationHome.swift */; };
 		64E7FC90290606F900D6AA9A /* IsometricView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E7FC8E290606F900D6AA9A /* IsometricView.swift */; };
 		64E7FC932906071E00D6AA9A /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E7FC922906071E00D6AA9A /* Book.swift */; };
@@ -81,6 +98,9 @@
 		6405179D290938310088AB0F /* BreatheType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreatheType.swift; sourceTree = "<group>"; };
 		640517AB29093B470088AB0F /* BoomerangCardsHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoomerangCardsHome.swift; sourceTree = "<group>"; };
 		640517AD29093B470088AB0F /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		6455464B290BC3CD00205AD3 /* NetflixSplashScreenHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetflixSplashScreenHome.swift; sourceTree = "<group>"; };
+		6455464C290BC3CD00205AD3 /* NetflixSplashScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetflixSplashScreen.swift; sourceTree = "<group>"; };
+		6455464F290BC3E100205AD3 /* logo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = logo.gif; sourceTree = "<group>"; };
 		645927972905F79A00BA55BE /* examplesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = examplesApp.swift; sourceTree = "<group>"; };
 		645927982905F79A00BA55BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		645927992905F79B00BA55BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -93,6 +113,17 @@
 		645927B72905F79B00BA55BE /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		645927BB2905F79B00BA55BE /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		645927BD2905F79B00BA55BE /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		64B1740A290B964F001DD5A8 /* ParseMarkdownToHTML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseMarkdownToHTML.swift; sourceTree = "<group>"; };
+		64B1740B290B964F001DD5A8 /* MarkdownView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkdownView.swift; sourceTree = "<group>"; };
+		64B1740E290B9673001DD5A8 /* MarkdownHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkdownHome.swift; sourceTree = "<group>"; };
+		64B17418290BADDF001DD5A8 /* DCardAnimationAlbum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DCardAnimationAlbum.swift; sourceTree = "<group>"; };
+		64B1741A290BADDF001DD5A8 /* DCardAnimationHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DCardAnimationHome.swift; sourceTree = "<group>"; };
+		64B1741F290BB546001DD5A8 /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		64B17421290BB547001DD5A8 /* AdvancedAnimationHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvancedAnimationHome.swift; sourceTree = "<group>"; };
+		64B17425290BB874001DD5A8 /* PencilHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PencilHome.swift; sourceTree = "<group>"; };
+		64B1742B290BBFAB001DD5A8 /* LtAnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LtAnimationView.swift; sourceTree = "<group>"; };
+		64B1742D290BBFB4001DD5A8 /* Rating.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Rating.json; sourceTree = "<group>"; };
+		64B1742F290BBFF0001DD5A8 /* LottieRatingBarHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LottieRatingBarHome.swift; sourceTree = "<group>"; };
 		64E7FC8D290606F900D6AA9A /* BookAppAnimationHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookAppAnimationHome.swift; sourceTree = "<group>"; };
 		64E7FC8E290606F900D6AA9A /* IsometricView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsometricView.swift; sourceTree = "<group>"; };
 		64E7FC922906071E00D6AA9A /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
@@ -130,7 +161,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64554656290BC59C00205AD3 /* SDWebImageSwiftUI in Frameworks */,
+				64554653290BC4E200205AD3 /* SDWebImage in Frameworks */,
 				64F35442290B2AA00072AA8B /* Lottie in Frameworks */,
+				64B17415290B9797001DD5A8 /* Ink in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +284,24 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		64554649290BC3A600205AD3 /* NetflixSplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				6455464F290BC3E100205AD3 /* logo.gif */,
+				6455464A290BC3BC00205AD3 /* View */,
+			);
+			path = NetflixSplashScreen;
+			sourceTree = "<group>";
+		};
+		6455464A290BC3BC00205AD3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6455464B290BC3CD00205AD3 /* NetflixSplashScreenHome.swift */,
+				6455464C290BC3CD00205AD3 /* NetflixSplashScreen.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		645927912905F79900BA55BE = {
 			isa = PBXGroup;
 			children = (
@@ -313,9 +365,117 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		64B17407290B917D001DD5A8 /* Markdown */ = {
+			isa = PBXGroup;
+			children = (
+				64B17409290B91AD001DD5A8 /* Model */,
+				64B17408290B91A8001DD5A8 /* View */,
+			);
+			path = Markdown;
+			sourceTree = "<group>";
+		};
+		64B17408290B91A8001DD5A8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64B1740E290B9673001DD5A8 /* MarkdownHome.swift */,
+				64B1740B290B964F001DD5A8 /* MarkdownView.swift */,
+				64B1740A290B964F001DD5A8 /* ParseMarkdownToHTML.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		64B17409290B91AD001DD5A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		64B17416290BADCC001DD5A8 /* 3DCardAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				64B17417290BADDF001DD5A8 /* Model */,
+				64B17419290BADDF001DD5A8 /* View */,
+			);
+			path = 3DCardAnimation;
+			sourceTree = "<group>";
+		};
+		64B17417290BADDF001DD5A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				64B17418290BADDF001DD5A8 /* DCardAnimationAlbum.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		64B17419290BADDF001DD5A8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64B1741A290BADDF001DD5A8 /* DCardAnimationHome.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		64B1741D290BB4EC001DD5A8 /* AdvancedAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				64B1741E290BB546001DD5A8 /* Model */,
+				64B17420290BB547001DD5A8 /* View */,
+			);
+			path = AdvancedAnimation;
+			sourceTree = "<group>";
+		};
+		64B1741E290BB546001DD5A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				64B1741F290BB546001DD5A8 /* Food.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		64B17420290BB547001DD5A8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64B17421290BB547001DD5A8 /* AdvancedAnimationHome.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		64B17424290BB854001DD5A8 /* Pencil */ = {
+			isa = PBXGroup;
+			children = (
+				64B17425290BB874001DD5A8 /* PencilHome.swift */,
+			);
+			path = Pencil;
+			sourceTree = "<group>";
+		};
+		64B17429290BBF21001DD5A8 /* LottieRatingBar */ = {
+			isa = PBXGroup;
+			children = (
+				64B1742D290BBFB4001DD5A8 /* Rating.json */,
+				64B1742A290BBFAB001DD5A8 /* View */,
+			);
+			path = LottieRatingBar;
+			sourceTree = "<group>";
+		};
+		64B1742A290BBFAB001DD5A8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64B1742F290BBFF0001DD5A8 /* LottieRatingBarHome.swift */,
+				64B1742B290BBFAB001DD5A8 /* LtAnimationView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		64E7FC8A290606B800D6AA9A /* Apps */ = {
 			isa = PBXGroup;
 			children = (
+				64554649290BC3A600205AD3 /* NetflixSplashScreen */,
+				64B17429290BBF21001DD5A8 /* LottieRatingBar */,
+				64B17424290BB854001DD5A8 /* Pencil */,
+				64B1741D290BB4EC001DD5A8 /* AdvancedAnimation */,
+				64B17416290BADCC001DD5A8 /* 3DCardAnimation */,
+				64B17407290B917D001DD5A8 /* Markdown */,
 				64F35443290B2AC40072AA8B /* AnimatedTabIcons */,
 				6405179F29093A9A0088AB0F /* BoomerangCards */,
 				64051798290937F50088AB0F /* BreatheAnimation */,
@@ -560,6 +720,9 @@
 			name = "examples (iOS)";
 			packageProductDependencies = (
 				64F35441290B2AA00072AA8B /* Lottie */,
+				64B17414290B9797001DD5A8 /* Ink */,
+				64554652290BC4E200205AD3 /* SDWebImage */,
+				64554655290BC59C00205AD3 /* SDWebImageSwiftUI */,
 			);
 			productName = "examples (iOS)";
 			productReference = 6459279E2905F79B00BA55BE /* examples.app */;
@@ -655,6 +818,9 @@
 			mainGroup = 645927912905F79900BA55BE;
 			packageReferences = (
 				64F35440290B2AA00072AA8B /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				64B17413290B9797001DD5A8 /* XCRemoteSwiftPackageReference "ink" */,
+				64554651290BC4E200205AD3 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				64554654290BC59C00205AD3 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 			);
 			productRefGroup = 6459279F2905F79B00BA55BE /* Products */;
 			projectDirPath = "";
@@ -673,12 +839,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64B1742E290BBFB4001DD5A8 /* Rating.json in Resources */,
 				64F3544D290B2C180072AA8B /* Notification.json in Resources */,
 				64F3544A290B2C180072AA8B /* Account.json in Resources */,
 				64F3544B290B2C180072AA8B /* Chat.json in Resources */,
 				64F3544C290B2C180072AA8B /* Home.json in Resources */,
 				64F3544E290B2C180072AA8B /* Saved.json in Resources */,
 				64E7FCAF290673EA00D6AA9A /* Nike_Air_Jordan.scn in Resources */,
+				64554650290BC3E100205AD3 /* logo.gif in Resources */,
 				645927C32905F79B00BA55BE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -720,8 +888,11 @@
 				64E7FCA329066D2400D6AA9A /* Product.swift in Sources */,
 				640517AE29093B470088AB0F /* BoomerangCardsHome.swift in Sources */,
 				6405179E290938310088AB0F /* BreatheType.swift in Sources */,
+				64B1742C290BBFAB001DD5A8 /* LtAnimationView.swift in Sources */,
 				64E7FCAD29066D3500D6AA9A /* BaseViewModel.swift in Sources */,
+				64B1740D290B964F001DD5A8 /* MarkdownView.swift in Sources */,
 				64F35455290B2C370072AA8B /* AnimatedIcon.swift in Sources */,
+				64B1740C290B964F001DD5A8 /* ParseMarkdownToHTML.swift in Sources */,
 				645927C12905F79B00BA55BE /* ContentView.swift in Sources */,
 				640517AF29093B470088AB0F /* Card.swift in Sources */,
 				64E7FCBE29067DB100D6AA9A /* ParallaxCardsHome.swift in Sources */,
@@ -729,13 +900,22 @@
 				64E7FC8F290606F900D6AA9A /* BookAppAnimationHome.swift in Sources */,
 				64E7FCA929066D2D00D6AA9A /* DetailView.swift in Sources */,
 				64E7FC932906071E00D6AA9A /* Book.swift in Sources */,
+				64B1741B290BADDF001DD5A8 /* DCardAnimationAlbum.swift in Sources */,
 				64F35456290B2C370072AA8B /* Tab.swift in Sources */,
+				64B17422290BB547001DD5A8 /* Food.swift in Sources */,
 				645927BF2905F79B00BA55BE /* examplesApp.swift in Sources */,
+				6455464E290BC3CD00205AD3 /* NetflixSplashScreen.swift in Sources */,
+				64B17427290BB874001DD5A8 /* PencilHome.swift in Sources */,
+				64B1741C290BADDF001DD5A8 /* DCardAnimationHome.swift in Sources */,
 				64E7FCA829066D2D00D6AA9A /* ShoeUIBaseView.swift in Sources */,
+				64B17430290BBFF0001DD5A8 /* LottieRatingBarHome.swift in Sources */,
 				64E7FC9B29065A5200D6AA9A /* ScrollIndicatorHome.swift in Sources */,
 				64E7FCC129067DC400D6AA9A /* MotionManager.swift in Sources */,
+				64B1740F290B9674001DD5A8 /* MarkdownHome.swift in Sources */,
+				64B17423290BB547001DD5A8 /* AdvancedAnimationHome.swift in Sources */,
 				64E7FCAA29066D2D00D6AA9A /* ShoeUIHomeHome.swift in Sources */,
 				64E7FC9D29065A6900D6AA9A /* Character.swift in Sources */,
+				6455464D290BC3CD00205AD3 /* NetflixSplashScreenHome.swift in Sources */,
 				64E7FCB7290675BB00D6AA9A /* _DShoeHome.swift in Sources */,
 				64F35458290B2C380072AA8B /* ResizableLottieView.swift in Sources */,
 				64051793290932A10088AB0F /* Album.swift in Sources */,
@@ -909,6 +1089,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "examples--iOS--Info.plist";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow To Save Drawings";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -940,6 +1121,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "examples--iOS--Info.plist";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow To Save Drawings";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -1147,6 +1329,30 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		64554651290BC4E200205AD3 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		64554654290BC59C00205AD3 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		64B17413290B9797001DD5A8 /* XCRemoteSwiftPackageReference "ink" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/johnsundell/ink.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 		64F35440290B2AA00072AA8B /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/airbnb/lottie-ios/";
@@ -1158,6 +1364,21 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		64554652290BC4E200205AD3 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 64554651290BC4E200205AD3 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		64554655290BC59C00205AD3 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 64554654290BC59C00205AD3 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		64B17414290B9797001DD5A8 /* Ink */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 64B17413290B9797001DD5A8 /* XCRemoteSwiftPackageReference "ink" */;
+			productName = Ink;
+		};
 		64F35441290B2AA00072AA8B /* Lottie */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 64F35440290B2AA00072AA8B /* XCRemoteSwiftPackageReference "lottie-ios" */;

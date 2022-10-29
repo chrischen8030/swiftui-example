@@ -24,6 +24,12 @@ enum SwiftUIApps: String, CaseIterable, Identifiable{
     case breatheAnimation = "BreatheAnimationHome"
     case boomerangCardsHome = "BoomerangCardsHome"
     case animatedTabIconsMainView = "AnimatedTabIconsMainView"
+    case markdownHome = "markdownHome"
+    case dcardAnimationHome = "DCardAnimationHome"
+    case advancedAnimationHome = "AdvancedAnimationHome"
+    case pencilHome = "PencilHome"
+    case lottieRatingBar = "lottieRatingBar"
+    case netflixSplashScreen = "NetflixSplashScreen"
     @ViewBuilder
     func appHome()-> some View {
         switch self {
@@ -50,6 +56,18 @@ enum SwiftUIApps: String, CaseIterable, Identifiable{
             BoomerangCardsHome()
         case .animatedTabIconsMainView:
             AnimatedTabIconsMainView()
+        case .markdownHome:
+            MarkdownHome()
+        case .dcardAnimationHome:
+            DCardAnimationHome()
+        case .advancedAnimationHome:
+            AdvancedAnimationHome()
+        case .pencilHome:
+            PencilHome()
+        case .lottieRatingBar:
+            LottieRatingBarHome()
+        case .netflixSplashScreen:
+            NetflixSplashScreen()
             
         }
     }
