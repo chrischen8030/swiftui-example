@@ -10,25 +10,38 @@ import SwiftUI
 struct AppleLandMarkHome: View {
     @State private var selection: Tab = .featured
     @StateObject private var modelData = ModelData();
+    @Environment(\.dismiss) var dismiss;
     enum Tab {
         case featured
         case list
     }
 
     var body: some View {
-        TabView(selection: $selection) {
-            CategoryHome()
-                .tabItem {
-                    Label("Featured", systemImage: "star")
-                }
-                .tag(Tab.featured)
+        VStack{
+            HStack{
+                Button {
+                    dismiss()
+                } label: {
+                    Image(systemName: "backward")
+                }.padding()
+                Spacer()
 
-            LandmarkList()
-                .tabItem {
-                    Label("List", systemImage: "list.bullet")
-                }
-                .tag(Tab.list)
-        }.environmentObject(modelData)
+            }
+            TabView(selection: $selection) {
+                CategoryHome()
+                    .tabItem {
+                        Label("Featured", systemImage: "star")
+                    }
+                    .tag(Tab.featured)
+
+                LandmarkList()
+                    .tabItem {
+                        Label("List", systemImage: "list.bullet")
+                    }
+                    .tag(Tab.list)
+            }.environmentObject(modelData)
+        }
+
     }
 }
 

@@ -14,8 +14,14 @@ enum SwiftUIApps: String, CaseIterable, Identifiable{
         UUID().uuidString
     }
     
+    case animationsHome = "AnimationsHome"
+    case animatedIndicator2Home = "AnimatedIndicator2Home"
+    case animationChallengeHome = "AnimationChallengeHome"
     case appleLandMarkHome = "AppleLandMarkHome"
+    case colorsExtensionsHome = "ColorsExtensionsHome"
     case bookAppAnimation = "bookAppAnimationHome"
+    case canvasHome = "CanvasHome"
+    case canvasEditorHome = "CanvasEditorHome"
     case scrollIndicator = "scrollIndicatorHome"
     case shoeUI = "shoeUIHome"
     case threeDShoeApp = "3DShoeAppHome"
@@ -32,6 +38,7 @@ enum SwiftUIApps: String, CaseIterable, Identifiable{
     case lottieRatingBar = "lottieRatingBar"
     case netflixSplashScreen = "NetflixSplashScreen"
     case animatedIndicatorHome = "AnimatedIndicatorHome"
+    case motionDepthEffectHome = "MotionDepthEffectHome"
     @ViewBuilder
     func appHome()-> some View {
         switch self {
@@ -74,7 +81,20 @@ enum SwiftUIApps: String, CaseIterable, Identifiable{
             NetflixSplashScreen()
         case .animatedIndicatorHome:
             AnimatedIndicatorHome()
-            
+        case .colorsExtensionsHome:
+            ColorsExtensionsHome()
+        case .motionDepthEffectHome:
+            MotionDepthEffectHome()
+        case .animationChallengeHome:
+            AnimationChallengeHome()
+        case .animationsHome:
+            AnimationsHome()
+        case .canvasHome:
+            CanvasHome()
+        case .canvasEditorHome:
+            CanvasEditorHome()
+        case .animatedIndicator2Home:
+            AnimatedIndicator2Home()
         }
     }
 }

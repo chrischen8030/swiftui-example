@@ -76,6 +76,35 @@
 		64B1742C290BBFAB001DD5A8 /* LtAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B1742B290BBFAB001DD5A8 /* LtAnimationView.swift */; };
 		64B1742E290BBFB4001DD5A8 /* Rating.json in Resources */ = {isa = PBXBuildFile; fileRef = 64B1742D290BBFB4001DD5A8 /* Rating.json */; };
 		64B17430290BBFF0001DD5A8 /* LottieRatingBarHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B1742F290BBFF0001DD5A8 /* LottieRatingBarHome.swift */; };
+		64B37B4B290D03C800E485E3 /* HSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B37B3F290D03C800E485E3 /* HSL.swift */; };
+		64B37B4C290D03C800E485E3 /* Arithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B37B40290D03C800E485E3 /* Arithmetic.swift */; };
+		64B37B4D290D03C800E485E3 /* GetRGBA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B37B41290D03C800E485E3 /* GetRGBA.swift */; };
+		64B37B4E290D03C800E485E3 /* HSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B37B42290D03C800E485E3 /* HSV.swift */; };
+		64B37B4F290D03C800E485E3 /* RGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B37B43290D03C800E485E3 /* RGB.swift */; };
+		64B37B50290D03C800E485E3 /* ColorWithCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B37B44290D03C800E485E3 /* ColorWithCode.swift */; };
+		64B37B51290D03C800E485E3 /* HEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B37B45290D03C800E485E3 /* HEX.swift */; };
+		64B37B52290D03C800E485E3 /* SliderWithText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B37B46290D03C800E485E3 /* SliderWithText.swift */; };
+		64B37B53290D03C800E485E3 /* CMYK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B37B47290D03C800E485E3 /* CMYK.swift */; };
+		64B37B54290D03C800E485E3 /* ColorArithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B37B49290D03C800E485E3 /* ColorArithmetic.swift */; };
+		64B37B55290D03C800E485E3 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B37B4A290D03C800E485E3 /* Color.swift */; };
+		64B37B57290D03E000E485E3 /* ColorsExtensionsHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B37B56290D03E000E485E3 /* ColorsExtensionsHome.swift */; };
+		64B37B61290D322A00E485E3 /* DepthEffectMotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B37B60290D322A00E485E3 /* DepthEffectMotionManager.swift */; };
+		64B37B64290D341600E485E3 /* MotionDepthEffectHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B37B63290D341600E485E3 /* MotionDepthEffectHome.swift */; };
+		64CEB393291659BB00C38D56 /* AnimationChallengeHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CEB391291659BB00C38D56 /* AnimationChallengeHome.swift */; };
+		64CEB395291659CA00C38D56 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CEB394291659CA00C38D56 /* HomeViewModel.swift */; };
+		64CEB39A29165BE100C38D56 /* AnimationsContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CEB39829165BE100C38D56 /* AnimationsContent.swift */; };
+		64CEB39B29165BE100C38D56 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CEB39929165BE100C38D56 /* CustomTabBar.swift */; };
+		64CEB39D29165BF800C38D56 /* AnimationsHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CEB39C29165BF800C38D56 /* AnimationsHome.swift */; };
+		64CEB3A12916602100C38D56 /* CanvasHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CEB3A02916602100C38D56 /* CanvasHome.swift */; };
+		64CEB3AB291660FF00C38D56 /* CanvasViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CEB3A4291660FF00C38D56 /* CanvasViewModel.swift */; };
+		64CEB3AC291660FF00C38D56 /* StackItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CEB3A6291660FF00C38D56 /* StackItem.swift */; };
+		64CEB3AD291660FF00C38D56 /* CanvasEditorHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CEB3A8291660FF00C38D56 /* CanvasEditorHome.swift */; };
+		64CEB3AE291660FF00C38D56 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CEB3A9291660FF00C38D56 /* ImagePicker.swift */; };
+		64CEB3AF291660FF00C38D56 /* Canvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CEB3AA291660FF00C38D56 /* Canvas.swift */; };
+		64CEB3B72916662300C38D56 /* AnimatedIndicator2Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CEB3B32916662200C38D56 /* AnimatedIndicator2Content.swift */; };
+		64CEB3B82916662300C38D56 /* OffsetPageTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CEB3B42916662200C38D56 /* OffsetPageTabView.swift */; };
+		64CEB3B92916662300C38D56 /* Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CEB3B62916662200C38D56 /* Intro.swift */; };
+		64CEB3BB2916669900C38D56 /* AnimatedIndicator2Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CEB3BA2916669900C38D56 /* AnimatedIndicator2Home.swift */; };
 		64E7FC8F290606F900D6AA9A /* BookAppAnimationHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E7FC8D290606F900D6AA9A /* BookAppAnimationHome.swift */; };
 		64E7FC90290606F900D6AA9A /* IsometricView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E7FC8E290606F900D6AA9A /* IsometricView.swift */; };
 		64E7FC932906071E00D6AA9A /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E7FC922906071E00D6AA9A /* Book.swift */; };
@@ -192,6 +221,35 @@
 		64B1742B290BBFAB001DD5A8 /* LtAnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LtAnimationView.swift; sourceTree = "<group>"; };
 		64B1742D290BBFB4001DD5A8 /* Rating.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Rating.json; sourceTree = "<group>"; };
 		64B1742F290BBFF0001DD5A8 /* LottieRatingBarHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LottieRatingBarHome.swift; sourceTree = "<group>"; };
+		64B37B3F290D03C800E485E3 /* HSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSL.swift; sourceTree = "<group>"; };
+		64B37B40290D03C800E485E3 /* Arithmetic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Arithmetic.swift; sourceTree = "<group>"; };
+		64B37B41290D03C800E485E3 /* GetRGBA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetRGBA.swift; sourceTree = "<group>"; };
+		64B37B42290D03C800E485E3 /* HSV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSV.swift; sourceTree = "<group>"; };
+		64B37B43290D03C800E485E3 /* RGB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGB.swift; sourceTree = "<group>"; };
+		64B37B44290D03C800E485E3 /* ColorWithCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorWithCode.swift; sourceTree = "<group>"; };
+		64B37B45290D03C800E485E3 /* HEX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HEX.swift; sourceTree = "<group>"; };
+		64B37B46290D03C800E485E3 /* SliderWithText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderWithText.swift; sourceTree = "<group>"; };
+		64B37B47290D03C800E485E3 /* CMYK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMYK.swift; sourceTree = "<group>"; };
+		64B37B49290D03C800E485E3 /* ColorArithmetic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorArithmetic.swift; sourceTree = "<group>"; };
+		64B37B4A290D03C800E485E3 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		64B37B56290D03E000E485E3 /* ColorsExtensionsHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsExtensionsHome.swift; sourceTree = "<group>"; };
+		64B37B60290D322A00E485E3 /* DepthEffectMotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthEffectMotionManager.swift; sourceTree = "<group>"; };
+		64B37B63290D341600E485E3 /* MotionDepthEffectHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionDepthEffectHome.swift; sourceTree = "<group>"; };
+		64CEB391291659BB00C38D56 /* AnimationChallengeHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationChallengeHome.swift; sourceTree = "<group>"; };
+		64CEB394291659CA00C38D56 /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		64CEB39829165BE100C38D56 /* AnimationsContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationsContent.swift; sourceTree = "<group>"; };
+		64CEB39929165BE100C38D56 /* CustomTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		64CEB39C29165BF800C38D56 /* AnimationsHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationsHome.swift; sourceTree = "<group>"; };
+		64CEB3A02916602100C38D56 /* CanvasHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasHome.swift; sourceTree = "<group>"; };
+		64CEB3A4291660FF00C38D56 /* CanvasViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasViewModel.swift; sourceTree = "<group>"; };
+		64CEB3A6291660FF00C38D56 /* StackItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackItem.swift; sourceTree = "<group>"; };
+		64CEB3A8291660FF00C38D56 /* CanvasEditorHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasEditorHome.swift; sourceTree = "<group>"; };
+		64CEB3A9291660FF00C38D56 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		64CEB3AA291660FF00C38D56 /* Canvas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Canvas.swift; sourceTree = "<group>"; };
+		64CEB3B32916662200C38D56 /* AnimatedIndicator2Content.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedIndicator2Content.swift; sourceTree = "<group>"; };
+		64CEB3B42916662200C38D56 /* OffsetPageTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OffsetPageTabView.swift; sourceTree = "<group>"; };
+		64CEB3B62916662200C38D56 /* Intro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Intro.swift; sourceTree = "<group>"; };
+		64CEB3BA2916669900C38D56 /* AnimatedIndicator2Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedIndicator2Home.swift; sourceTree = "<group>"; };
 		64E7FC8D290606F900D6AA9A /* BookAppAnimationHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookAppAnimationHome.swift; sourceTree = "<group>"; };
 		64E7FC8E290606F900D6AA9A /* IsometricView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsometricView.swift; sourceTree = "<group>"; };
 		64E7FC922906071E00D6AA9A /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
@@ -679,9 +737,198 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		64B37B3D290D038E00E485E3 /* ColorsExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				64B37B48290D03C800E485E3 /* Extensions */,
+				64B37B3E290D03C800E485E3 /* Views */,
+				64B37B56290D03E000E485E3 /* ColorsExtensionsHome.swift */,
+			);
+			path = ColorsExtensions;
+			sourceTree = "<group>";
+		};
+		64B37B3E290D03C800E485E3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				64B37B3F290D03C800E485E3 /* HSL.swift */,
+				64B37B40290D03C800E485E3 /* Arithmetic.swift */,
+				64B37B41290D03C800E485E3 /* GetRGBA.swift */,
+				64B37B42290D03C800E485E3 /* HSV.swift */,
+				64B37B43290D03C800E485E3 /* RGB.swift */,
+				64B37B44290D03C800E485E3 /* ColorWithCode.swift */,
+				64B37B45290D03C800E485E3 /* HEX.swift */,
+				64B37B46290D03C800E485E3 /* SliderWithText.swift */,
+				64B37B47290D03C800E485E3 /* CMYK.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		64B37B48290D03C800E485E3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				64B37B49290D03C800E485E3 /* ColorArithmetic.swift */,
+				64B37B4A290D03C800E485E3 /* Color.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		64B37B5D290D31AC00E485E3 /* MotionDepthEffect */ = {
+			isa = PBXGroup;
+			children = (
+				64B37B5E290D320600E485E3 /* ViewModel */,
+				64B37B63290D341600E485E3 /* MotionDepthEffectHome.swift */,
+			);
+			path = MotionDepthEffect;
+			sourceTree = "<group>";
+		};
+		64B37B5E290D320600E485E3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				64B37B60290D322A00E485E3 /* DepthEffectMotionManager.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		64CEB38B2916594200C38D56 /* AnimationChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				64CEB38F291659A500C38D56 /* View */,
+				64CEB38E2916599000C38D56 /* ViewModel */,
+			);
+			path = AnimationChallenge;
+			sourceTree = "<group>";
+		};
+		64CEB38E2916599000C38D56 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				64CEB394291659CA00C38D56 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		64CEB38F291659A500C38D56 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64CEB391291659BB00C38D56 /* AnimationChallengeHome.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		64CEB39629165BA700C38D56 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				64CEB39C29165BF800C38D56 /* AnimationsHome.swift */,
+				64CEB39729165BE100C38D56 /* View */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		64CEB39729165BE100C38D56 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64CEB39829165BE100C38D56 /* AnimationsContent.swift */,
+				64CEB39929165BE100C38D56 /* CustomTabBar.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		64CEB39E2916600D00C38D56 /* Canvas */ = {
+			isa = PBXGroup;
+			children = (
+				64CEB39F2916602100C38D56 /* View */,
+			);
+			path = Canvas;
+			sourceTree = "<group>";
+		};
+		64CEB39F2916602100C38D56 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64CEB3A02916602100C38D56 /* CanvasHome.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		64CEB3A2291660DC00C38D56 /* CanvasEditor */ = {
+			isa = PBXGroup;
+			children = (
+				64CEB3A5291660FF00C38D56 /* Model */,
+				64CEB3A7291660FF00C38D56 /* View */,
+				64CEB3A3291660FF00C38D56 /* ViewModel */,
+			);
+			path = CanvasEditor;
+			sourceTree = "<group>";
+		};
+		64CEB3A3291660FF00C38D56 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				64CEB3A4291660FF00C38D56 /* CanvasViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		64CEB3A5291660FF00C38D56 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				64CEB3A6291660FF00C38D56 /* StackItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		64CEB3A7291660FF00C38D56 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64CEB3A8291660FF00C38D56 /* CanvasEditorHome.swift */,
+				64CEB3A9291660FF00C38D56 /* ImagePicker.swift */,
+				64CEB3AA291660FF00C38D56 /* Canvas.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		64CEB3B0291665DA00C38D56 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		64CEB3B12916660D00C38D56 /* AnimatedIndicator2 */ = {
+			isa = PBXGroup;
+			children = (
+				64CEB3B52916662200C38D56 /* Model */,
+				64CEB3B22916662200C38D56 /* View */,
+			);
+			path = AnimatedIndicator2;
+			sourceTree = "<group>";
+		};
+		64CEB3B22916662200C38D56 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64CEB3BA2916669900C38D56 /* AnimatedIndicator2Home.swift */,
+				64CEB3B32916662200C38D56 /* AnimatedIndicator2Content.swift */,
+				64CEB3B42916662200C38D56 /* OffsetPageTabView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		64CEB3B52916662200C38D56 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				64CEB3B62916662200C38D56 /* Intro.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		64E7FC8A290606B800D6AA9A /* Apps */ = {
 			isa = PBXGroup;
 			children = (
+				64CEB3B12916660D00C38D56 /* AnimatedIndicator2 */,
+				64CEB3B0291665DA00C38D56 /* New Group */,
+				64CEB3A2291660DC00C38D56 /* CanvasEditor */,
+				64CEB39E2916600D00C38D56 /* Canvas */,
+				64CEB39629165BA700C38D56 /* Animations */,
+				64CEB38B2916594200C38D56 /* AnimationChallenge */,
+				64B37B5D290D31AC00E485E3 /* MotionDepthEffect */,
+				64B37B3D290D038E00E485E3 /* ColorsExtensions */,
 				641957E3290CE3C100B28259 /* AppleLandMark */,
 				641957DE290CB08E00B28259 /* AnimatedIndicator */,
 				64554649290BC3A600205AD3 /* NetflixSplashScreen */,
@@ -1098,11 +1345,15 @@
 			files = (
 				6419582B290CE46100B28259 /* Badge.swift in Sources */,
 				64E7FC90290606F900D6AA9A /* IsometricView.swift in Sources */,
+				64B37B61290D322A00E485E3 /* DepthEffectMotionManager.swift in Sources */,
 				64E7FCC429067DD400D6AA9A /* Place.swift in Sources */,
+				64B37B4B290D03C800E485E3 /* HSL.swift in Sources */,
 				640517902909328F0088AB0F /* AnimationChallenge4Home.swift in Sources */,
+				64B37B50290D03C800E485E3 /* ColorWithCode.swift in Sources */,
 				64E7FCB6290675BB00D6AA9A /* CustomSceneView.swift in Sources */,
 				64195828290CE46100B28259 /* HexagonParameters.swift in Sources */,
 				64195820290CE46100B28259 /* CategoryHome.swift in Sources */,
+				64CEB3BB2916669900C38D56 /* AnimatedIndicator2Home.swift in Sources */,
 				64195821290CE46100B28259 /* CategoryRow.swift in Sources */,
 				64E7FC962906080A00D6AA9A /* AppModel.swift in Sources */,
 				64195823290CE46100B28259 /* MapView.swift in Sources */,
@@ -1110,28 +1361,40 @@
 				64E7FCA329066D2400D6AA9A /* Product.swift in Sources */,
 				640517AE29093B470088AB0F /* BoomerangCardsHome.swift in Sources */,
 				6419581B290CE46100B28259 /* LandmarkRow.swift in Sources */,
+				64B37B64290D341600E485E3 /* MotionDepthEffectHome.swift in Sources */,
+				64B37B4F290D03C800E485E3 /* RGB.swift in Sources */,
 				64195819290CE46100B28259 /* LandmarkList.swift in Sources */,
 				6419581F290CE46100B28259 /* CategoryItem.swift in Sources */,
 				6405179E290938310088AB0F /* BreatheType.swift in Sources */,
 				64B1742C290BBFAB001DD5A8 /* LtAnimationView.swift in Sources */,
+				64CEB3B92916662300C38D56 /* Intro.swift in Sources */,
 				64E7FCAD29066D3500D6AA9A /* BaseViewModel.swift in Sources */,
+				64CEB3B82916662300C38D56 /* OffsetPageTabView.swift in Sources */,
 				64B1740D290B964F001DD5A8 /* MarkdownView.swift in Sources */,
 				641957E2290CB0D100B28259 /* AnimatedIndicatorHome.swift in Sources */,
+				64B37B54290D03C800E485E3 /* ColorArithmetic.swift in Sources */,
 				64F35455290B2C370072AA8B /* AnimatedIcon.swift in Sources */,
+				64B37B52290D03C800E485E3 /* SliderWithText.swift in Sources */,
+				64B37B55290D03C800E485E3 /* Color.swift in Sources */,
 				64B1740C290B964F001DD5A8 /* ParseMarkdownToHTML.swift in Sources */,
 				645927C12905F79B00BA55BE /* ContentView.swift in Sources */,
 				6419582A290CE46100B28259 /* BadgeBackground.swift in Sources */,
 				6419582C290CE46100B28259 /* Profile.swift in Sources */,
+				64B37B51290D03C800E485E3 /* HEX.swift in Sources */,
 				640517AF29093B470088AB0F /* Card.swift in Sources */,
 				64195818290CE46100B28259 /* PageView.swift in Sources */,
 				64E7FCBE29067DB100D6AA9A /* ParallaxCardsHome.swift in Sources */,
+				64CEB3B72916662300C38D56 /* AnimatedIndicator2Content.swift in Sources */,
 				6419582F290CE46100B28259 /* Landmark.swift in Sources */,
 				64F35457290B2C380072AA8B /* AnimatedTabIconsMainView.swift in Sources */,
 				64E7FC8F290606F900D6AA9A /* BookAppAnimationHome.swift in Sources */,
 				64195816290CE46100B28259 /* PageControl.swift in Sources */,
+				64B37B4D290D03C800E485E3 /* GetRGBA.swift in Sources */,
 				64E7FCA929066D2D00D6AA9A /* DetailView.swift in Sources */,
 				6419582D290CE46100B28259 /* Hike.swift in Sources */,
+				64B37B57290D03E000E485E3 /* ColorsExtensionsHome.swift in Sources */,
 				64E7FC932906071E00D6AA9A /* Book.swift in Sources */,
+				64CEB3A12916602100C38D56 /* CanvasHome.swift in Sources */,
 				6419581D290CE46100B28259 /* ProfileEditor.swift in Sources */,
 				64B1741B290BADDF001DD5A8 /* DCardAnimationAlbum.swift in Sources */,
 				64F35456290B2C370072AA8B /* Tab.swift in Sources */,
@@ -1140,12 +1403,14 @@
 				64B17422290BB547001DD5A8 /* Food.swift in Sources */,
 				645927BF2905F79B00BA55BE /* examplesApp.swift in Sources */,
 				6419581E290CE46100B28259 /* ProfileHost.swift in Sources */,
+				64CEB3AB291660FF00C38D56 /* CanvasViewModel.swift in Sources */,
 				6419581C290CE46100B28259 /* ProfileSummary.swift in Sources */,
 				64195825290CE46100B28259 /* FavoriteButton.swift in Sources */,
 				6455464E290BC3CD00205AD3 /* NetflixSplashScreen.swift in Sources */,
 				64B17427290BB874001DD5A8 /* PencilHome.swift in Sources */,
 				64B1741C290BADDF001DD5A8 /* DCardAnimationHome.swift in Sources */,
 				64E7FCA829066D2D00D6AA9A /* ShoeUIBaseView.swift in Sources */,
+				64CEB3AF291660FF00C38D56 /* Canvas.swift in Sources */,
 				64195813290CE46100B28259 /* HikeDetail.swift in Sources */,
 				64195827290CE46100B28259 /* RotatedBadgeSymbol.swift in Sources */,
 				64B17430290BBFF0001DD5A8 /* LottieRatingBarHome.swift in Sources */,
@@ -1157,19 +1422,30 @@
 				64B17423290BB547001DD5A8 /* AdvancedAnimationHome.swift in Sources */,
 				6419581A290CE46100B28259 /* LandmarkDetail.swift in Sources */,
 				64195815290CE46100B28259 /* FeatureCard.swift in Sources */,
+				64CEB39D29165BF800C38D56 /* AnimationsHome.swift in Sources */,
 				64195814290CE46100B28259 /* HikeView.swift in Sources */,
+				64CEB3AD291660FF00C38D56 /* CanvasEditorHome.swift in Sources */,
 				64E7FCAA29066D2D00D6AA9A /* ShoeUIHomeHome.swift in Sources */,
+				64B37B53290D03C800E485E3 /* CMYK.swift in Sources */,
 				64E7FC9D29065A6900D6AA9A /* Character.swift in Sources */,
 				64195817290CE46100B28259 /* PageViewController.swift in Sources */,
 				6455464D290BC3CD00205AD3 /* NetflixSplashScreenHome.swift in Sources */,
 				6419582E290CE46100B28259 /* ModelData.swift in Sources */,
+				64B37B4E290D03C800E485E3 /* HSV.swift in Sources */,
+				64CEB3AE291660FF00C38D56 /* ImagePicker.swift in Sources */,
+				64CEB393291659BB00C38D56 /* AnimationChallengeHome.swift in Sources */,
 				64E7FCB7290675BB00D6AA9A /* _DShoeHome.swift in Sources */,
+				64CEB39A29165BE100C38D56 /* AnimationsContent.swift in Sources */,
 				64F35458290B2C380072AA8B /* ResizableLottieView.swift in Sources */,
 				64051793290932A10088AB0F /* Album.swift in Sources */,
 				640517912909328F0088AB0F /* CustomCorners.swift in Sources */,
 				64051797290936880088AB0F /* AnimationHackHome.swift in Sources */,
 				6405179C290938290088AB0F /* BreatheAnimationHome.swift in Sources */,
 				64E7FCAB29066D2D00D6AA9A /* CustomCurveShape.swift in Sources */,
+				64CEB3AC291660FF00C38D56 /* StackItem.swift in Sources */,
+				64B37B4C290D03C800E485E3 /* Arithmetic.swift in Sources */,
+				64CEB395291659CA00C38D56 /* HomeViewModel.swift in Sources */,
+				64CEB39B29165BE100C38D56 /* CustomTabBar.swift in Sources */,
 				64195829290CE46100B28259 /* BadgeSymbol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
