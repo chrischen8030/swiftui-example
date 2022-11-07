@@ -13,7 +13,7 @@ enum SwiftUIApps: String, CaseIterable, Identifiable{
     var id: String {
         UUID().uuidString
     }
-    
+    case animatedHeaderHome = "AnimatedHeaderHome"
     case animationsHome = "AnimationsHome"
     case animatedIndicator2Home = "AnimatedIndicator2Home"
     case animationChallengeHome = "AnimationChallengeHome"
@@ -95,6 +95,8 @@ enum SwiftUIApps: String, CaseIterable, Identifiable{
             CanvasEditorHome()
         case .animatedIndicator2Home:
             AnimatedIndicator2Home()
+        case .animatedHeaderHome:
+            AnimatedHeaderHome()
         }
     }
 }

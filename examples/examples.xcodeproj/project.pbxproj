@@ -105,6 +105,12 @@
 		64CEB3B82916662300C38D56 /* OffsetPageTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CEB3B42916662200C38D56 /* OffsetPageTabView.swift */; };
 		64CEB3B92916662300C38D56 /* Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CEB3B62916662200C38D56 /* Intro.swift */; };
 		64CEB3BB2916669900C38D56 /* AnimatedIndicator2Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CEB3BA2916669900C38D56 /* AnimatedIndicator2Home.swift */; };
+		64CEB3C62918CB1C00C38D56 /* AnimatedHeaderHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CEB3BE2918CB1C00C38D56 /* AnimatedHeaderHomeViewModel.swift */; };
+		64CEB3C72918CB1C00C38D56 /* AnimatedHeaderCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CEB3C02918CB1C00C38D56 /* AnimatedHeaderCardView.swift */; };
+		64CEB3C82918CB1C00C38D56 /* AnimatedHeaderHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CEB3C12918CB1C00C38D56 /* AnimatedHeaderHome.swift */; };
+		64CEB3C92918CB1C00C38D56 /* AnimatedHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CEB3C22918CB1C00C38D56 /* AnimatedHeaderView.swift */; };
+		64CEB3CA2918CB1C00C38D56 /* AnimatedHeaderTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CEB3C42918CB1C00C38D56 /* AnimatedHeaderTab.swift */; };
+		64CEB3CB2918CB1C00C38D56 /* AnimatedHeaderFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CEB3C52918CB1C00C38D56 /* AnimatedHeaderFood.swift */; };
 		64E7FC8F290606F900D6AA9A /* BookAppAnimationHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E7FC8D290606F900D6AA9A /* BookAppAnimationHome.swift */; };
 		64E7FC90290606F900D6AA9A /* IsometricView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E7FC8E290606F900D6AA9A /* IsometricView.swift */; };
 		64E7FC932906071E00D6AA9A /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E7FC922906071E00D6AA9A /* Book.swift */; };
@@ -250,6 +256,12 @@
 		64CEB3B42916662200C38D56 /* OffsetPageTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OffsetPageTabView.swift; sourceTree = "<group>"; };
 		64CEB3B62916662200C38D56 /* Intro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Intro.swift; sourceTree = "<group>"; };
 		64CEB3BA2916669900C38D56 /* AnimatedIndicator2Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedIndicator2Home.swift; sourceTree = "<group>"; };
+		64CEB3BE2918CB1C00C38D56 /* AnimatedHeaderHomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedHeaderHomeViewModel.swift; sourceTree = "<group>"; };
+		64CEB3C02918CB1C00C38D56 /* AnimatedHeaderCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedHeaderCardView.swift; sourceTree = "<group>"; };
+		64CEB3C12918CB1C00C38D56 /* AnimatedHeaderHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedHeaderHome.swift; sourceTree = "<group>"; };
+		64CEB3C22918CB1C00C38D56 /* AnimatedHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedHeaderView.swift; sourceTree = "<group>"; };
+		64CEB3C42918CB1C00C38D56 /* AnimatedHeaderTab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedHeaderTab.swift; sourceTree = "<group>"; };
+		64CEB3C52918CB1C00C38D56 /* AnimatedHeaderFood.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedHeaderFood.swift; sourceTree = "<group>"; };
 		64E7FC8D290606F900D6AA9A /* BookAppAnimationHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookAppAnimationHome.swift; sourceTree = "<group>"; };
 		64E7FC8E290606F900D6AA9A /* IsometricView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsometricView.swift; sourceTree = "<group>"; };
 		64E7FC922906071E00D6AA9A /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
@@ -918,9 +930,47 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		64CEB3BC2918CA9800C38D56 /* AnimatedHeader */ = {
+			isa = PBXGroup;
+			children = (
+				64CEB3C32918CB1C00C38D56 /* Model */,
+				64CEB3BF2918CB1C00C38D56 /* View */,
+				64CEB3BD2918CB1C00C38D56 /* ViewModel */,
+			);
+			path = AnimatedHeader;
+			sourceTree = "<group>";
+		};
+		64CEB3BD2918CB1C00C38D56 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				64CEB3BE2918CB1C00C38D56 /* AnimatedHeaderHomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		64CEB3BF2918CB1C00C38D56 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64CEB3C02918CB1C00C38D56 /* AnimatedHeaderCardView.swift */,
+				64CEB3C12918CB1C00C38D56 /* AnimatedHeaderHome.swift */,
+				64CEB3C22918CB1C00C38D56 /* AnimatedHeaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		64CEB3C32918CB1C00C38D56 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				64CEB3C42918CB1C00C38D56 /* AnimatedHeaderTab.swift */,
+				64CEB3C52918CB1C00C38D56 /* AnimatedHeaderFood.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		64E7FC8A290606B800D6AA9A /* Apps */ = {
 			isa = PBXGroup;
 			children = (
+				64CEB3BC2918CA9800C38D56 /* AnimatedHeader */,
 				64CEB3B12916660D00C38D56 /* AnimatedIndicator2 */,
 				64CEB3B0291665DA00C38D56 /* New Group */,
 				64CEB3A2291660DC00C38D56 /* CanvasEditor */,
@@ -1362,6 +1412,7 @@
 				640517AE29093B470088AB0F /* BoomerangCardsHome.swift in Sources */,
 				6419581B290CE46100B28259 /* LandmarkRow.swift in Sources */,
 				64B37B64290D341600E485E3 /* MotionDepthEffectHome.swift in Sources */,
+				64CEB3C92918CB1C00C38D56 /* AnimatedHeaderView.swift in Sources */,
 				64B37B4F290D03C800E485E3 /* RGB.swift in Sources */,
 				64195819290CE46100B28259 /* LandmarkList.swift in Sources */,
 				6419581F290CE46100B28259 /* CategoryItem.swift in Sources */,
@@ -1401,6 +1452,7 @@
 				64195824290CE46100B28259 /* CircleImage.swift in Sources */,
 				64195826290CE46100B28259 /* HikeBadge.swift in Sources */,
 				64B17422290BB547001DD5A8 /* Food.swift in Sources */,
+				64CEB3C62918CB1C00C38D56 /* AnimatedHeaderHomeViewModel.swift in Sources */,
 				645927BF2905F79B00BA55BE /* examplesApp.swift in Sources */,
 				6419581E290CE46100B28259 /* ProfileHost.swift in Sources */,
 				64CEB3AB291660FF00C38D56 /* CanvasViewModel.swift in Sources */,
@@ -1418,15 +1470,18 @@
 				64195812290CE46100B28259 /* HikeGraph.swift in Sources */,
 				64E7FC9B29065A5200D6AA9A /* ScrollIndicatorHome.swift in Sources */,
 				64E7FCC129067DC400D6AA9A /* MotionManager.swift in Sources */,
+				64CEB3CB2918CB1C00C38D56 /* AnimatedHeaderFood.swift in Sources */,
 				64B1740F290B9674001DD5A8 /* MarkdownHome.swift in Sources */,
 				64B17423290BB547001DD5A8 /* AdvancedAnimationHome.swift in Sources */,
 				6419581A290CE46100B28259 /* LandmarkDetail.swift in Sources */,
 				64195815290CE46100B28259 /* FeatureCard.swift in Sources */,
 				64CEB39D29165BF800C38D56 /* AnimationsHome.swift in Sources */,
 				64195814290CE46100B28259 /* HikeView.swift in Sources */,
+				64CEB3CA2918CB1C00C38D56 /* AnimatedHeaderTab.swift in Sources */,
 				64CEB3AD291660FF00C38D56 /* CanvasEditorHome.swift in Sources */,
 				64E7FCAA29066D2D00D6AA9A /* ShoeUIHomeHome.swift in Sources */,
 				64B37B53290D03C800E485E3 /* CMYK.swift in Sources */,
+				64CEB3C82918CB1C00C38D56 /* AnimatedHeaderHome.swift in Sources */,
 				64E7FC9D29065A6900D6AA9A /* Character.swift in Sources */,
 				64195817290CE46100B28259 /* PageViewController.swift in Sources */,
 				6455464D290BC3CD00205AD3 /* NetflixSplashScreenHome.swift in Sources */,
@@ -1442,6 +1497,7 @@
 				64051797290936880088AB0F /* AnimationHackHome.swift in Sources */,
 				6405179C290938290088AB0F /* BreatheAnimationHome.swift in Sources */,
 				64E7FCAB29066D2D00D6AA9A /* CustomCurveShape.swift in Sources */,
+				64CEB3C72918CB1C00C38D56 /* AnimatedHeaderCardView.swift in Sources */,
 				64CEB3AC291660FF00C38D56 /* StackItem.swift in Sources */,
 				64B37B4C290D03C800E485E3 /* Arithmetic.swift in Sources */,
 				64CEB395291659CA00C38D56 /* HomeViewModel.swift in Sources */,
