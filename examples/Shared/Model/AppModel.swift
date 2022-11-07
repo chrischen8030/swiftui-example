@@ -13,32 +13,33 @@ enum SwiftUIApps: String, CaseIterable, Identifiable{
     var id: String {
         UUID().uuidString
     }
+    case advancedScrollHome = "AdvancedScrollHome"
     case animatedHeaderHome = "AnimatedHeaderHome"
     case animationsHome = "AnimationsHome"
     case animatedIndicator2Home = "AnimatedIndicator2Home"
     case animationChallengeHome = "AnimationChallengeHome"
     case appleLandMarkHome = "AppleLandMarkHome"
-    case colorsExtensionsHome = "ColorsExtensionsHome"
-    case bookAppAnimation = "bookAppAnimationHome"
-    case canvasHome = "CanvasHome"
-    case canvasEditorHome = "CanvasEditorHome"
-    case scrollIndicator = "scrollIndicatorHome"
-    case shoeUI = "shoeUIHome"
-    case threeDShoeApp = "3DShoeAppHome"
-    case parallaxCards = "ParallaxCardsHome"
     case animationChallenge4 = "AnimationChallenge4Home"
     case animationHack = "AnimationHackHome"
+    case animatedIndicatorHome = "AnimatedIndicatorHome"
+    case advancedAnimationHome = "AdvancedAnimationHome"
+    case animatedTabIconsMainView = "AnimatedTabIconsMainView"
+    case bookAppAnimation = "bookAppAnimationHome"
     case breatheAnimation = "BreatheAnimationHome"
     case boomerangCardsHome = "BoomerangCardsHome"
-    case animatedTabIconsMainView = "AnimatedTabIconsMainView"
-    case markdownHome = "markdownHome"
+    case colorsExtensionsHome = "ColorsExtensionsHome"
+    case canvasHome = "CanvasHome"
+    case canvasEditorHome = "CanvasEditorHome"
     case dcardAnimationHome = "DCardAnimationHome"
-    case advancedAnimationHome = "AdvancedAnimationHome"
-    case pencilHome = "PencilHome"
     case lottieRatingBar = "lottieRatingBar"
-    case netflixSplashScreen = "NetflixSplashScreen"
-    case animatedIndicatorHome = "AnimatedIndicatorHome"
     case motionDepthEffectHome = "MotionDepthEffectHome"
+    case markdownHome = "markdownHome"
+    case netflixSplashScreen = "NetflixSplashScreen"
+    case parallaxCards = "ParallaxCardsHome"
+    case pencilHome = "PencilHome"
+    case scrollIndicator = "scrollIndicatorHome"
+    case shoeUI = "shoeUIHome"
+    case threeDShoeApp = "threeD(3D)ShoeAppHome"
     @ViewBuilder
     func appHome()-> some View {
         switch self {
@@ -97,6 +98,8 @@ enum SwiftUIApps: String, CaseIterable, Identifiable{
             AnimatedIndicator2Home()
         case .animatedHeaderHome:
             AnimatedHeaderHome()
+        case .advancedScrollHome:
+            AdvancedScrollHome()
         }
     }
 }

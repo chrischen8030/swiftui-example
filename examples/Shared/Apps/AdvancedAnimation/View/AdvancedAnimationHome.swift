@@ -217,10 +217,3 @@ struct AdvancedAnimationHome_Previews: PreviewProvider {
         AdvancedAnimationHome()
     }
 }
-
-extension View{
-    // MARK: Screen Size
-    func getRect()->CGRect{
-        return UIScreen.main.bounds
-    }
-}

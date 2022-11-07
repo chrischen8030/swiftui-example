@@ -111,6 +111,8 @@
 		64CEB3C92918CB1C00C38D56 /* AnimatedHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CEB3C22918CB1C00C38D56 /* AnimatedHeaderView.swift */; };
 		64CEB3CA2918CB1C00C38D56 /* AnimatedHeaderTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CEB3C42918CB1C00C38D56 /* AnimatedHeaderTab.swift */; };
 		64CEB3CB2918CB1C00C38D56 /* AnimatedHeaderFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CEB3C52918CB1C00C38D56 /* AnimatedHeaderFood.swift */; };
+		64CEB3D12918D88C00C38D56 /* AdvancedScrollLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CEB3CE2918D88C00C38D56 /* AdvancedScrollLink.swift */; };
+		64CEB3D22918D88C00C38D56 /* AdvancedScrollHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CEB3D02918D88C00C38D56 /* AdvancedScrollHome.swift */; };
 		64E7FC8F290606F900D6AA9A /* BookAppAnimationHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E7FC8D290606F900D6AA9A /* BookAppAnimationHome.swift */; };
 		64E7FC90290606F900D6AA9A /* IsometricView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E7FC8E290606F900D6AA9A /* IsometricView.swift */; };
 		64E7FC932906071E00D6AA9A /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E7FC922906071E00D6AA9A /* Book.swift */; };
@@ -262,6 +264,8 @@
 		64CEB3C22918CB1C00C38D56 /* AnimatedHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedHeaderView.swift; sourceTree = "<group>"; };
 		64CEB3C42918CB1C00C38D56 /* AnimatedHeaderTab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedHeaderTab.swift; sourceTree = "<group>"; };
 		64CEB3C52918CB1C00C38D56 /* AnimatedHeaderFood.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedHeaderFood.swift; sourceTree = "<group>"; };
+		64CEB3CE2918D88C00C38D56 /* AdvancedScrollLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvancedScrollLink.swift; sourceTree = "<group>"; };
+		64CEB3D02918D88C00C38D56 /* AdvancedScrollHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvancedScrollHome.swift; sourceTree = "<group>"; };
 		64E7FC8D290606F900D6AA9A /* BookAppAnimationHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookAppAnimationHome.swift; sourceTree = "<group>"; };
 		64E7FC8E290606F900D6AA9A /* IsometricView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsometricView.swift; sourceTree = "<group>"; };
 		64E7FC922906071E00D6AA9A /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
@@ -967,9 +971,35 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		64CEB3CC2918D87B00C38D56 /* AdvancedScroll */ = {
+			isa = PBXGroup;
+			children = (
+				64CEB3CD2918D88C00C38D56 /* Model */,
+				64CEB3CF2918D88C00C38D56 /* View */,
+			);
+			path = AdvancedScroll;
+			sourceTree = "<group>";
+		};
+		64CEB3CD2918D88C00C38D56 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				64CEB3CE2918D88C00C38D56 /* AdvancedScrollLink.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		64CEB3CF2918D88C00C38D56 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64CEB3D02918D88C00C38D56 /* AdvancedScrollHome.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		64E7FC8A290606B800D6AA9A /* Apps */ = {
 			isa = PBXGroup;
 			children = (
+				64CEB3CC2918D87B00C38D56 /* AdvancedScroll */,
 				64CEB3BC2918CA9800C38D56 /* AnimatedHeader */,
 				64CEB3B12916660D00C38D56 /* AnimatedIndicator2 */,
 				64CEB3B0291665DA00C38D56 /* New Group */,
@@ -1426,10 +1456,12 @@
 				64B37B54290D03C800E485E3 /* ColorArithmetic.swift in Sources */,
 				64F35455290B2C370072AA8B /* AnimatedIcon.swift in Sources */,
 				64B37B52290D03C800E485E3 /* SliderWithText.swift in Sources */,
+				64CEB3D22918D88C00C38D56 /* AdvancedScrollHome.swift in Sources */,
 				64B37B55290D03C800E485E3 /* Color.swift in Sources */,
 				64B1740C290B964F001DD5A8 /* ParseMarkdownToHTML.swift in Sources */,
 				645927C12905F79B00BA55BE /* ContentView.swift in Sources */,
 				6419582A290CE46100B28259 /* BadgeBackground.swift in Sources */,
+				64CEB3D12918D88C00C38D56 /* AdvancedScrollLink.swift in Sources */,
 				6419582C290CE46100B28259 /* Profile.swift in Sources */,
 				64B37B51290D03C800E485E3 /* HEX.swift in Sources */,
 				640517AF29093B470088AB0F /* Card.swift in Sources */,
