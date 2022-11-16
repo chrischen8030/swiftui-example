@@ -40,6 +40,8 @@ enum SwiftUIApps: String, CaseIterable, Identifiable{
     case scrollIndicator = "scrollIndicatorHome"
     case shoeUI = "shoeUIHome"
     case threeDShoeApp = "threeD(3D)ShoeAppHome"
+    case waterWaveHome = "WaterWaveHome"
+    case walletAnimationHome = "WalletAnimationHome"
     @ViewBuilder
     func appHome()-> some View {
         switch self {
@@ -100,6 +102,10 @@ enum SwiftUIApps: String, CaseIterable, Identifiable{
             AnimatedHeaderHome()
         case .advancedScrollHome:
             AdvancedScrollHome()
+        case .waterWaveHome:
+            WaterWaveHome()
+        case .walletAnimationHome:
+            WalletAnimationHome()
         }
     }
 }
