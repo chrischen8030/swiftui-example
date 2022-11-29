@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State var showNext: SwiftUIApps?
+    @StateObject var homeModel = HeroCarouselViewModel()
     var body: some View{
         VStack {
             Text("\(SwiftUIApps.allCases.count)")
@@ -23,7 +24,7 @@ struct ContentView: View {
             }) { item in
                 item.appHome()
             }
-        }
+        }.environmentObject(homeModel)
 
     }
 }

@@ -24,14 +24,19 @@ enum SwiftUIApps: String, CaseIterable, Identifiable{
     case animatedIndicatorHome = "AnimatedIndicatorHome"
     case advancedAnimationHome = "AdvancedAnimationHome"
     case animatedTabIconsMainView = "AnimatedTabIconsMainView"
+    case autoSizingTFHome = "autoSizingTFHome(自动放大输入框)"
     case bookAppAnimation = "bookAppAnimationHome"
     case breatheAnimation = "BreatheAnimationHome"
     case boomerangCardsHome = "BoomerangCardsHome"
     case colorsExtensionsHome = "ColorsExtensionsHome"
     case canvasHome = "CanvasHome"
     case canvasEditorHome = "CanvasEditorHome"
+    case customMenuSideMainView = "CustomMenuSideMainView(侧边栏)"
     case dcardAnimationHome = "DCardAnimationHome"
+    case heroCarouselHome = "HeroCarouselHome"
     case lottieRatingBar = "lottieRatingBar"
+    case minimalAnimationContentView = "MinimalAnimationContentView(运动首页)"
+    case matchedCarouselHome = "MatchedCarouselHome"
     case motionDepthEffectHome = "MotionDepthEffectHome"
     case markdownHome = "markdownHome"
     case netflixSplashScreen = "NetflixSplashScreen"
@@ -39,12 +44,21 @@ enum SwiftUIApps: String, CaseIterable, Identifiable{
     case pencilHome = "PencilHome"
     case scrollIndicator = "scrollIndicatorHome"
     case shoeUI = "shoeUIHome"
+    case taskAnimationHome = "TaskAnimationHome日历"
     case threeDShoeApp = "threeD(3D)ShoeAppHome"
     case waterWaveHome = "WaterWaveHome"
     case walletAnimationHome = "WalletAnimationHome"
+    
+    
     @ViewBuilder
     func appHome()-> some View {
         switch self {
+        case .minimalAnimationContentView:
+            MinimalAnimationContentView()
+        case .customMenuSideMainView:
+            CustomMenuSideMainView()
+        case .autoSizingTFHome:
+            AutoSizingTFHome()
         case .appleLandMarkHome:
             AppleLandMarkHome()
         case .bookAppAnimation:
@@ -86,6 +100,8 @@ enum SwiftUIApps: String, CaseIterable, Identifiable{
             AnimatedIndicatorHome()
         case .colorsExtensionsHome:
             ColorsExtensionsHome()
+        case .matchedCarouselHome:
+            MatchedCarouselHome()
         case .motionDepthEffectHome:
             MotionDepthEffectHome()
         case .animationChallengeHome:
@@ -106,6 +122,10 @@ enum SwiftUIApps: String, CaseIterable, Identifiable{
             WaterWaveHome()
         case .walletAnimationHome:
             WalletAnimationHome()
+        case .heroCarouselHome:
+            HeroCarouselHome()
+        case .taskAnimationHome:
+            TaskAnimationHome()
         }
     }
 }

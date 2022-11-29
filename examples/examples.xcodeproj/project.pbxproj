@@ -64,6 +64,25 @@
 		645927C22905F79B00BA55BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645927982905F79A00BA55BE /* ContentView.swift */; };
 		645927C32905F79B00BA55BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 645927992905F79B00BA55BE /* Assets.xcassets */; };
 		645927C42905F79B00BA55BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 645927992905F79B00BA55BE /* Assets.xcassets */; };
+		647EB51529284826003A2336 /* HeroCarouselCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647EB50E29284825003A2336 /* HeroCarouselCard.swift */; };
+		647EB51629284826003A2336 /* HeroCarouselCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647EB51029284826003A2336 /* HeroCarouselCardView.swift */; };
+		647EB51729284826003A2336 /* HeroCarouselHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647EB51129284826003A2336 /* HeroCarouselHome.swift */; };
+		647EB51829284826003A2336 /* HeroCarouselDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647EB51229284826003A2336 /* HeroCarouselDetailView.swift */; };
+		647EB51929284826003A2336 /* HeroCarouselViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647EB51429284826003A2336 /* HeroCarouselViewModel.swift */; };
+		6482DB822934F23300F8B04D /* MatchedCarouselHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6482DB7E2934F23300F8B04D /* MatchedCarouselHome.swift */; };
+		6482DB832934F23300F8B04D /* MatchedCarouselCarouselBodyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6482DB7F2934F23300F8B04D /* MatchedCarouselCarouselBodyView.swift */; };
+		6482DB842934F23300F8B04D /* MatchedCarouselScrollViewOffsetModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6482DB802934F23300F8B04D /* MatchedCarouselScrollViewOffsetModifier.swift */; };
+		6482DB8E2934FB9200F8B04D /* TaskAnimationDateValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6482DB872934FB9200F8B04D /* TaskAnimationDateValue.swift */; };
+		6482DB8F2934FB9200F8B04D /* TaskAnimationUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6482DB882934FB9200F8B04D /* TaskAnimationUser.swift */; };
+		6482DB912934FB9200F8B04D /* TaskAnimationHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6482DB8B2934FB9200F8B04D /* TaskAnimationHome.swift */; };
+		6482DB922934FB9200F8B04D /* TaskAnimationUserCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6482DB8C2934FB9200F8B04D /* TaskAnimationUserCardView.swift */; };
+		6482DB932934FB9200F8B04D /* TaskAnimationCustomDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6482DB8D2934FB9200F8B04D /* TaskAnimationCustomDatePicker.swift */; };
+		6482DB9D2934FF3C00F8B04D /* MinimalAnimationStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6482DB962934FF3B00F8B04D /* MinimalAnimationStep.swift */; };
+		6482DB9E2934FF3C00F8B04D /* MinimalAnimationRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6482DB972934FF3B00F8B04D /* MinimalAnimationRing.swift */; };
+		6482DB9F2934FF3C00F8B04D /* MinimalAnimationHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6482DB992934FF3C00F8B04D /* MinimalAnimationHome.swift */; };
+		6482DBA02934FF3C00F8B04D /* MinimalAnimationFitnessStepsGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6482DB9A2934FF3C00F8B04D /* MinimalAnimationFitnessStepsGraphView.swift */; };
+		6482DBA12934FF3C00F8B04D /* MinimalAnimationFitnessRingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6482DB9B2934FF3C00F8B04D /* MinimalAnimationFitnessRingCardView.swift */; };
+		6482DBA22934FF3C00F8B04D /* MinimalAnimationContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6482DB9C2934FF3C00F8B04D /* MinimalAnimationContentView.swift */; };
 		64AA37FB29245E910094442B /* WaterWaveHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AA37FA29245E910094442B /* WaterWaveHome.swift */; };
 		64AA3802292470700094442B /* WalletAnimationHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AA37FE2924706F0094442B /* WalletAnimationHome.swift */; };
 		64AA3803292470700094442B /* WalletAnimationExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AA3800292470700094442B /* WalletAnimationExpense.swift */; };
@@ -145,6 +164,11 @@
 		64F35456290B2C370072AA8B /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F35451290B2C370072AA8B /* Tab.swift */; };
 		64F35457290B2C380072AA8B /* AnimatedTabIconsMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F35453290B2C370072AA8B /* AnimatedTabIconsMainView.swift */; };
 		64F35458290B2C380072AA8B /* ResizableLottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F35454290B2C370072AA8B /* ResizableLottieView.swift */; };
+		64FFA64229333EA700922DF4 /* AutoSizingTFHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FFA64129333EA700922DF4 /* AutoSizingTFHome.swift */; };
+		64FFA64A2933460100922DF4 /* CustomMenuSideHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FFA6462933460100922DF4 /* CustomMenuSideHome.swift */; };
+		64FFA64B2933460100922DF4 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FFA6472933460100922DF4 /* CustomTabView.swift */; };
+		64FFA64C2933460100922DF4 /* CustomMenuSideMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FFA6482933460100922DF4 /* CustomMenuSideMainView.swift */; };
+		64FFA64D2933460100922DF4 /* CustomSideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FFA6492933460100922DF4 /* CustomSideMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -222,6 +246,25 @@
 		645927B72905F79B00BA55BE /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		645927BB2905F79B00BA55BE /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		645927BD2905F79B00BA55BE /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		647EB50E29284825003A2336 /* HeroCarouselCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroCarouselCard.swift; sourceTree = "<group>"; };
+		647EB51029284826003A2336 /* HeroCarouselCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroCarouselCardView.swift; sourceTree = "<group>"; };
+		647EB51129284826003A2336 /* HeroCarouselHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroCarouselHome.swift; sourceTree = "<group>"; };
+		647EB51229284826003A2336 /* HeroCarouselDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroCarouselDetailView.swift; sourceTree = "<group>"; };
+		647EB51429284826003A2336 /* HeroCarouselViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroCarouselViewModel.swift; sourceTree = "<group>"; };
+		6482DB7E2934F23300F8B04D /* MatchedCarouselHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchedCarouselHome.swift; sourceTree = "<group>"; };
+		6482DB7F2934F23300F8B04D /* MatchedCarouselCarouselBodyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchedCarouselCarouselBodyView.swift; sourceTree = "<group>"; };
+		6482DB802934F23300F8B04D /* MatchedCarouselScrollViewOffsetModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchedCarouselScrollViewOffsetModifier.swift; sourceTree = "<group>"; };
+		6482DB872934FB9200F8B04D /* TaskAnimationDateValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskAnimationDateValue.swift; sourceTree = "<group>"; };
+		6482DB882934FB9200F8B04D /* TaskAnimationUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskAnimationUser.swift; sourceTree = "<group>"; };
+		6482DB8B2934FB9200F8B04D /* TaskAnimationHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskAnimationHome.swift; sourceTree = "<group>"; };
+		6482DB8C2934FB9200F8B04D /* TaskAnimationUserCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskAnimationUserCardView.swift; sourceTree = "<group>"; };
+		6482DB8D2934FB9200F8B04D /* TaskAnimationCustomDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskAnimationCustomDatePicker.swift; sourceTree = "<group>"; };
+		6482DB962934FF3B00F8B04D /* MinimalAnimationStep.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinimalAnimationStep.swift; sourceTree = "<group>"; };
+		6482DB972934FF3B00F8B04D /* MinimalAnimationRing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinimalAnimationRing.swift; sourceTree = "<group>"; };
+		6482DB992934FF3C00F8B04D /* MinimalAnimationHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinimalAnimationHome.swift; sourceTree = "<group>"; };
+		6482DB9A2934FF3C00F8B04D /* MinimalAnimationFitnessStepsGraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinimalAnimationFitnessStepsGraphView.swift; sourceTree = "<group>"; };
+		6482DB9B2934FF3C00F8B04D /* MinimalAnimationFitnessRingCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinimalAnimationFitnessRingCardView.swift; sourceTree = "<group>"; };
+		6482DB9C2934FF3C00F8B04D /* MinimalAnimationContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinimalAnimationContentView.swift; sourceTree = "<group>"; };
 		64AA37FA29245E910094442B /* WaterWaveHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterWaveHome.swift; sourceTree = "<group>"; };
 		64AA37FE2924706F0094442B /* WalletAnimationHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletAnimationHome.swift; sourceTree = "<group>"; };
 		64AA3800292470700094442B /* WalletAnimationExpense.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletAnimationExpense.swift; sourceTree = "<group>"; };
@@ -304,6 +347,11 @@
 		64F35451290B2C370072AA8B /* Tab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 		64F35453290B2C370072AA8B /* AnimatedTabIconsMainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedTabIconsMainView.swift; sourceTree = "<group>"; };
 		64F35454290B2C370072AA8B /* ResizableLottieView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResizableLottieView.swift; sourceTree = "<group>"; };
+		64FFA64129333EA700922DF4 /* AutoSizingTFHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoSizingTFHome.swift; sourceTree = "<group>"; };
+		64FFA6462933460100922DF4 /* CustomMenuSideHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMenuSideHome.swift; sourceTree = "<group>"; };
+		64FFA6472933460100922DF4 /* CustomTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
+		64FFA6482933460100922DF4 /* CustomMenuSideMainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMenuSideMainView.swift; sourceTree = "<group>"; };
+		64FFA6492933460100922DF4 /* CustomSideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSideMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -657,6 +705,117 @@
 				645927BD2905F79B00BA55BE /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		647EB50C292847B8003A2336 /* HeroCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				647EB50D29284825003A2336 /* Model */,
+				647EB50F29284826003A2336 /* View */,
+				647EB51329284826003A2336 /* ViewModel */,
+			);
+			path = HeroCarousel;
+			sourceTree = "<group>";
+		};
+		647EB50D29284825003A2336 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				647EB50E29284825003A2336 /* HeroCarouselCard.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		647EB50F29284826003A2336 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				647EB51029284826003A2336 /* HeroCarouselCardView.swift */,
+				647EB51129284826003A2336 /* HeroCarouselHome.swift */,
+				647EB51229284826003A2336 /* HeroCarouselDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		647EB51329284826003A2336 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				647EB51429284826003A2336 /* HeroCarouselViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6482DB7B2934F21900F8B04D /* MatchedCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				6482DB7C2934F23300F8B04D /* View */,
+			);
+			path = MatchedCarousel;
+			sourceTree = "<group>";
+		};
+		6482DB7C2934F23300F8B04D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6482DB7E2934F23300F8B04D /* MatchedCarouselHome.swift */,
+				6482DB7F2934F23300F8B04D /* MatchedCarouselCarouselBodyView.swift */,
+				6482DB802934F23300F8B04D /* MatchedCarouselScrollViewOffsetModifier.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6482DB852934FB6A00F8B04D /* TaskAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				6482DB862934FB9200F8B04D /* Model */,
+				6482DB8A2934FB9200F8B04D /* View */,
+			);
+			path = TaskAnimation;
+			sourceTree = "<group>";
+		};
+		6482DB862934FB9200F8B04D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6482DB872934FB9200F8B04D /* TaskAnimationDateValue.swift */,
+				6482DB882934FB9200F8B04D /* TaskAnimationUser.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6482DB8A2934FB9200F8B04D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6482DB8B2934FB9200F8B04D /* TaskAnimationHome.swift */,
+				6482DB8C2934FB9200F8B04D /* TaskAnimationUserCardView.swift */,
+				6482DB8D2934FB9200F8B04D /* TaskAnimationCustomDatePicker.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6482DB942934FF1C00F8B04D /* MinimalAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				6482DB9C2934FF3C00F8B04D /* MinimalAnimationContentView.swift */,
+				6482DB952934FF3B00F8B04D /* Model */,
+				6482DB982934FF3C00F8B04D /* View */,
+			);
+			path = MinimalAnimation;
+			sourceTree = "<group>";
+		};
+		6482DB952934FF3B00F8B04D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6482DB962934FF3B00F8B04D /* MinimalAnimationStep.swift */,
+				6482DB972934FF3B00F8B04D /* MinimalAnimationRing.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6482DB982934FF3C00F8B04D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6482DB992934FF3C00F8B04D /* MinimalAnimationHome.swift */,
+				6482DB9A2934FF3C00F8B04D /* MinimalAnimationFitnessStepsGraphView.swift */,
+				6482DB9B2934FF3C00F8B04D /* MinimalAnimationFitnessRingCardView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		64AA37F929245E910094442B /* View */ = {
@@ -1042,6 +1201,7 @@
 		64E7FC8A290606B800D6AA9A /* Apps */ = {
 			isa = PBXGroup;
 			children = (
+				64FFA64029333E8800922DF4 /* AutoSizingTF */,
 				64CEB3CC2918D87B00C38D56 /* AdvancedScroll */,
 				64CEB39629165BA700C38D56 /* Animations */,
 				64CEB3BC2918CA9800C38D56 /* AnimatedHeader */,
@@ -1052,23 +1212,28 @@
 				64F35443290B2AC40072AA8B /* AnimatedTabIcons */,
 				64051794290936650088AB0F /* AnimationHack */,
 				6405178B290932560088AB0F /* AnimationChallenge4 */,
+				641957DE290CB08E00B28259 /* AnimatedIndicator */,
 				6405179F29093A9A0088AB0F /* BoomerangCards */,
 				64051798290937F50088AB0F /* BreatheAnimation */,
 				64E7FC8B290606C300D6AA9A /* BookAppAnimation */,
+				64FFA6432933439E00922DF4 /* CustomMenu_Side */,
 				64CEB3A2291660DC00C38D56 /* CanvasEditor */,
 				64CEB39E2916600D00C38D56 /* Canvas */,
+				647EB50C292847B8003A2336 /* HeroCarousel */,
 				64B37B3D290D038E00E485E3 /* ColorsExtensions */,
 				64B37B5D290D31AC00E485E3 /* MotionDepthEffect */,
-				641957DE290CB08E00B28259 /* AnimatedIndicator */,
 				64554649290BC3A600205AD3 /* NetflixSplashScreen */,
 				64B17429290BBF21001DD5A8 /* LottieRatingBar */,
 				64B17424290BB854001DD5A8 /* Pencil */,
 				64B17416290BADCC001DD5A8 /* 3DCardAnimation */,
+				6482DB7B2934F21900F8B04D /* MatchedCarousel */,
 				64B17407290B917D001DD5A8 /* Markdown */,
+				6482DB942934FF1C00F8B04D /* MinimalAnimation */,
 				64E7FCB829067D6B00D6AA9A /* ParallaxCards */,
 				64E7FCB22906742E00D6AA9A /* 3DShoeApp */,
 				64E7FC9E29066CF300D6AA9A /* ShoeUI */,
 				64E7FC9729065A1200D6AA9A /* ScrollIndicator */,
+				6482DB852934FB6A00F8B04D /* TaskAnimation */,
 				64D3B7F729245E0600F409B2 /* WaterWave */,
 				64AA37FC292470460094442B /* WalletAnimation */,
 			);
@@ -1287,6 +1452,41 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		64FFA64029333E8800922DF4 /* AutoSizingTF */ = {
+			isa = PBXGroup;
+			children = (
+				64FFA64129333EA700922DF4 /* AutoSizingTFHome.swift */,
+			);
+			path = AutoSizingTF;
+			sourceTree = "<group>";
+		};
+		64FFA6432933439E00922DF4 /* CustomMenu_Side */ = {
+			isa = PBXGroup;
+			children = (
+				64FFA6442933460100922DF4 /* View */,
+			);
+			path = CustomMenu_Side;
+			sourceTree = "<group>";
+		};
+		64FFA6442933460100922DF4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64FFA6452933460100922DF4 /* Tabs */,
+				64FFA6472933460100922DF4 /* CustomTabView.swift */,
+				64FFA6482933460100922DF4 /* CustomMenuSideMainView.swift */,
+				64FFA6492933460100922DF4 /* CustomSideMenu.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		64FFA6452933460100922DF4 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				64FFA6462933460100922DF4 /* CustomMenuSideHome.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1475,6 +1675,7 @@
 				640517902909328F0088AB0F /* AnimationChallenge4Home.swift in Sources */,
 				64B37B50290D03C800E485E3 /* ColorWithCode.swift in Sources */,
 				64E7FCB6290675BB00D6AA9A /* CustomSceneView.swift in Sources */,
+				6482DB842934F23300F8B04D /* MatchedCarouselScrollViewOffsetModifier.swift in Sources */,
 				64195828290CE46100B28259 /* HexagonParameters.swift in Sources */,
 				64195820290CE46100B28259 /* CategoryHome.swift in Sources */,
 				64CEB3BB2916669900C38D56 /* AnimatedIndicator2Home.swift in Sources */,
@@ -1497,17 +1698,22 @@
 				64E7FCAD29066D3500D6AA9A /* BaseViewModel.swift in Sources */,
 				64CEB3B82916662300C38D56 /* OffsetPageTabView.swift in Sources */,
 				64B1740D290B964F001DD5A8 /* MarkdownView.swift in Sources */,
+				647EB51629284826003A2336 /* HeroCarouselCardView.swift in Sources */,
 				641957E2290CB0D100B28259 /* AnimatedIndicatorHome.swift in Sources */,
 				64B37B54290D03C800E485E3 /* ColorArithmetic.swift in Sources */,
 				64F35455290B2C370072AA8B /* AnimatedIcon.swift in Sources */,
+				647EB51729284826003A2336 /* HeroCarouselHome.swift in Sources */,
+				64FFA64B2933460100922DF4 /* CustomTabView.swift in Sources */,
 				64B37B52290D03C800E485E3 /* SliderWithText.swift in Sources */,
 				64CEB3D22918D88C00C38D56 /* AdvancedScrollHome.swift in Sources */,
+				64FFA64C2933460100922DF4 /* CustomMenuSideMainView.swift in Sources */,
 				64B37B55290D03C800E485E3 /* Color.swift in Sources */,
 				64B1740C290B964F001DD5A8 /* ParseMarkdownToHTML.swift in Sources */,
 				645927C12905F79B00BA55BE /* ContentView.swift in Sources */,
 				6419582A290CE46100B28259 /* BadgeBackground.swift in Sources */,
 				64CEB3D12918D88C00C38D56 /* AdvancedScrollLink.swift in Sources */,
 				6419582C290CE46100B28259 /* Profile.swift in Sources */,
+				64FFA64229333EA700922DF4 /* AutoSizingTFHome.swift in Sources */,
 				64B37B51290D03C800E485E3 /* HEX.swift in Sources */,
 				640517AF29093B470088AB0F /* Card.swift in Sources */,
 				64195818290CE46100B28259 /* PageView.swift in Sources */,
@@ -1527,10 +1733,15 @@
 				64B1741B290BADDF001DD5A8 /* DCardAnimationAlbum.swift in Sources */,
 				64F35456290B2C370072AA8B /* Tab.swift in Sources */,
 				64195824290CE46100B28259 /* CircleImage.swift in Sources */,
+				6482DB932934FB9200F8B04D /* TaskAnimationCustomDatePicker.swift in Sources */,
 				64195826290CE46100B28259 /* HikeBadge.swift in Sources */,
 				64B17422290BB547001DD5A8 /* Food.swift in Sources */,
 				64CEB3C62918CB1C00C38D56 /* AnimatedHeaderHomeViewModel.swift in Sources */,
+				6482DB8E2934FB9200F8B04D /* TaskAnimationDateValue.swift in Sources */,
+				647EB51929284826003A2336 /* HeroCarouselViewModel.swift in Sources */,
 				645927BF2905F79B00BA55BE /* examplesApp.swift in Sources */,
+				6482DBA02934FF3C00F8B04D /* MinimalAnimationFitnessStepsGraphView.swift in Sources */,
+				6482DB832934F23300F8B04D /* MatchedCarouselCarouselBodyView.swift in Sources */,
 				6419581E290CE46100B28259 /* ProfileHost.swift in Sources */,
 				64CEB3AB291660FF00C38D56 /* CanvasViewModel.swift in Sources */,
 				6419581C290CE46100B28259 /* ProfileSummary.swift in Sources */,
@@ -1539,6 +1750,8 @@
 				64B17427290BB874001DD5A8 /* PencilHome.swift in Sources */,
 				64B1741C290BADDF001DD5A8 /* DCardAnimationHome.swift in Sources */,
 				64E7FCA829066D2D00D6AA9A /* ShoeUIBaseView.swift in Sources */,
+				64FFA64D2933460100922DF4 /* CustomSideMenu.swift in Sources */,
+				6482DBA12934FF3C00F8B04D /* MinimalAnimationFitnessRingCardView.swift in Sources */,
 				64CEB3AF291660FF00C38D56 /* Canvas.swift in Sources */,
 				64195813290CE46100B28259 /* HikeDetail.swift in Sources */,
 				64195827290CE46100B28259 /* RotatedBadgeSymbol.swift in Sources */,
@@ -1547,13 +1760,17 @@
 				64195812290CE46100B28259 /* HikeGraph.swift in Sources */,
 				64E7FC9B29065A5200D6AA9A /* ScrollIndicatorHome.swift in Sources */,
 				64E7FCC129067DC400D6AA9A /* MotionManager.swift in Sources */,
+				6482DB912934FB9200F8B04D /* TaskAnimationHome.swift in Sources */,
+				6482DB9E2934FF3C00F8B04D /* MinimalAnimationRing.swift in Sources */,
 				64CEB3CB2918CB1C00C38D56 /* AnimatedHeaderFood.swift in Sources */,
 				64B1740F290B9674001DD5A8 /* MarkdownHome.swift in Sources */,
 				64B17423290BB547001DD5A8 /* AdvancedAnimationHome.swift in Sources */,
 				6419581A290CE46100B28259 /* LandmarkDetail.swift in Sources */,
 				64195815290CE46100B28259 /* FeatureCard.swift in Sources */,
 				64AA37FB29245E910094442B /* WaterWaveHome.swift in Sources */,
+				6482DB8F2934FB9200F8B04D /* TaskAnimationUser.swift in Sources */,
 				64CEB39D29165BF800C38D56 /* AnimationsHome.swift in Sources */,
+				64FFA64A2933460100922DF4 /* CustomMenuSideHome.swift in Sources */,
 				64195814290CE46100B28259 /* HikeView.swift in Sources */,
 				64CEB3CA2918CB1C00C38D56 /* AnimatedHeaderTab.swift in Sources */,
 				64CEB3AD291660FF00C38D56 /* CanvasEditorHome.swift in Sources */,
@@ -1562,6 +1779,7 @@
 				64CEB3C82918CB1C00C38D56 /* AnimatedHeaderHome.swift in Sources */,
 				64E7FC9D29065A6900D6AA9A /* Character.swift in Sources */,
 				64195817290CE46100B28259 /* PageViewController.swift in Sources */,
+				6482DB9F2934FF3C00F8B04D /* MinimalAnimationHome.swift in Sources */,
 				6455464D290BC3CD00205AD3 /* NetflixSplashScreenHome.swift in Sources */,
 				6419582E290CE46100B28259 /* ModelData.swift in Sources */,
 				64B37B4E290D03C800E485E3 /* HSV.swift in Sources */,
@@ -1570,10 +1788,13 @@
 				64E7FCB7290675BB00D6AA9A /* _DShoeHome.swift in Sources */,
 				64CEB39A29165BE100C38D56 /* AnimationsContent.swift in Sources */,
 				64F35458290B2C380072AA8B /* ResizableLottieView.swift in Sources */,
+				647EB51829284826003A2336 /* HeroCarouselDetailView.swift in Sources */,
+				6482DB822934F23300F8B04D /* MatchedCarouselHome.swift in Sources */,
 				64AA3804292470700094442B /* WalletAnimationCard.swift in Sources */,
 				64051793290932A10088AB0F /* Album.swift in Sources */,
 				640517912909328F0088AB0F /* CustomCorners.swift in Sources */,
 				64051797290936880088AB0F /* AnimationHackHome.swift in Sources */,
+				6482DB922934FB9200F8B04D /* TaskAnimationUserCardView.swift in Sources */,
 				6405179C290938290088AB0F /* BreatheAnimationHome.swift in Sources */,
 				64E7FCAB29066D2D00D6AA9A /* CustomCurveShape.swift in Sources */,
 				64CEB3C72918CB1C00C38D56 /* AnimatedHeaderCardView.swift in Sources */,
@@ -1581,8 +1802,11 @@
 				64B37B4C290D03C800E485E3 /* Arithmetic.swift in Sources */,
 				64AA3802292470700094442B /* WalletAnimationHome.swift in Sources */,
 				64CEB395291659CA00C38D56 /* HomeViewModel.swift in Sources */,
+				6482DB9D2934FF3C00F8B04D /* MinimalAnimationStep.swift in Sources */,
+				647EB51529284826003A2336 /* HeroCarouselCard.swift in Sources */,
 				64CEB39B29165BE100C38D56 /* CustomTabBar.swift in Sources */,
 				64195829290CE46100B28259 /* BadgeSymbol.swift in Sources */,
+				6482DBA22934FF3C00F8B04D /* MinimalAnimationContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
