@@ -45,10 +45,11 @@ enum SwiftUIApps: String, CaseIterable, Identifiable{
     case scrollIndicator = "scrollIndicatorHome"
     case shoeUI = "shoeUIHome"
     case taskAnimationHome = "TaskAnimationHome日历"
+    case taskManagerContentView = "TaskManagerContentView(本地任务管理)"
+    case taskManagementCoreDataContentView = "TaskManagementCoreDataContentView(本地任务管理版本二)"
     case threeDShoeApp = "threeD(3D)ShoeAppHome"
     case waterWaveHome = "WaterWaveHome"
     case walletAnimationHome = "WalletAnimationHome"
-    case taskManagerContentView = "TaskManagerContentView(本地任务管理)"
     
     
     @ViewBuilder
@@ -56,6 +57,8 @@ enum SwiftUIApps: String, CaseIterable, Identifiable{
         switch self {
         case .taskManagerContentView:
             TaskManagerContentView()
+        case .taskManagementCoreDataContentView:
+            TaskManagementCoreDataContentView()
         case .minimalAnimationContentView:
             MinimalAnimationContentView()
         case .customMenuSideMainView:
