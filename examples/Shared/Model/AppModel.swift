@@ -48,11 +48,14 @@ enum SwiftUIApps: String, CaseIterable, Identifiable{
     case threeDShoeApp = "threeD(3D)ShoeAppHome"
     case waterWaveHome = "WaterWaveHome"
     case walletAnimationHome = "WalletAnimationHome"
+    case taskManagerContentView = "TaskManagerContentView(本地任务管理)"
     
     
     @ViewBuilder
     func appHome()-> some View {
         switch self {
+        case .taskManagerContentView:
+            TaskManagerContentView()
         case .minimalAnimationContentView:
             MinimalAnimationContentView()
         case .customMenuSideMainView:
