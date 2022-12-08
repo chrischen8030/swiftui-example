@@ -32,6 +32,7 @@ enum SwiftUIApps: String, CaseIterable, Identifiable{
     case canvasHome = "CanvasHome"
     case canvasEditorHome = "CanvasEditorHome"
     case customMenuSideMainView = "CustomMenuSideMainView(侧边栏)"
+    case drawerHome = "DrawerHome(左侧边栏)"
     case dcardAnimationHome = "DCardAnimationHome"
     case heroCarouselHome = "HeroCarouselHome"
     case lottieRatingBar = "lottieRatingBar"
@@ -55,6 +56,8 @@ enum SwiftUIApps: String, CaseIterable, Identifiable{
     @ViewBuilder
     func appHome()-> some View {
         switch self {
+        case .drawerHome:
+            DrawerHome()
         case .taskManagerContentView:
             TaskManagerContentView()
         case .taskManagementCoreDataContentView:

@@ -136,6 +136,14 @@
 		64CEB3CB2918CB1C00C38D56 /* AnimatedHeaderFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CEB3C52918CB1C00C38D56 /* AnimatedHeaderFood.swift */; };
 		64CEB3D12918D88C00C38D56 /* AdvancedScrollLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CEB3CE2918D88C00C38D56 /* AdvancedScrollLink.swift */; };
 		64CEB3D22918D88C00C38D56 /* AdvancedScrollHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CEB3D02918D88C00C38D56 /* AdvancedScrollHome.swift */; };
+		64D5661429421085004DE474 /* DrawerMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D5660A29421085004DE474 /* DrawerMenuButton.swift */; };
+		64D5661529421085004DE474 /* DrawerPDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D5660B29421085004DE474 /* DrawerPDrawer.swift */; };
+		64D5661629421085004DE474 /* DrawerHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D5660C29421085004DE474 /* DrawerHome.swift */; };
+		64D5661729421085004DE474 /* DrawerCatalogue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D5660E29421085004DE474 /* DrawerCatalogue.swift */; };
+		64D5661829421085004DE474 /* DrawerFavourites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D5660F29421085004DE474 /* DrawerFavourites.swift */; };
+		64D5661929421085004DE474 /* DrawerOrders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D5661029421085004DE474 /* DrawerOrders.swift */; };
+		64D5661A29421085004DE474 /* DrawerCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D5661129421085004DE474 /* DrawerCart.swift */; };
+		64D5661B29421085004DE474 /* DrawerMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D5661329421085004DE474 /* DrawerMenuModel.swift */; };
 		64E7FC8F290606F900D6AA9A /* BookAppAnimationHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E7FC8D290606F900D6AA9A /* BookAppAnimationHome.swift */; };
 		64E7FC90290606F900D6AA9A /* IsometricView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E7FC8E290606F900D6AA9A /* IsometricView.swift */; };
 		64E7FC932906071E00D6AA9A /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E7FC922906071E00D6AA9A /* Book.swift */; };
@@ -331,6 +339,14 @@
 		64CEB3C52918CB1C00C38D56 /* AnimatedHeaderFood.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedHeaderFood.swift; sourceTree = "<group>"; };
 		64CEB3CE2918D88C00C38D56 /* AdvancedScrollLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvancedScrollLink.swift; sourceTree = "<group>"; };
 		64CEB3D02918D88C00C38D56 /* AdvancedScrollHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvancedScrollHome.swift; sourceTree = "<group>"; };
+		64D5660A29421085004DE474 /* DrawerMenuButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerMenuButton.swift; sourceTree = "<group>"; };
+		64D5660B29421085004DE474 /* DrawerPDrawer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerPDrawer.swift; sourceTree = "<group>"; };
+		64D5660C29421085004DE474 /* DrawerHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerHome.swift; sourceTree = "<group>"; };
+		64D5660E29421085004DE474 /* DrawerCatalogue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerCatalogue.swift; sourceTree = "<group>"; };
+		64D5660F29421085004DE474 /* DrawerFavourites.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerFavourites.swift; sourceTree = "<group>"; };
+		64D5661029421085004DE474 /* DrawerOrders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerOrders.swift; sourceTree = "<group>"; };
+		64D5661129421085004DE474 /* DrawerCart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerCart.swift; sourceTree = "<group>"; };
+		64D5661329421085004DE474 /* DrawerMenuModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerMenuModel.swift; sourceTree = "<group>"; };
 		64E7FC8D290606F900D6AA9A /* BookAppAnimationHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookAppAnimationHome.swift; sourceTree = "<group>"; };
 		64E7FC8E290606F900D6AA9A /* IsometricView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsometricView.swift; sourceTree = "<group>"; };
 		64E7FC922906071E00D6AA9A /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
@@ -1226,6 +1242,45 @@
 			path = WaterWave;
 			sourceTree = "<group>";
 		};
+		64D5660829421028004DE474 /* Drawer */ = {
+			isa = PBXGroup;
+			children = (
+				64D5660929421085004DE474 /* View */,
+				64D5661229421085004DE474 /* ViewModel */,
+			);
+			path = Drawer;
+			sourceTree = "<group>";
+		};
+		64D5660929421085004DE474 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64D5660A29421085004DE474 /* DrawerMenuButton.swift */,
+				64D5660B29421085004DE474 /* DrawerPDrawer.swift */,
+				64D5660C29421085004DE474 /* DrawerHome.swift */,
+				64D5660D29421085004DE474 /* SubViews */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		64D5660D29421085004DE474 /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				64D5660E29421085004DE474 /* DrawerCatalogue.swift */,
+				64D5660F29421085004DE474 /* DrawerFavourites.swift */,
+				64D5661029421085004DE474 /* DrawerOrders.swift */,
+				64D5661129421085004DE474 /* DrawerCart.swift */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		64D5661229421085004DE474 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				64D5661329421085004DE474 /* DrawerMenuModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		64E7FC8A290606B800D6AA9A /* Apps */ = {
 			isa = PBXGroup;
 			children = (
@@ -1247,6 +1302,7 @@
 				64FFA6432933439E00922DF4 /* CustomMenu_Side */,
 				64CEB3A2291660DC00C38D56 /* CanvasEditor */,
 				64CEB39E2916600D00C38D56 /* Canvas */,
+				64D5660829421028004DE474 /* Drawer */,
 				647EB50C292847B8003A2336 /* HeroCarousel */,
 				64B37B3D290D038E00E485E3 /* ColorsExtensions */,
 				64B37B5D290D31AC00E485E3 /* MotionDepthEffect */,
@@ -1759,6 +1815,7 @@
 			files = (
 				6419582B290CE46100B28259 /* Badge.swift in Sources */,
 				64E7FC90290606F900D6AA9A /* IsometricView.swift in Sources */,
+				64D5661A29421085004DE474 /* DrawerCart.swift in Sources */,
 				64B37B61290D322A00E485E3 /* DepthEffectMotionManager.swift in Sources */,
 				64E7FCC429067DD400D6AA9A /* Place.swift in Sources */,
 				64FE8F1B293CFA0200AFB62C /* TaskManagementCoreDataPersistence.swift in Sources */,
@@ -1789,6 +1846,7 @@
 				64B1742C290BBFAB001DD5A8 /* LtAnimationView.swift in Sources */,
 				64CEB3B92916662300C38D56 /* Intro.swift in Sources */,
 				64E7FCAD29066D3500D6AA9A /* BaseViewModel.swift in Sources */,
+				64D5661729421085004DE474 /* DrawerCatalogue.swift in Sources */,
 				64CEB3B82916662300C38D56 /* OffsetPageTabView.swift in Sources */,
 				64B1740D290B964F001DD5A8 /* MarkdownView.swift in Sources */,
 				647EB51629284826003A2336 /* HeroCarouselCardView.swift in Sources */,
@@ -1797,6 +1855,7 @@
 				64B37B54290D03C800E485E3 /* ColorArithmetic.swift in Sources */,
 				64F35455290B2C370072AA8B /* AnimatedIcon.swift in Sources */,
 				647EB51729284826003A2336 /* HeroCarouselHome.swift in Sources */,
+				64D5661529421085004DE474 /* DrawerPDrawer.swift in Sources */,
 				64FFA64B2933460100922DF4 /* CustomTabView.swift in Sources */,
 				64B37B52290D03C800E485E3 /* SliderWithText.swift in Sources */,
 				64CEB3D22918D88C00C38D56 /* AdvancedScrollHome.swift in Sources */,
@@ -1814,6 +1873,7 @@
 				64195818290CE46100B28259 /* PageView.swift in Sources */,
 				64E7FCBE29067DB100D6AA9A /* ParallaxCardsHome.swift in Sources */,
 				64CEB3B72916662300C38D56 /* AnimatedIndicator2Content.swift in Sources */,
+				64D5661429421085004DE474 /* DrawerMenuButton.swift in Sources */,
 				6419582F290CE46100B28259 /* Landmark.swift in Sources */,
 				64F35457290B2C380072AA8B /* AnimatedTabIconsMainView.swift in Sources */,
 				64E7FC8F290606F900D6AA9A /* BookAppAnimationHome.swift in Sources */,
@@ -1827,6 +1887,7 @@
 				64CEB3A12916602100C38D56 /* CanvasHome.swift in Sources */,
 				64FE8F18293CFA0200AFB62C /* TaskManagementCoreDataDynamicFilteredView.swift in Sources */,
 				6419581D290CE46100B28259 /* ProfileEditor.swift in Sources */,
+				64D5661629421085004DE474 /* DrawerHome.swift in Sources */,
 				64B1741B290BADDF001DD5A8 /* DCardAnimationAlbum.swift in Sources */,
 				64F35456290B2C370072AA8B /* Tab.swift in Sources */,
 				64195824290CE46100B28259 /* CircleImage.swift in Sources */,
@@ -1850,6 +1911,7 @@
 				64B1741C290BADDF001DD5A8 /* DCardAnimationHome.swift in Sources */,
 				64E7FCA829066D2D00D6AA9A /* ShoeUIBaseView.swift in Sources */,
 				64FFA64D2933460100922DF4 /* CustomSideMenu.swift in Sources */,
+				64D5661929421085004DE474 /* DrawerOrders.swift in Sources */,
 				6482DBA12934FF3C00F8B04D /* MinimalAnimationFitnessRingCardView.swift in Sources */,
 				64CEB3AF291660FF00C38D56 /* Canvas.swift in Sources */,
 				64195813290CE46100B28259 /* HikeDetail.swift in Sources */,
@@ -1861,6 +1923,8 @@
 				64E7FC9B29065A5200D6AA9A /* ScrollIndicatorHome.swift in Sources */,
 				64E7FCC129067DC400D6AA9A /* MotionManager.swift in Sources */,
 				6482DB912934FB9200F8B04D /* TaskAnimationHome.swift in Sources */,
+				64D5661829421085004DE474 /* DrawerFavourites.swift in Sources */,
+				64D5661B29421085004DE474 /* DrawerMenuModel.swift in Sources */,
 				6482DB9E2934FF3C00F8B04D /* MinimalAnimationRing.swift in Sources */,
 				64CEB3CB2918CB1C00C38D56 /* AnimatedHeaderFood.swift in Sources */,
 				64B1740F290B9674001DD5A8 /* MarkdownHome.swift in Sources */,
