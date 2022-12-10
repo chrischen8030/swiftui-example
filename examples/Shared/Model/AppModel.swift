@@ -46,20 +46,48 @@ enum SwiftUIApps: String, CaseIterable, Identifiable{
     case pencilHome = "PencilHome"
     case scrollIndicator = "scrollIndicatorHome"
     case shoeUI = "shoeUIHome"
+    case toolBarAnimationHome = "ToolBarAnimationHome"
+    case timerDemoHome = "TimerDemoHome"
     case taskAnimationHome = "TaskAnimationHome日历"
     case taskManagerContentView = "TaskManagerContentView(本地任务管理)"
+    case travelUIContentView = "TravelUIContentView"
     case taskManagementCoreDataContentView = "TaskManagementCoreDataContentView(本地任务管理版本二)"
     case threeDShoeApp = "threeD(3D)ShoeAppHome"
+    case tripAdvisorSplashScreen = "TripAdvisorSplashScreen(开场页面)"
+    case touchAnimationHome = "TouchAnimationHome"
+    case vPNUIHome = "VPNUIHome"
+    case vPNUI2Home = "VPNUI2Home"
     case waterWaveHome = "WaterWaveHome"
     case walletAnimationHome = "WalletAnimationHome"
     case weatherAppScrollingHome = "WeatherAppScrollingHome"
     case wheel_SpinnerHome = "Wheel_SpinnerHome"
     case welcomeScreenContentView = "WelcomeScreenContentView"
+    case walkthrough_ScreenContentView = "walkthrough_ScreenContentView(开场动画)"
+
     
     
     @ViewBuilder
     func appHome()-> some View {
         switch self {
+        case .toolBarAnimationHome:
+            NavigationView{
+                ToolBarAnimationHome()
+                    .navigationTitle("Toolbar Animation")
+            }
+        case .timerDemoHome:
+            TimerDemoHome()
+        case .touchAnimationHome:
+            TouchAnimationHome()
+        case .tripAdvisorSplashScreen:
+            TripAdvisorSplashScreen()
+        case .travelUIContentView:
+            TravelUIContentView()
+        case .vPNUI2Home:
+            VPNUI2Home()
+        case .vPNUIHome:
+            VPNUIHome()
+        case .walkthrough_ScreenContentView:
+            Walkthrough_ScreenContentView()
         case .wheel_SpinnerHome:
             Wheel_SpinnerHome()
         case .weatherAppScrollingHome:
