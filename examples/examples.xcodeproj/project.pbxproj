@@ -99,6 +99,10 @@
 		64B1742C290BBFAB001DD5A8 /* LtAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B1742B290BBFAB001DD5A8 /* LtAnimationView.swift */; };
 		64B1742E290BBFB4001DD5A8 /* Rating.json in Resources */ = {isa = PBXBuildFile; fileRef = 64B1742D290BBFB4001DD5A8 /* Rating.json */; };
 		64B17430290BBFF0001DD5A8 /* LottieRatingBarHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B1742F290BBFF0001DD5A8 /* LottieRatingBarHome.swift */; };
+		64B2D3F629442532006B5524 /* WelcomeScreenContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2D3F529442532006B5524 /* WelcomeScreenContentView.swift */; };
+		64B2D3FD294428E5006B5524 /* CircleWalletWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2D3F9294428E5006B5524 /* CircleWalletWeek.swift */; };
+		64B2D3FE294428E5006B5524 /* CircleWalletHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2D3FB294428E5006B5524 /* CircleWalletHome.swift */; };
+		64B2D3FF294428E5006B5524 /* CircleWalletCustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2D3FC294428E5006B5524 /* CircleWalletCustomShape.swift */; };
 		64B37B4B290D03C800E485E3 /* HSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B37B3F290D03C800E485E3 /* HSL.swift */; };
 		64B37B4C290D03C800E485E3 /* Arithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B37B40290D03C800E485E3 /* Arithmetic.swift */; };
 		64B37B4D290D03C800E485E3 /* GetRGBA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B37B41290D03C800E485E3 /* GetRGBA.swift */; };
@@ -113,6 +117,17 @@
 		64B37B57290D03E000E485E3 /* ColorsExtensionsHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B37B56290D03E000E485E3 /* ColorsExtensionsHome.swift */; };
 		64B37B61290D322A00E485E3 /* DepthEffectMotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B37B60290D322A00E485E3 /* DepthEffectMotionManager.swift */; };
 		64B37B64290D341600E485E3 /* MotionDepthEffectHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B37B63290D341600E485E3 /* MotionDepthEffectHome.swift */; };
+		64CD005629441AEB00758CA9 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CD004D29441AEB00758CA9 /* Forecast.swift */; };
+		64CD005729441AEB00758CA9 /* RainFall.sks in Resources */ = {isa = PBXBuildFile; fileRef = 64CD004F29441AEB00758CA9 /* RainFall.sks */; };
+		64CD005829441AEB00758CA9 /* RainFallLanding.sks in Resources */ = {isa = PBXBuildFile; fileRef = 64CD005029441AEB00758CA9 /* RainFallLanding.sks */; };
+		64CD005929441AEB00758CA9 /* WeatherAppScrollingCustomStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CD005229441AEB00758CA9 /* WeatherAppScrollingCustomStackView.swift */; };
+		64CD005A29441AEB00758CA9 /* WeatherAppScrollingWeatherDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CD005329441AEB00758CA9 /* WeatherAppScrollingWeatherDataView.swift */; };
+		64CD005B29441AEB00758CA9 /* WeatherAppScrollingHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CD005429441AEB00758CA9 /* WeatherAppScrollingHome.swift */; };
+		64CD005C29441AEB00758CA9 /* WeatherAppScrollingCustomCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CD005529441AEB00758CA9 /* WeatherAppScrollingCustomCorner.swift */; };
+		64CD006429441EAF00758CA9 /* Wheel_SpinnerHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CD005F29441EAF00758CA9 /* Wheel_SpinnerHomeViewModel.swift */; };
+		64CD006529441EAF00758CA9 /* Wheel_SpinnerFunctionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CD006129441EAF00758CA9 /* Wheel_SpinnerFunctionButton.swift */; };
+		64CD006629441EAF00758CA9 /* Wheel_SpinnerHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CD006229441EAF00758CA9 /* Wheel_SpinnerHome.swift */; };
+		64CD006729441EAF00758CA9 /* Wheel_SpinnerOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CD006329441EAF00758CA9 /* Wheel_SpinnerOption.swift */; };
 		64CEB393291659BB00C38D56 /* AnimationChallengeHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CEB391291659BB00C38D56 /* AnimationChallengeHome.swift */; };
 		64CEB395291659CA00C38D56 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CEB394291659CA00C38D56 /* HomeViewModel.swift */; };
 		64CEB39A29165BE100C38D56 /* AnimationsContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CEB39829165BE100C38D56 /* AnimationsContent.swift */; };
@@ -302,6 +317,10 @@
 		64B1742B290BBFAB001DD5A8 /* LtAnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LtAnimationView.swift; sourceTree = "<group>"; };
 		64B1742D290BBFB4001DD5A8 /* Rating.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Rating.json; sourceTree = "<group>"; };
 		64B1742F290BBFF0001DD5A8 /* LottieRatingBarHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LottieRatingBarHome.swift; sourceTree = "<group>"; };
+		64B2D3F529442532006B5524 /* WelcomeScreenContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeScreenContentView.swift; sourceTree = "<group>"; };
+		64B2D3F9294428E5006B5524 /* CircleWalletWeek.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleWalletWeek.swift; sourceTree = "<group>"; };
+		64B2D3FB294428E5006B5524 /* CircleWalletHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleWalletHome.swift; sourceTree = "<group>"; };
+		64B2D3FC294428E5006B5524 /* CircleWalletCustomShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleWalletCustomShape.swift; sourceTree = "<group>"; };
 		64B37B3F290D03C800E485E3 /* HSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSL.swift; sourceTree = "<group>"; };
 		64B37B40290D03C800E485E3 /* Arithmetic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Arithmetic.swift; sourceTree = "<group>"; };
 		64B37B41290D03C800E485E3 /* GetRGBA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetRGBA.swift; sourceTree = "<group>"; };
@@ -316,6 +335,17 @@
 		64B37B56290D03E000E485E3 /* ColorsExtensionsHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsExtensionsHome.swift; sourceTree = "<group>"; };
 		64B37B60290D322A00E485E3 /* DepthEffectMotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthEffectMotionManager.swift; sourceTree = "<group>"; };
 		64B37B63290D341600E485E3 /* MotionDepthEffectHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionDepthEffectHome.swift; sourceTree = "<group>"; };
+		64CD004D29441AEB00758CA9 /* Forecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
+		64CD004F29441AEB00758CA9 /* RainFall.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = RainFall.sks; sourceTree = "<group>"; };
+		64CD005029441AEB00758CA9 /* RainFallLanding.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = RainFallLanding.sks; sourceTree = "<group>"; };
+		64CD005229441AEB00758CA9 /* WeatherAppScrollingCustomStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherAppScrollingCustomStackView.swift; sourceTree = "<group>"; };
+		64CD005329441AEB00758CA9 /* WeatherAppScrollingWeatherDataView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherAppScrollingWeatherDataView.swift; sourceTree = "<group>"; };
+		64CD005429441AEB00758CA9 /* WeatherAppScrollingHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherAppScrollingHome.swift; sourceTree = "<group>"; };
+		64CD005529441AEB00758CA9 /* WeatherAppScrollingCustomCorner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherAppScrollingCustomCorner.swift; sourceTree = "<group>"; };
+		64CD005F29441EAF00758CA9 /* Wheel_SpinnerHomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wheel_SpinnerHomeViewModel.swift; sourceTree = "<group>"; };
+		64CD006129441EAF00758CA9 /* Wheel_SpinnerFunctionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wheel_SpinnerFunctionButton.swift; sourceTree = "<group>"; };
+		64CD006229441EAF00758CA9 /* Wheel_SpinnerHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wheel_SpinnerHome.swift; sourceTree = "<group>"; };
+		64CD006329441EAF00758CA9 /* Wheel_SpinnerOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wheel_SpinnerOption.swift; sourceTree = "<group>"; };
 		64CEB391291659BB00C38D56 /* AnimationChallengeHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationChallengeHome.swift; sourceTree = "<group>"; };
 		64CEB394291659CA00C38D56 /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		64CEB39829165BE100C38D56 /* AnimationsContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationsContent.swift; sourceTree = "<group>"; };
@@ -998,6 +1028,40 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		64B2D3F42944252B006B5524 /* WelcomeScreenContentView */ = {
+			isa = PBXGroup;
+			children = (
+				64B2D3F529442532006B5524 /* WelcomeScreenContentView.swift */,
+			);
+			path = WelcomeScreenContentView;
+			sourceTree = "<group>";
+		};
+		64B2D3F7294428BE006B5524 /* CircleWallet */ = {
+			isa = PBXGroup;
+			children = (
+				64B2D3F8294428E5006B5524 /* Model */,
+				64B2D3FA294428E5006B5524 /* View */,
+			);
+			path = CircleWallet;
+			sourceTree = "<group>";
+		};
+		64B2D3F8294428E5006B5524 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				64B2D3F9294428E5006B5524 /* CircleWalletWeek.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		64B2D3FA294428E5006B5524 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64B2D3FB294428E5006B5524 /* CircleWalletHome.swift */,
+				64B2D3FC294428E5006B5524 /* CircleWalletCustomShape.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		64B37B3D290D038E00E485E3 /* ColorsExtensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -1048,6 +1112,71 @@
 				64B37B60290D322A00E485E3 /* DepthEffectMotionManager.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		64CD004B29441AAC00758CA9 /* WeatherAppScrollingApp */ = {
+			isa = PBXGroup;
+			children = (
+				64CD004C29441AEB00758CA9 /* Model */,
+				64CD004E29441AEB00758CA9 /* SpriteFiles */,
+				64CD005129441AEB00758CA9 /* View */,
+			);
+			path = WeatherAppScrollingApp;
+			sourceTree = "<group>";
+		};
+		64CD004C29441AEB00758CA9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				64CD004D29441AEB00758CA9 /* Forecast.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		64CD004E29441AEB00758CA9 /* SpriteFiles */ = {
+			isa = PBXGroup;
+			children = (
+				64CD004F29441AEB00758CA9 /* RainFall.sks */,
+				64CD005029441AEB00758CA9 /* RainFallLanding.sks */,
+			);
+			path = SpriteFiles;
+			sourceTree = "<group>";
+		};
+		64CD005129441AEB00758CA9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64CD005229441AEB00758CA9 /* WeatherAppScrollingCustomStackView.swift */,
+				64CD005329441AEB00758CA9 /* WeatherAppScrollingWeatherDataView.swift */,
+				64CD005429441AEB00758CA9 /* WeatherAppScrollingHome.swift */,
+				64CD005529441AEB00758CA9 /* WeatherAppScrollingCustomCorner.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		64CD005D29441E9700758CA9 /* Wheel_Spinner */ = {
+			isa = PBXGroup;
+			children = (
+				64CD006029441EAF00758CA9 /* View */,
+				64CD005E29441EAF00758CA9 /* ViewModel */,
+			);
+			path = Wheel_Spinner;
+			sourceTree = "<group>";
+		};
+		64CD005E29441EAF00758CA9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				64CD005F29441EAF00758CA9 /* Wheel_SpinnerHomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		64CD006029441EAF00758CA9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64CD006129441EAF00758CA9 /* Wheel_SpinnerFunctionButton.swift */,
+				64CD006229441EAF00758CA9 /* Wheel_SpinnerHome.swift */,
+				64CD006329441EAF00758CA9 /* Wheel_SpinnerOption.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		64CEB38B2916594200C38D56 /* AnimationChallenge */ = {
@@ -1284,6 +1413,10 @@
 		64E7FC8A290606B800D6AA9A /* Apps */ = {
 			isa = PBXGroup;
 			children = (
+				64B2D3F7294428BE006B5524 /* CircleWallet */,
+				64B2D3F42944252B006B5524 /* WelcomeScreenContentView */,
+				64CD005D29441E9700758CA9 /* Wheel_Spinner */,
+				64CD004B29441AAC00758CA9 /* WeatherAppScrollingApp */,
 				64FFA64029333E8800922DF4 /* AutoSizingTF */,
 				64CEB3CC2918D87B00C38D56 /* AdvancedScroll */,
 				64CEB39629165BA700C38D56 /* Animations */,
@@ -1778,6 +1911,8 @@
 				6419580F290CE46100B28259 /* hikeData.json in Resources */,
 				64F3544C290B2C180072AA8B /* Home.json in Resources */,
 				64F3544E290B2C180072AA8B /* Saved.json in Resources */,
+				64CD005829441AEB00758CA9 /* RainFallLanding.sks in Resources */,
+				64CD005729441AEB00758CA9 /* RainFall.sks in Resources */,
 				64E7FCAF290673EA00D6AA9A /* Nike_Air_Jordan.scn in Resources */,
 				64554650290BC3E100205AD3 /* logo.gif in Resources */,
 				645927C32905F79B00BA55BE /* Assets.xcassets in Resources */,
@@ -1818,6 +1953,7 @@
 				64D5661A29421085004DE474 /* DrawerCart.swift in Sources */,
 				64B37B61290D322A00E485E3 /* DepthEffectMotionManager.swift in Sources */,
 				64E7FCC429067DD400D6AA9A /* Place.swift in Sources */,
+				64B2D3FF294428E5006B5524 /* CircleWalletCustomShape.swift in Sources */,
 				64FE8F1B293CFA0200AFB62C /* TaskManagementCoreDataPersistence.swift in Sources */,
 				64B37B4B290D03C800E485E3 /* HSL.swift in Sources */,
 				640517902909328F0088AB0F /* AnimationChallenge4Home.swift in Sources */,
@@ -1831,6 +1967,7 @@
 				64195821290CE46100B28259 /* CategoryRow.swift in Sources */,
 				64E7FC962906080A00D6AA9A /* AppModel.swift in Sources */,
 				64AA3803292470700094442B /* WalletAnimationExpense.swift in Sources */,
+				64CD006729441EAF00758CA9 /* Wheel_SpinnerOption.swift in Sources */,
 				64195823290CE46100B28259 /* MapView.swift in Sources */,
 				64195811290CE46100B28259 /* GraphCapsule.swift in Sources */,
 				64E7FCA329066D2400D6AA9A /* Product.swift in Sources */,
@@ -1842,6 +1979,7 @@
 				64B37B4F290D03C800E485E3 /* RGB.swift in Sources */,
 				64195819290CE46100B28259 /* LandmarkList.swift in Sources */,
 				6419581F290CE46100B28259 /* CategoryItem.swift in Sources */,
+				64CD005629441AEB00758CA9 /* Forecast.swift in Sources */,
 				6405179E290938310088AB0F /* BreatheType.swift in Sources */,
 				64B1742C290BBFAB001DD5A8 /* LtAnimationView.swift in Sources */,
 				64CEB3B92916662300C38D56 /* Intro.swift in Sources */,
@@ -1879,8 +2017,10 @@
 				64E7FC8F290606F900D6AA9A /* BookAppAnimationHome.swift in Sources */,
 				64195816290CE46100B28259 /* PageControl.swift in Sources */,
 				64FE8F19293CFA0200AFB62C /* TaskManagementCoreDataContentView.swift in Sources */,
+				64CD005A29441AEB00758CA9 /* WeatherAppScrollingWeatherDataView.swift in Sources */,
 				64B37B4D290D03C800E485E3 /* GetRGBA.swift in Sources */,
 				64E7FCA929066D2D00D6AA9A /* DetailView.swift in Sources */,
+				64CD006429441EAF00758CA9 /* Wheel_SpinnerHomeViewModel.swift in Sources */,
 				6419582D290CE46100B28259 /* Hike.swift in Sources */,
 				64B37B57290D03E000E485E3 /* ColorsExtensionsHome.swift in Sources */,
 				64E7FC932906071E00D6AA9A /* Book.swift in Sources */,
@@ -1895,6 +2035,7 @@
 				64195826290CE46100B28259 /* HikeBadge.swift in Sources */,
 				64B17422290BB547001DD5A8 /* Food.swift in Sources */,
 				64FE8EF2293CEE4C00AFB62C /* TaskManagerTaskViewModel.swift in Sources */,
+				64CD005C29441AEB00758CA9 /* WeatherAppScrollingCustomCorner.swift in Sources */,
 				64CEB3C62918CB1C00C38D56 /* AnimatedHeaderHomeViewModel.swift in Sources */,
 				6482DB8E2934FB9200F8B04D /* TaskAnimationDateValue.swift in Sources */,
 				647EB51929284826003A2336 /* HeroCarouselViewModel.swift in Sources */,
@@ -1912,6 +2053,7 @@
 				64E7FCA829066D2D00D6AA9A /* ShoeUIBaseView.swift in Sources */,
 				64FFA64D2933460100922DF4 /* CustomSideMenu.swift in Sources */,
 				64D5661929421085004DE474 /* DrawerOrders.swift in Sources */,
+				64CD006529441EAF00758CA9 /* Wheel_SpinnerFunctionButton.swift in Sources */,
 				6482DBA12934FF3C00F8B04D /* MinimalAnimationFitnessRingCardView.swift in Sources */,
 				64CEB3AF291660FF00C38D56 /* Canvas.swift in Sources */,
 				64195813290CE46100B28259 /* HikeDetail.swift in Sources */,
@@ -1929,6 +2071,7 @@
 				64CEB3CB2918CB1C00C38D56 /* AnimatedHeaderFood.swift in Sources */,
 				64B1740F290B9674001DD5A8 /* MarkdownHome.swift in Sources */,
 				64B17423290BB547001DD5A8 /* AdvancedAnimationHome.swift in Sources */,
+				64B2D3FD294428E5006B5524 /* CircleWalletWeek.swift in Sources */,
 				6419581A290CE46100B28259 /* LandmarkDetail.swift in Sources */,
 				64195815290CE46100B28259 /* FeatureCard.swift in Sources */,
 				64AA37FB29245E910094442B /* WaterWaveHome.swift in Sources */,
@@ -1944,11 +2087,14 @@
 				64E7FC9D29065A6900D6AA9A /* Character.swift in Sources */,
 				64195817290CE46100B28259 /* PageViewController.swift in Sources */,
 				6482DB9F2934FF3C00F8B04D /* MinimalAnimationHome.swift in Sources */,
+				64CD006629441EAF00758CA9 /* Wheel_SpinnerHome.swift in Sources */,
 				64FE8F16293CFA0200AFB62C /* TaskManagementCoreDataHome.swift in Sources */,
 				6455464D290BC3CD00205AD3 /* NetflixSplashScreenHome.swift in Sources */,
 				6419582E290CE46100B28259 /* ModelData.swift in Sources */,
 				64FE8F17293CFA0200AFB62C /* TaskManagementCoreDataNewTask.swift in Sources */,
 				64B37B4E290D03C800E485E3 /* HSV.swift in Sources */,
+				64B2D3F629442532006B5524 /* WelcomeScreenContentView.swift in Sources */,
+				64CD005929441AEB00758CA9 /* WeatherAppScrollingCustomStackView.swift in Sources */,
 				64CEB3AE291660FF00C38D56 /* ImagePicker.swift in Sources */,
 				64CEB393291659BB00C38D56 /* AnimationChallengeHome.swift in Sources */,
 				64E7FCB7290675BB00D6AA9A /* _DShoeHome.swift in Sources */,
@@ -1956,6 +2102,7 @@
 				64F35458290B2C380072AA8B /* ResizableLottieView.swift in Sources */,
 				647EB51829284826003A2336 /* HeroCarouselDetailView.swift in Sources */,
 				6482DB822934F23300F8B04D /* MatchedCarouselHome.swift in Sources */,
+				64B2D3FE294428E5006B5524 /* CircleWalletHome.swift in Sources */,
 				64AA3804292470700094442B /* WalletAnimationCard.swift in Sources */,
 				64051793290932A10088AB0F /* Album.swift in Sources */,
 				640517912909328F0088AB0F /* CustomCorners.swift in Sources */,
@@ -1973,6 +2120,7 @@
 				64FE8EF0293CEE4C00AFB62C /* TaskManagerHome.swift in Sources */,
 				647EB51529284826003A2336 /* HeroCarouselCard.swift in Sources */,
 				64CEB39B29165BE100C38D56 /* CustomTabBar.swift in Sources */,
+				64CD005B29441AEB00758CA9 /* WeatherAppScrollingHome.swift in Sources */,
 				64195829290CE46100B28259 /* BadgeSymbol.swift in Sources */,
 				6482DBA22934FF3C00F8B04D /* MinimalAnimationContentView.swift in Sources */,
 			);

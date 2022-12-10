@@ -32,6 +32,7 @@ enum SwiftUIApps: String, CaseIterable, Identifiable{
     case canvasHome = "CanvasHome"
     case canvasEditorHome = "CanvasEditorHome"
     case customMenuSideMainView = "CustomMenuSideMainView(侧边栏)"
+    case circleWalletHome = "CircleWalletHome"
     case drawerHome = "DrawerHome(左侧边栏)"
     case dcardAnimationHome = "DCardAnimationHome"
     case heroCarouselHome = "HeroCarouselHome"
@@ -51,11 +52,24 @@ enum SwiftUIApps: String, CaseIterable, Identifiable{
     case threeDShoeApp = "threeD(3D)ShoeAppHome"
     case waterWaveHome = "WaterWaveHome"
     case walletAnimationHome = "WalletAnimationHome"
+    case weatherAppScrollingHome = "WeatherAppScrollingHome"
+    case wheel_SpinnerHome = "Wheel_SpinnerHome"
+    case welcomeScreenContentView = "WelcomeScreenContentView"
     
     
     @ViewBuilder
     func appHome()-> some View {
         switch self {
+        case .wheel_SpinnerHome:
+            Wheel_SpinnerHome()
+        case .weatherAppScrollingHome:
+            GeometryReader{proxy in
+                
+                let topEdge = proxy.safeAreaInsets.top
+                
+                WeatherAppScrollingHome(topEdge: topEdge)
+                    .ignoresSafeArea(.all, edges: .top)
+            }
         case .drawerHome:
             DrawerHome()
         case .taskManagerContentView:
@@ -135,6 +149,11 @@ enum SwiftUIApps: String, CaseIterable, Identifiable{
             HeroCarouselHome()
         case .taskAnimationHome:
             TaskAnimationHome()
+        case .welcomeScreenContentView:
+            WelcomeScreenContentView()
+        case .circleWalletHome:
+            CircleWalletHome()
         }
+        
     }
 }
