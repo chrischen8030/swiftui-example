@@ -46,6 +46,8 @@ enum SwiftUIApps: String, CaseIterable, Identifiable{
     case pencilHome = "PencilHome"
     case scrollIndicator = "scrollIndicatorHome"
     case shoeUI = "shoeUIHome"
+    case twitterShapeAnimationContentView = "TwitterShapeAnimationContentView"
+    case twitterMenuBaseView = "TwitterMenuHome"
     case toolBarAnimationHome = "ToolBarAnimationHome"
     case timerDemoHome = "TimerDemoHome"
     case taskAnimationHome = "TaskAnimationHome日历"
@@ -69,6 +71,10 @@ enum SwiftUIApps: String, CaseIterable, Identifiable{
     @ViewBuilder
     func appHome()-> some View {
         switch self {
+        case .twitterShapeAnimationContentView:
+            TwitterShapeAnimationContentView()
+        case .twitterMenuBaseView:
+            TwitterMenuBaseView()
         case .toolBarAnimationHome:
             NavigationView{
                 ToolBarAnimationHome()
