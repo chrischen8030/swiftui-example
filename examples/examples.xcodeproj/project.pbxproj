@@ -122,6 +122,16 @@
 		64B2D439294494F3006B5524 /* TwitterMenuSideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2D436294494F3006B5524 /* TwitterMenuSideMenu.swift */; };
 		64B2D43A294494F3006B5524 /* TwitterMenuHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2D437294494F3006B5524 /* TwitterMenuHome.swift */; };
 		64B2D43D29449BA6006B5524 /* TwitterShapeAnimationContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2D43C29449BA5006B5524 /* TwitterShapeAnimationContentView.swift */; };
+		64B2D4442944A4EF006B5524 /* SpotifyResponvieUIAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2D4402944A4EF006B5524 /* SpotifyResponvieUIAlbum.swift */; };
+		64B2D4452944A4EF006B5524 /* SpotifyResponvieUIOffsetModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2D4422944A4EF006B5524 /* SpotifyResponvieUIOffsetModifier.swift */; };
+		64B2D4462944A4EF006B5524 /* SpotifyResponvieUIHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2D4432944A4EF006B5524 /* SpotifyResponvieUIHome.swift */; };
+		64B2D44D2944A80A006B5524 /* StaggeredGridPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2D4492944A80A006B5524 /* StaggeredGridPost.swift */; };
+		64B2D44E2944A80A006B5524 /* StaggeredGridHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2D44B2944A80A006B5524 /* StaggeredGridHome.swift */; };
+		64B2D44F2944A80A006B5524 /* StaggeredGridStaggeredGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2D44C2944A80A006B5524 /* StaggeredGridStaggeredGrid.swift */; };
+		64B2D46E2944B54B006B5524 /* OnBoardingAnimationBoardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2D4682944B54A006B5524 /* OnBoardingAnimationBoardingScreen.swift */; };
+		64B2D46F2944B54B006B5524 /* OnBoardingAnimationOffsetPageTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2D46A2944B54B006B5524 /* OnBoardingAnimationOffsetPageTabView.swift */; };
+		64B2D4702944B54B006B5524 /* OnBoardingAnimationOnBoarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2D46B2944B54B006B5524 /* OnBoardingAnimationOnBoarding.swift */; };
+		64B2D4712944B54B006B5524 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2D46D2944B54B006B5524 /* Extensions.swift */; };
 		64B37B4B290D03C800E485E3 /* HSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B37B3F290D03C800E485E3 /* HSL.swift */; };
 		64B37B4C290D03C800E485E3 /* Arithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B37B40290D03C800E485E3 /* Arithmetic.swift */; };
 		64B37B4D290D03C800E485E3 /* GetRGBA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B37B41290D03C800E485E3 /* GetRGBA.swift */; };
@@ -359,6 +369,16 @@
 		64B2D436294494F3006B5524 /* TwitterMenuSideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterMenuSideMenu.swift; sourceTree = "<group>"; };
 		64B2D437294494F3006B5524 /* TwitterMenuHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterMenuHome.swift; sourceTree = "<group>"; };
 		64B2D43C29449BA5006B5524 /* TwitterShapeAnimationContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterShapeAnimationContentView.swift; sourceTree = "<group>"; };
+		64B2D4402944A4EF006B5524 /* SpotifyResponvieUIAlbum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotifyResponvieUIAlbum.swift; sourceTree = "<group>"; };
+		64B2D4422944A4EF006B5524 /* SpotifyResponvieUIOffsetModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotifyResponvieUIOffsetModifier.swift; sourceTree = "<group>"; };
+		64B2D4432944A4EF006B5524 /* SpotifyResponvieUIHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotifyResponvieUIHome.swift; sourceTree = "<group>"; };
+		64B2D4492944A80A006B5524 /* StaggeredGridPost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaggeredGridPost.swift; sourceTree = "<group>"; };
+		64B2D44B2944A80A006B5524 /* StaggeredGridHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaggeredGridHome.swift; sourceTree = "<group>"; };
+		64B2D44C2944A80A006B5524 /* StaggeredGridStaggeredGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaggeredGridStaggeredGrid.swift; sourceTree = "<group>"; };
+		64B2D4682944B54A006B5524 /* OnBoardingAnimationBoardingScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnBoardingAnimationBoardingScreen.swift; sourceTree = "<group>"; };
+		64B2D46A2944B54B006B5524 /* OnBoardingAnimationOffsetPageTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnBoardingAnimationOffsetPageTabView.swift; sourceTree = "<group>"; };
+		64B2D46B2944B54B006B5524 /* OnBoardingAnimationOnBoarding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnBoardingAnimationOnBoarding.swift; sourceTree = "<group>"; };
+		64B2D46D2944B54B006B5524 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		64B37B3F290D03C800E485E3 /* HSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSL.swift; sourceTree = "<group>"; };
 		64B37B40290D03C800E485E3 /* Arithmetic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Arithmetic.swift; sourceTree = "<group>"; };
 		64B37B41290D03C800E485E3 /* GetRGBA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetRGBA.swift; sourceTree = "<group>"; };
@@ -1277,6 +1297,93 @@
 			path = TwiterMenuView/TwitterShapeAnimation;
 			sourceTree = "<group>";
 		};
+		64B2D43E2944A4DE006B5524 /* SpotifyResponvieUI */ = {
+			isa = PBXGroup;
+			children = (
+				64B2D43F2944A4EF006B5524 /* Model */,
+				64B2D4412944A4EF006B5524 /* View */,
+			);
+			path = SpotifyResponvieUI;
+			sourceTree = "<group>";
+		};
+		64B2D43F2944A4EF006B5524 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				64B2D4402944A4EF006B5524 /* SpotifyResponvieUIAlbum.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		64B2D4412944A4EF006B5524 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64B2D4422944A4EF006B5524 /* SpotifyResponvieUIOffsetModifier.swift */,
+				64B2D4432944A4EF006B5524 /* SpotifyResponvieUIHome.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		64B2D4472944A7C3006B5524 /* StaggeredGrid */ = {
+			isa = PBXGroup;
+			children = (
+				64B2D4482944A80A006B5524 /* Model */,
+				64B2D44A2944A80A006B5524 /* View */,
+			);
+			path = StaggeredGrid;
+			sourceTree = "<group>";
+		};
+		64B2D4482944A80A006B5524 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				64B2D4492944A80A006B5524 /* StaggeredGridPost.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		64B2D44A2944A80A006B5524 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64B2D44B2944A80A006B5524 /* StaggeredGridHome.swift */,
+				64B2D44C2944A80A006B5524 /* StaggeredGridStaggeredGrid.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		64B2D4502944AC82006B5524 /* OnBoardingAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				64B2D46C2944B54B006B5524 /* Helpers */,
+				64B2D4672944B54A006B5524 /* Model */,
+				64B2D4692944B54B006B5524 /* View */,
+			);
+			path = OnBoardingAnimation;
+			sourceTree = "<group>";
+		};
+		64B2D4672944B54A006B5524 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				64B2D4682944B54A006B5524 /* OnBoardingAnimationBoardingScreen.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		64B2D4692944B54B006B5524 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64B2D46A2944B54B006B5524 /* OnBoardingAnimationOffsetPageTabView.swift */,
+				64B2D46B2944B54B006B5524 /* OnBoardingAnimationOnBoarding.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		64B2D46C2944B54B006B5524 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				64B2D46D2944B54B006B5524 /* Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		64B37B3D290D038E00E485E3 /* ColorsExtensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -1652,6 +1759,7 @@
 				64B37B3D290D038E00E485E3 /* ColorsExtensions */,
 				64B37B5D290D31AC00E485E3 /* MotionDepthEffect */,
 				64554649290BC3A600205AD3 /* NetflixSplashScreen */,
+				64B2D4502944AC82006B5524 /* OnBoardingAnimation */,
 				64B17429290BBF21001DD5A8 /* LottieRatingBar */,
 				64B17424290BB854001DD5A8 /* Pencil */,
 				64B17416290BADCC001DD5A8 /* 3DCardAnimation */,
@@ -1660,7 +1768,9 @@
 				6482DB942934FF1C00F8B04D /* MinimalAnimation */,
 				64E7FCB829067D6B00D6AA9A /* ParallaxCards */,
 				64E7FCB22906742E00D6AA9A /* 3DShoeApp */,
+				64B2D4472944A7C3006B5524 /* StaggeredGrid */,
 				64E7FC9E29066CF300D6AA9A /* ShoeUI */,
+				64B2D43E2944A4DE006B5524 /* SpotifyResponvieUI */,
 				64E7FC9729065A1200D6AA9A /* ScrollIndicator */,
 				64B2D43B29449B81006B5524 /* TwitterShapeAnimation */,
 				64B2D433294494D5006B5524 /* TwiterMenuView */,
@@ -2196,6 +2306,7 @@
 				64B2D42B29447F77006B5524 /* TimerDemoHome.swift in Sources */,
 				64E7FC962906080A00D6AA9A /* AppModel.swift in Sources */,
 				64AA3803292470700094442B /* WalletAnimationExpense.swift in Sources */,
+				64B2D44F2944A80A006B5524 /* StaggeredGridStaggeredGrid.swift in Sources */,
 				64CD006729441EAF00758CA9 /* Wheel_SpinnerOption.swift in Sources */,
 				64195823290CE46100B28259 /* MapView.swift in Sources */,
 				64195811290CE46100B28259 /* GraphCapsule.swift in Sources */,
@@ -2204,11 +2315,13 @@
 				640517AE29093B470088AB0F /* BoomerangCardsHome.swift in Sources */,
 				6419581B290CE46100B28259 /* LandmarkRow.swift in Sources */,
 				64B37B64290D341600E485E3 /* MotionDepthEffectHome.swift in Sources */,
+				64B2D4712944B54B006B5524 /* Extensions.swift in Sources */,
 				64FE8F1A293CFA0200AFB62C /* TaskManagementCoreData.xcdatamodeld in Sources */,
 				64CEB3C92918CB1C00C38D56 /* AnimatedHeaderView.swift in Sources */,
 				64B37B4F290D03C800E485E3 /* RGB.swift in Sources */,
 				64B2D41529444773006B5524 /* VPNUI2Rings.swift in Sources */,
 				64195819290CE46100B28259 /* LandmarkList.swift in Sources */,
+				64B2D44E2944A80A006B5524 /* StaggeredGridHome.swift in Sources */,
 				64B2D41429444773006B5524 /* VPNUI2Home.swift in Sources */,
 				6419581F290CE46100B28259 /* CategoryItem.swift in Sources */,
 				64CD005629441AEB00758CA9 /* Forecast.swift in Sources */,
@@ -2245,16 +2358,21 @@
 				64195818290CE46100B28259 /* PageView.swift in Sources */,
 				64E7FCBE29067DB100D6AA9A /* ParallaxCardsHome.swift in Sources */,
 				64B2D420294477B7006B5524 /* TripAdvisorSpalshHome.swift in Sources */,
+				64B2D46E2944B54B006B5524 /* OnBoardingAnimationBoardingScreen.swift in Sources */,
 				64CEB3B72916662300C38D56 /* AnimatedIndicator2Content.swift in Sources */,
 				64D5661429421085004DE474 /* DrawerMenuButton.swift in Sources */,
 				6419582F290CE46100B28259 /* Landmark.swift in Sources */,
+				64B2D4462944A4EF006B5524 /* SpotifyResponvieUIHome.swift in Sources */,
+				64B2D4702944B54B006B5524 /* OnBoardingAnimationOnBoarding.swift in Sources */,
 				64F35457290B2C380072AA8B /* AnimatedTabIconsMainView.swift in Sources */,
 				64E7FC8F290606F900D6AA9A /* BookAppAnimationHome.swift in Sources */,
+				64B2D46F2944B54B006B5524 /* OnBoardingAnimationOffsetPageTabView.swift in Sources */,
 				64B2D43229448B26006B5524 /* ToolBarAnimationTool.swift in Sources */,
 				64B2D42429447ACC006B5524 /* TouchAnimationHome.swift in Sources */,
 				64195816290CE46100B28259 /* PageControl.swift in Sources */,
 				64FE8F19293CFA0200AFB62C /* TaskManagementCoreDataContentView.swift in Sources */,
 				64CD005A29441AEB00758CA9 /* WeatherAppScrollingWeatherDataView.swift in Sources */,
+				64B2D44D2944A80A006B5524 /* StaggeredGridPost.swift in Sources */,
 				64B37B4D290D03C800E485E3 /* GetRGBA.swift in Sources */,
 				64E7FCA929066D2D00D6AA9A /* DetailView.swift in Sources */,
 				64CD006429441EAF00758CA9 /* Wheel_SpinnerHomeViewModel.swift in Sources */,
@@ -2268,6 +2386,7 @@
 				64D5661629421085004DE474 /* DrawerHome.swift in Sources */,
 				64B1741B290BADDF001DD5A8 /* DCardAnimationAlbum.swift in Sources */,
 				64F35456290B2C370072AA8B /* Tab.swift in Sources */,
+				64B2D4452944A4EF006B5524 /* SpotifyResponvieUIOffsetModifier.swift in Sources */,
 				64195824290CE46100B28259 /* CircleImage.swift in Sources */,
 				6482DB932934FB9200F8B04D /* TaskAnimationCustomDatePicker.swift in Sources */,
 				64195826290CE46100B28259 /* HikeBadge.swift in Sources */,
@@ -2306,6 +2425,7 @@
 				64195812290CE46100B28259 /* HikeGraph.swift in Sources */,
 				64E7FC9B29065A5200D6AA9A /* ScrollIndicatorHome.swift in Sources */,
 				64E7FCC129067DC400D6AA9A /* MotionManager.swift in Sources */,
+				64B2D4442944A4EF006B5524 /* SpotifyResponvieUIAlbum.swift in Sources */,
 				6482DB912934FB9200F8B04D /* TaskAnimationHome.swift in Sources */,
 				64D5661829421085004DE474 /* DrawerFavourites.swift in Sources */,
 				64D5661B29421085004DE474 /* DrawerMenuModel.swift in Sources */,

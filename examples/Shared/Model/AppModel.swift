@@ -42,10 +42,13 @@ enum SwiftUIApps: String, CaseIterable, Identifiable{
     case motionDepthEffectHome = "MotionDepthEffectHome"
     case markdownHome = "markdownHome"
     case netflixSplashScreen = "NetflixSplashScreen"
+    case onBoardingAnimationOnBoarding = "OnBoardingAnimationOnBoarding(帮助引导页面,例子无法展示，预览能展示)"
     case parallaxCards = "ParallaxCardsHome"
     case pencilHome = "PencilHome"
+    case staggeredGridHome = "StaggeredGridHome(自定义瀑布流)"
     case scrollIndicator = "scrollIndicatorHome"
     case shoeUI = "shoeUIHome"
+    case spotifyResponvieUIHome = "SpotifyResponvieUIHome"
     case twitterShapeAnimationContentView = "TwitterShapeAnimationContentView"
     case twitterMenuBaseView = "TwitterMenuHome"
     case toolBarAnimationHome = "ToolBarAnimationHome"
@@ -71,6 +74,14 @@ enum SwiftUIApps: String, CaseIterable, Identifiable{
     @ViewBuilder
     func appHome()-> some View {
         switch self {
+        case .onBoardingAnimationOnBoarding:
+            OnBoardingAnimationOnBoarding()
+        case .staggeredGridHome:
+            StaggeredGridHome()
+        case .spotifyResponvieUIHome:
+            SpotifyResponvieUIHome()
+            // MARK: Always Dark Mode
+                .preferredColorScheme(.dark)
         case .twitterShapeAnimationContentView:
             TwitterShapeAnimationContentView()
         case .twitterMenuBaseView:
