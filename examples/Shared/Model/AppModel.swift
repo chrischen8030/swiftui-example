@@ -28,11 +28,16 @@ enum SwiftUIApps: String, CaseIterable, Identifiable{
     case bookAppAnimation = "bookAppAnimationHome"
     case breatheAnimation = "BreatheAnimationHome"
     case boomerangCardsHome = "BoomerangCardsHome"
+    case coverFlowHome = "CoverFlowHome"
     case colorsExtensionsHome = "ColorsExtensionsHome"
+    case customHeaderHome = "CustomHeaderHome"
     case canvasHome = "CanvasHome"
+    case customHUDsContentView = "CustomHUDsContentView(因为getRootController问题效果没出来)"
+    case coursesAppContentView = "CoursesAppContentView(底部悬浮tab首页)"
     case canvasEditorHome = "CanvasEditorHome"
     case customMenuSideMainView = "CustomMenuSideMainView(侧边栏)"
     case circleWalletHome = "CircleWalletHome"
+    case customDropDwonContentView = "CustomDropDwonContentView"
     case drawerHome = "DrawerHome(左侧边栏)"
     case dcardAnimationHome = "DCardAnimationHome"
     case heroCarouselHome = "HeroCarouselHome"
@@ -74,6 +79,16 @@ enum SwiftUIApps: String, CaseIterable, Identifiable{
     @ViewBuilder
     func appHome()-> some View {
         switch self {
+        case .coverFlowHome:
+            CoverFlowHome()
+        case .coursesAppContentView:
+            CoursesAppContentView()
+        case .customHUDsContentView:
+            CustomHUDsContentView()
+        case .customHeaderHome:
+            CustomHeaderHome()
+        case .customDropDwonContentView:
+            CustomDropDwonContentView()
         case .onBoardingAnimationOnBoarding:
             OnBoardingAnimationOnBoarding()
         case .staggeredGridHome:
