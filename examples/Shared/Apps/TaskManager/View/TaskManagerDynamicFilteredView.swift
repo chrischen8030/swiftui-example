@@ -56,7 +56,7 @@ struct TaskManagerDynamicFilteredView<Content: View,T>: View where T: NSManagedO
         }
         // Intializing Request With NSPredicate
         // Adding Sort
-        _request = FetchRequest(entity: T.entity(), sortDescriptors: [.init(keyPath: \Task.deadline, ascending: false)], predicate: predicate)
+        _request = FetchRequest(entity: T.entity(), sortDescriptors: [.init(keyPath: \TaskManagerTask.deadline, ascending: false)], predicate: predicate)
         self.content = content
     }
     

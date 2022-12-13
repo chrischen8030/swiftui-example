@@ -38,6 +38,7 @@ enum SwiftUIApps: String, CaseIterable, Identifiable{
     case customMenuSideMainView = "CustomMenuSideMainView(侧边栏)"
     case circleWalletHome = "CircleWalletHome"
     case customDropDwonContentView = "CustomDropDwonContentView"
+    case cryptoAppAppHome = "CryptoAppAppHome(K线图)"
     case drawerHome = "DrawerHome(左侧边栏)"
     case dcardAnimationHome = "DCardAnimationHome"
     case heroCarouselHome = "HeroCarouselHome"
@@ -79,6 +80,9 @@ enum SwiftUIApps: String, CaseIterable, Identifiable{
     @ViewBuilder
     func appHome()-> some View {
         switch self {
+        case .cryptoAppAppHome:
+            CryptoAppAppHome()
+                .preferredColorScheme(.dark)
         case .coverFlowHome:
             CoverFlowHome()
         case .coursesAppContentView:

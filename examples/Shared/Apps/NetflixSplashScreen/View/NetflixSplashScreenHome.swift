@@ -65,9 +65,3 @@ struct NetflixSplashScreenHome: View {
         .padding()
     }
 }
-
-struct Home_Previews: PreviewProvider {
-    static var previews: some View {
-        NetflixSplashScreenHome()
-    }
-}

@@ -20,16 +20,16 @@ class TaskManagerTaskViewModel: ObservableObject {
     @Published var showDatePicker: Bool = false
     
     // MARK: Editing Existing Task Data
-    @Published var editTask: Task?
+    @Published var editTask: TaskManagerTask?
     
     // MARK: Adding Task To Core Data
     func addTask(context: NSManagedObjectContext)->Bool{
         // MARK: Updating Existing Data in Core Data
-        var task: Task!
+        var task: TaskManagerTask!
         if let editTask = editTask {
             task = editTask
         }else{
-            task = Task(context: context)
+            task = TaskManagerTask(context: context)
         }
         task.title = taskTitle
         task.color = taskColor

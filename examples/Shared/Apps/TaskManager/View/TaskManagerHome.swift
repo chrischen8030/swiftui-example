@@ -13,7 +13,7 @@ struct TaskManagerHome: View {
     @Namespace var animation
     
     // MARK: Fetching Task
-    @FetchRequest(entity: Task.entity(), sortDescriptors: [NSSortDescriptor(keyPath: \Task.deadline, ascending: false)], predicate: nil, animation: .easeInOut) var tasks: FetchedResults<Task>
+    @FetchRequest(entity: TaskManagerTask.entity(), sortDescriptors: [NSSortDescriptor(keyPath: \TaskManagerTask.deadline, ascending: false)], predicate: nil, animation: .easeInOut) var tasks: FetchedResults<TaskManagerTask>
     
     // MARK: Environment Values
     @Environment(\.self) var env
@@ -83,7 +83,7 @@ struct TaskManagerHome: View {
             // MARK: Custom Filtered Request View
             // See My Dynamic Filter Video
             // Link in Description
-            TaskManagerDynamicFilteredView(currentTab: taskModel.currentTab) { (task: Task) in
+            TaskManagerDynamicFilteredView(currentTab: taskModel.currentTab) { (task: TaskManagerTask) in
                 TaskRowView(task: task)
             }
         }
@@ -92,7 +92,7 @@ struct TaskManagerHome: View {
     
     // MARK: Task Row View
     @ViewBuilder
-    func TaskRowView(task: Task)->some View{
+    func TaskRowView(task: TaskManagerTask)->some View{
         VStack(alignment: .leading, spacing: 10) {
             HStack{
                 Text(task.type ?? "")
