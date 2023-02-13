@@ -37,3 +37,14 @@ struct AnimatedHeaderCardView: View {
         .padding(.horizontal)
     }
 }
+
+
+//struct AnimatedHeaderCardView_Previews: PreviewProvider {
+//    @StateObject static var homeData = AnimatedHeaderHomeViewModel()
+//    static var previews: some View {
+//        VStack {
+//            AnimatedHeaderCardView()
+//                .environmentObject(homeData)
+//        }
+//    }
+//}

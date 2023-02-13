@@ -25,9 +25,14 @@ enum SwiftUIApps: String, CaseIterable, Identifiable{
     case advancedAnimationHome = "AdvancedAnimationHome"
     case animatedTabIconsMainView = "AnimatedTabIconsMainView"
     case autoSizingTFHome = "autoSizingTFHome(自动放大输入框)"
+    case boardingAnimationHome = "BoardingAnimationHome"
+    case bottomSheetContentView = "BottomSheetContentView"
+    case bottomSheetNewHome = "BottomSheetNewHome"
     case bookAppAnimation = "bookAppAnimationHome"
     case breatheAnimation = "BreatheAnimationHome"
     case boomerangCardsHome = "BoomerangCardsHome"
+    case chipsContentView = "ChipsContentView(添加tag）"
+    case carouselHome = "CarouselHome(电影移动）"
     case coverFlowHome = "CoverFlowHome"
     case colorsExtensionsHome = "ColorsExtensionsHome"
     case customHeaderHome = "CustomHeaderHome"
@@ -43,6 +48,7 @@ enum SwiftUIApps: String, CaseIterable, Identifiable{
     case dcardAnimationHome = "DCardAnimationHome"
     case heroCarouselHome = "HeroCarouselHome"
     case lottieRatingBar = "lottieRatingBar"
+    case loginPageContentView = "LoginPageContentView"
     case minimalAnimationContentView = "MinimalAnimationContentView(运动首页)"
     case matchedCarouselHome = "MatchedCarouselHome"
     case motionDepthEffectHome = "MotionDepthEffectHome"
@@ -80,6 +86,18 @@ enum SwiftUIApps: String, CaseIterable, Identifiable{
     @ViewBuilder
     func appHome()-> some View {
         switch self {
+        case .chipsContentView:
+            ChipsContentView()
+        case .carouselHome:
+            CarouselHome()
+        case .boardingAnimationHome:
+            BoardingAnimationHome()
+        case .bottomSheetContentView:
+            BottomSheetContentView()
+        case .bottomSheetNewHome:
+            BottomSheetNewHome()
+        case .loginPageContentView:
+            LoginPageContentView()
         case .cryptoAppAppHome:
             CryptoAppAppHome()
                 .preferredColorScheme(.dark)
@@ -219,5 +237,12 @@ enum SwiftUIApps: String, CaseIterable, Identifiable{
             CircleWalletHome()
         }
         
+    }
+}
+
+
+struct A_ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
     }
 }

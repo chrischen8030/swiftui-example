@@ -24,6 +24,7 @@ struct AnimatedHeaderHome: View {
                 
                 GeometryReader{reader -> AnyView in
                     
+                    
                     let offset = reader.frame(in: .global).minY
                     
                     if -offset >= 0{
@@ -31,6 +32,8 @@ struct AnimatedHeaderHome: View {
                             self.homeData.offset = -offset
                         }
                     }
+                    
+                    print("offset:\(offset)")
                     
                     return AnyView(
                     

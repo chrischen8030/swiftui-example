@@ -134,3 +134,14 @@ struct AnimatedHeaderView: View {
         }
     }
 }
+
+
+struct AnimatedHeaderView_Previews: PreviewProvider {
+    @StateObject static var homeData = AnimatedHeaderHomeViewModel()
+    static var previews: some View {
+        VStack {
+            AnimatedHeaderView()
+                .environmentObject(homeData)
+        }
+    }
+}

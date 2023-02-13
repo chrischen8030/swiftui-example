@@ -64,11 +64,31 @@
 		645927C22905F79B00BA55BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645927982905F79A00BA55BE /* ContentView.swift */; };
 		645927C32905F79B00BA55BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 645927992905F79B00BA55BE /* Assets.xcassets */; };
 		645927C42905F79B00BA55BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 645927992905F79B00BA55BE /* Assets.xcassets */; };
+		645D9627297F780600679AF6 /* WeatherReportContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645D9626297F780600679AF6 /* WeatherReportContentView.swift */; };
+		645D962A297F786100679AF6 /* WeatherForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645D9629297F786100679AF6 /* WeatherForecast.swift */; };
+		645D962C297F787200679AF6 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645D962B297F787200679AF6 /* WeatherViewModel.swift */; };
+		645D962E297F788100679AF6 /* WeatherForecastRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645D962D297F788100679AF6 /* WeatherForecastRequest.swift */; };
+		645D9630297F788E00679AF6 /* BaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645D962F297F788E00679AF6 /* BaseRequest.swift */; };
+		645D9632297F789700679AF6 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645D9631297F789700679AF6 /* ApiClient.swift */; };
+		6476C62F294ED07B00B3F699 /* BottomSheetNewCustomCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6476C62C294ED07B00B3F699 /* BottomSheetNewCustomCorner.swift */; };
+		6476C630294ED07B00B3F699 /* BottomSheetNewHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6476C62D294ED07B00B3F699 /* BottomSheetNewHome.swift */; };
+		6476C631294ED07B00B3F699 /* BottomSheetNewBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6476C62E294ED07B00B3F699 /* BottomSheetNewBlurView.swift */; };
+		6476C634294ED32200B3F699 /* BottomSheetContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6476C633294ED32200B3F699 /* BottomSheetContentView.swift */; };
+		6476C63A294ED75100B3F699 /* BoardingAnimationHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6476C637294ED75100B3F699 /* BoardingAnimationHome.swift */; };
+		6476C63B294ED75100B3F699 /* TextAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6476C639294ED75100B3F699 /* TextAnimation.swift */; };
+		6476C645294EDDE700B3F699 /* CarouselForYou.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6476C63F294EDDE700B3F699 /* CarouselForYou.swift */; };
+		6476C646294EDDE700B3F699 /* CarouselCustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6476C640294EDDE700B3F699 /* CarouselCustomTabBar.swift */; };
+		6476C647294EDDE700B3F699 /* CarouselVerticalCarouselList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6476C641294EDDE700B3F699 /* CarouselVerticalCarouselList.swift */; };
+		6476C648294EDDE700B3F699 /* CarouselHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6476C642294EDDE700B3F699 /* CarouselHome.swift */; };
+		6476C649294EDDE700B3F699 /* CarouselMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6476C644294EDDE700B3F699 /* CarouselMovie.swift */; };
+		6476C64C294EEBFE00B3F699 /* ChipsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6476C64B294EEBFE00B3F699 /* ChipsContentView.swift */; };
 		647EB51529284826003A2336 /* HeroCarouselCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647EB50E29284825003A2336 /* HeroCarouselCard.swift */; };
 		647EB51629284826003A2336 /* HeroCarouselCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647EB51029284826003A2336 /* HeroCarouselCardView.swift */; };
 		647EB51729284826003A2336 /* HeroCarouselHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647EB51129284826003A2336 /* HeroCarouselHome.swift */; };
 		647EB51829284826003A2336 /* HeroCarouselDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647EB51229284826003A2336 /* HeroCarouselDetailView.swift */; };
 		647EB51929284826003A2336 /* HeroCarouselViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647EB51429284826003A2336 /* HeroCarouselViewModel.swift */; };
+		6480C3DB2999CCD00055007D /* ViewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6480C3DA2999CCD00055007D /* ViewsModel.swift */; };
+		6480C3DD2999CE350055007D /* FormDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6480C3DC2999CE350055007D /* FormDemo.swift */; };
 		6482DB822934F23300F8B04D /* MatchedCarouselHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6482DB7E2934F23300F8B04D /* MatchedCarouselHome.swift */; };
 		6482DB832934F23300F8B04D /* MatchedCarouselCarouselBodyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6482DB7F2934F23300F8B04D /* MatchedCarouselCarouselBodyView.swift */; };
 		6482DB842934F23300F8B04D /* MatchedCarouselScrollViewOffsetModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6482DB802934F23300F8B04D /* MatchedCarouselScrollViewOffsetModifier.swift */; };
@@ -232,6 +252,7 @@
 		64F8AA6C294927F200C3F5D5 /* CryptoAppAppCryptoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F8AA67294927F100C3F5D5 /* CryptoAppAppCryptoModel.swift */; };
 		64F8AA6D294927F200C3F5D5 /* CryptoAppAppHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F8AA69294927F100C3F5D5 /* CryptoAppAppHome.swift */; };
 		64F8AA6E294927F200C3F5D5 /* CryptoAppAppLineGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F8AA6A294927F100C3F5D5 /* CryptoAppAppLineGraph.swift */; };
+		64F8AA712949E50600C3F5D5 /* LoginPageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F8AA702949E50600C3F5D5 /* LoginPageContentView.swift */; };
 		64FE8EEF293CEE4C00AFB62C /* TaskManagerAddNewTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FE8EEA293CEE4C00AFB62C /* TaskManagerAddNewTask.swift */; };
 		64FE8EF0293CEE4C00AFB62C /* TaskManagerHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FE8EEB293CEE4C00AFB62C /* TaskManagerHome.swift */; };
 		64FE8EF1293CEE4C00AFB62C /* TaskManagerDynamicFilteredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FE8EEC293CEE4C00AFB62C /* TaskManagerDynamicFilteredView.swift */; };
@@ -328,11 +349,31 @@
 		645927B72905F79B00BA55BE /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		645927BB2905F79B00BA55BE /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		645927BD2905F79B00BA55BE /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		645D9626297F780600679AF6 /* WeatherReportContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherReportContentView.swift; sourceTree = "<group>"; };
+		645D9629297F786100679AF6 /* WeatherForecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherForecast.swift; sourceTree = "<group>"; };
+		645D962B297F787200679AF6 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		645D962D297F788100679AF6 /* WeatherForecastRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherForecastRequest.swift; sourceTree = "<group>"; };
+		645D962F297F788E00679AF6 /* BaseRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRequest.swift; sourceTree = "<group>"; };
+		645D9631297F789700679AF6 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		6476C62C294ED07B00B3F699 /* BottomSheetNewCustomCorner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomSheetNewCustomCorner.swift; sourceTree = "<group>"; };
+		6476C62D294ED07B00B3F699 /* BottomSheetNewHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomSheetNewHome.swift; sourceTree = "<group>"; };
+		6476C62E294ED07B00B3F699 /* BottomSheetNewBlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomSheetNewBlurView.swift; sourceTree = "<group>"; };
+		6476C633294ED32200B3F699 /* BottomSheetContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomSheetContentView.swift; sourceTree = "<group>"; };
+		6476C637294ED75100B3F699 /* BoardingAnimationHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardingAnimationHome.swift; sourceTree = "<group>"; };
+		6476C639294ED75100B3F699 /* TextAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextAnimation.swift; sourceTree = "<group>"; };
+		6476C63F294EDDE700B3F699 /* CarouselForYou.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselForYou.swift; sourceTree = "<group>"; };
+		6476C640294EDDE700B3F699 /* CarouselCustomTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselCustomTabBar.swift; sourceTree = "<group>"; };
+		6476C641294EDDE700B3F699 /* CarouselVerticalCarouselList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselVerticalCarouselList.swift; sourceTree = "<group>"; };
+		6476C642294EDDE700B3F699 /* CarouselHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselHome.swift; sourceTree = "<group>"; };
+		6476C644294EDDE700B3F699 /* CarouselMovie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselMovie.swift; sourceTree = "<group>"; };
+		6476C64B294EEBFE00B3F699 /* ChipsContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChipsContentView.swift; sourceTree = "<group>"; };
 		647EB50E29284825003A2336 /* HeroCarouselCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroCarouselCard.swift; sourceTree = "<group>"; };
 		647EB51029284826003A2336 /* HeroCarouselCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroCarouselCardView.swift; sourceTree = "<group>"; };
 		647EB51129284826003A2336 /* HeroCarouselHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroCarouselHome.swift; sourceTree = "<group>"; };
 		647EB51229284826003A2336 /* HeroCarouselDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroCarouselDetailView.swift; sourceTree = "<group>"; };
 		647EB51429284826003A2336 /* HeroCarouselViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroCarouselViewModel.swift; sourceTree = "<group>"; };
+		6480C3DA2999CCD00055007D /* ViewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsModel.swift; sourceTree = "<group>"; };
+		6480C3DC2999CE350055007D /* FormDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormDemo.swift; sourceTree = "<group>"; };
 		6482DB7E2934F23300F8B04D /* MatchedCarouselHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchedCarouselHome.swift; sourceTree = "<group>"; };
 		6482DB7F2934F23300F8B04D /* MatchedCarouselCarouselBodyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchedCarouselCarouselBodyView.swift; sourceTree = "<group>"; };
 		6482DB802934F23300F8B04D /* MatchedCarouselScrollViewOffsetModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchedCarouselScrollViewOffsetModifier.swift; sourceTree = "<group>"; };
@@ -497,6 +538,7 @@
 		64F8AA67294927F100C3F5D5 /* CryptoAppAppCryptoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CryptoAppAppCryptoModel.swift; sourceTree = "<group>"; };
 		64F8AA69294927F100C3F5D5 /* CryptoAppAppHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CryptoAppAppHome.swift; sourceTree = "<group>"; };
 		64F8AA6A294927F100C3F5D5 /* CryptoAppAppLineGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CryptoAppAppLineGraph.swift; sourceTree = "<group>"; };
+		64F8AA702949E50600C3F5D5 /* LoginPageContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPageContentView.swift; sourceTree = "<group>"; };
 		64FE8EEA293CEE4C00AFB62C /* TaskManagerAddNewTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManagerAddNewTask.swift; sourceTree = "<group>"; };
 		64FE8EEB293CEE4C00AFB62C /* TaskManagerHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManagerHome.swift; sourceTree = "<group>"; };
 		64FE8EEC293CEE4C00AFB62C /* TaskManagerDynamicFilteredView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManagerDynamicFilteredView.swift; sourceTree = "<group>"; };
@@ -823,6 +865,7 @@
 		645927962905F79A00BA55BE /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				6480C3D92999CC9F0055007D /* Views */,
 				64E7FCBA29067D8C00D6AA9A /* Fonts */,
 				64E7FCB0290673F700D6AA9A /* Assets */,
 				64E7FC94290607FB00D6AA9A /* Model */,
@@ -871,6 +914,130 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		645D9624297F77C600679AF6 /* WeatherReport */ = {
+			isa = PBXGroup;
+			children = (
+				645D9628297F781200679AF6 /* Models */,
+				645D9625297F77DC00679AF6 /* Views */,
+			);
+			path = WeatherReport;
+			sourceTree = "<group>";
+		};
+		645D9625297F77DC00679AF6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				645D9626297F780600679AF6 /* WeatherReportContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		645D9628297F781200679AF6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				645D9629297F786100679AF6 /* WeatherForecast.swift */,
+				645D962B297F787200679AF6 /* WeatherViewModel.swift */,
+				645D962D297F788100679AF6 /* WeatherForecastRequest.swift */,
+				645D962F297F788E00679AF6 /* BaseRequest.swift */,
+				645D9631297F789700679AF6 /* ApiClient.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6476C62A294ED05D00B3F699 /* BottomSheetNew */ = {
+			isa = PBXGroup;
+			children = (
+				6476C62B294ED07B00B3F699 /* View */,
+			);
+			path = BottomSheetNew;
+			sourceTree = "<group>";
+		};
+		6476C62B294ED07B00B3F699 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6476C62C294ED07B00B3F699 /* BottomSheetNewCustomCorner.swift */,
+				6476C62D294ED07B00B3F699 /* BottomSheetNewHome.swift */,
+				6476C62E294ED07B00B3F699 /* BottomSheetNewBlurView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6476C632294ED30000B3F699 /* BottomSheet */ = {
+			isa = PBXGroup;
+			children = (
+				6476C633294ED32200B3F699 /* BottomSheetContentView.swift */,
+			);
+			path = BottomSheet;
+			sourceTree = "<group>";
+		};
+		6476C635294ED73A00B3F699 /* BoardingAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				6476C638294ED75100B3F699 /* Model */,
+				6476C636294ED75100B3F699 /* View */,
+			);
+			path = BoardingAnimation;
+			sourceTree = "<group>";
+		};
+		6476C636294ED75100B3F699 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6476C637294ED75100B3F699 /* BoardingAnimationHome.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6476C638294ED75100B3F699 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6476C639294ED75100B3F699 /* TextAnimation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6476C63C294EDDCE00B3F699 /* Carousel */ = {
+			isa = PBXGroup;
+			children = (
+				6476C643294EDDE700B3F699 /* Model */,
+				6476C63D294EDDE700B3F699 /* View */,
+			);
+			path = Carousel;
+			sourceTree = "<group>";
+		};
+		6476C63D294EDDE700B3F699 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6476C63E294EDDE700B3F699 /* TabViews */,
+				6476C640294EDDE700B3F699 /* CarouselCustomTabBar.swift */,
+				6476C641294EDDE700B3F699 /* CarouselVerticalCarouselList.swift */,
+				6476C642294EDDE700B3F699 /* CarouselHome.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6476C63E294EDDE700B3F699 /* TabViews */ = {
+			isa = PBXGroup;
+			children = (
+				6476C63F294EDDE700B3F699 /* CarouselForYou.swift */,
+			);
+			path = TabViews;
+			sourceTree = "<group>";
+		};
+		6476C643294EDDE700B3F699 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6476C644294EDDE700B3F699 /* CarouselMovie.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6476C64A294EEBED00B3F699 /* Chips */ = {
+			isa = PBXGroup;
+			children = (
+				6476C64B294EEBFE00B3F699 /* ChipsContentView.swift */,
+			);
+			path = Chips;
+			sourceTree = "<group>";
+		};
 		647EB50C292847B8003A2336 /* HeroCarousel */ = {
 			isa = PBXGroup;
 			children = (
@@ -905,6 +1072,14 @@
 				647EB51429284826003A2336 /* HeroCarouselViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6480C3D92999CC9F0055007D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6480C3DC2999CE350055007D /* FormDemo.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		6482DB7B2934F21900F8B04D /* MatchedCarousel */ = {
@@ -1767,12 +1942,12 @@
 		64E7FC8A290606B800D6AA9A /* Apps */ = {
 			isa = PBXGroup;
 			children = (
-				64F8AA632949279B00C3F5D5 /* CryptoApp */,
-				64F8AA552949223A00C3F5D5 /* CoverFlow */,
-				64F8AA52294916E700C3F5D5 /* Courses */,
-				64F8AA4F2948B20900C3F5D5 /* CustomHUDs */,
-				64F8AA442948AE7900C3F5D5 /* CustomHeader */,
-				64F8AA412948AC0600C3F5D5 /* CustomDropDown */,
+				645D9624297F77C600679AF6 /* WeatherReport */,
+				6476C64A294EEBED00B3F699 /* Chips */,
+				6476C63C294EDDCE00B3F699 /* Carousel */,
+				6476C635294ED73A00B3F699 /* BoardingAnimation */,
+				6476C632294ED30000B3F699 /* BottomSheet */,
+				6476C62A294ED05D00B3F699 /* BottomSheetNew */,
 				64FFA64029333E8800922DF4 /* AutoSizingTF */,
 				64CEB3CC2918D87B00C38D56 /* AdvancedScroll */,
 				64CEB39629165BA700C38D56 /* Animations */,
@@ -1788,6 +1963,12 @@
 				6405179F29093A9A0088AB0F /* BoomerangCards */,
 				64051798290937F50088AB0F /* BreatheAnimation */,
 				64E7FC8B290606C300D6AA9A /* BookAppAnimation */,
+				64F8AA632949279B00C3F5D5 /* CryptoApp */,
+				64F8AA552949223A00C3F5D5 /* CoverFlow */,
+				64F8AA52294916E700C3F5D5 /* Courses */,
+				64F8AA4F2948B20900C3F5D5 /* CustomHUDs */,
+				64F8AA442948AE7900C3F5D5 /* CustomHeader */,
+				64F8AA412948AC0600C3F5D5 /* CustomDropDown */,
 				64FFA6432933439E00922DF4 /* CustomMenu_Side */,
 				64CEB3A2291660DC00C38D56 /* CanvasEditor */,
 				64CEB39E2916600D00C38D56 /* Canvas */,
@@ -1798,6 +1979,7 @@
 				64B37B5D290D31AC00E485E3 /* MotionDepthEffect */,
 				64554649290BC3A600205AD3 /* NetflixSplashScreen */,
 				64B2D4502944AC82006B5524 /* OnBoardingAnimation */,
+				64F8AA6F2949E4E900C3F5D5 /* LoginPage */,
 				64B17429290BBF21001DD5A8 /* LottieRatingBar */,
 				64B17424290BB854001DD5A8 /* Pencil */,
 				64B17416290BADCC001DD5A8 /* 3DCardAnimation */,
@@ -1863,6 +2045,7 @@
 			isa = PBXGroup;
 			children = (
 				64E7FC952906080A00D6AA9A /* AppModel.swift */,
+				6480C3DA2999CCD00055007D /* ViewsModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -2167,6 +2350,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		64F8AA6F2949E4E900C3F5D5 /* LoginPage */ = {
+			isa = PBXGroup;
+			children = (
+				64F8AA702949E50600C3F5D5 /* LoginPageContentView.swift */,
+			);
+			path = LoginPage;
+			sourceTree = "<group>";
+		};
 		64FE8EE8293CEC6700AFB62C /* TaskManager */ = {
 			isa = PBXGroup;
 			children = (
@@ -2467,6 +2658,7 @@
 				64B2D42B29447F77006B5524 /* TimerDemoHome.swift in Sources */,
 				64E7FC962906080A00D6AA9A /* AppModel.swift in Sources */,
 				64AA3803292470700094442B /* WalletAnimationExpense.swift in Sources */,
+				6476C63A294ED75100B3F699 /* BoardingAnimationHome.swift in Sources */,
 				64B2D44F2944A80A006B5524 /* StaggeredGridStaggeredGrid.swift in Sources */,
 				64CD006729441EAF00758CA9 /* Wheel_SpinnerOption.swift in Sources */,
 				64195823290CE46100B28259 /* MapView.swift in Sources */,
@@ -2475,6 +2667,7 @@
 				64E7FCA329066D2400D6AA9A /* Product.swift in Sources */,
 				640517AE29093B470088AB0F /* BoomerangCardsHome.swift in Sources */,
 				6419581B290CE46100B28259 /* LandmarkRow.swift in Sources */,
+				6476C631294ED07B00B3F699 /* BottomSheetNewBlurView.swift in Sources */,
 				64B37B64290D341600E485E3 /* MotionDepthEffectHome.swift in Sources */,
 				64B2D4712944B54B006B5524 /* Extensions.swift in Sources */,
 				64FE8F1A293CFA0200AFB62C /* TaskManagementCoreData.xcdatamodeld in Sources */,
@@ -2517,6 +2710,7 @@
 				64FFA64229333EA700922DF4 /* AutoSizingTFHome.swift in Sources */,
 				64B37B51290D03C800E485E3 /* HEX.swift in Sources */,
 				64F8AA432948AC1300C3F5D5 /* CustomDropDwonContentView.swift in Sources */,
+				645D962E297F788100679AF6 /* WeatherForecastRequest.swift in Sources */,
 				64FE8F1C293CFA0200AFB62C /* TaskManagementCoreDataTaskViewModel.swift in Sources */,
 				64F8AA5E2949226100C3F5D5 /* CoverFlowWebView.swift in Sources */,
 				640517AF29093B470088AB0F /* Card.swift in Sources */,
@@ -2526,10 +2720,12 @@
 				64B2D420294477B7006B5524 /* TripAdvisorSpalshHome.swift in Sources */,
 				64B2D46E2944B54B006B5524 /* OnBoardingAnimationBoardingScreen.swift in Sources */,
 				64CEB3B72916662300C38D56 /* AnimatedIndicator2Content.swift in Sources */,
+				6480C3DB2999CCD00055007D /* ViewsModel.swift in Sources */,
 				64D5661429421085004DE474 /* DrawerMenuButton.swift in Sources */,
 				6419582F290CE46100B28259 /* Landmark.swift in Sources */,
 				64B2D4462944A4EF006B5524 /* SpotifyResponvieUIHome.swift in Sources */,
 				64B2D4702944B54B006B5524 /* OnBoardingAnimationOnBoarding.swift in Sources */,
+				6476C63B294ED75100B3F699 /* TextAnimation.swift in Sources */,
 				64F35457290B2C380072AA8B /* AnimatedTabIconsMainView.swift in Sources */,
 				64E7FC8F290606F900D6AA9A /* BookAppAnimationHome.swift in Sources */,
 				64B2D46F2944B54B006B5524 /* OnBoardingAnimationOffsetPageTabView.swift in Sources */,
@@ -2546,11 +2742,13 @@
 				6419582D290CE46100B28259 /* Hike.swift in Sources */,
 				64B37B57290D03E000E485E3 /* ColorsExtensionsHome.swift in Sources */,
 				64E7FC932906071E00D6AA9A /* Book.swift in Sources */,
+				645D9627297F780600679AF6 /* WeatherReportContentView.swift in Sources */,
 				64B2D439294494F3006B5524 /* TwitterMenuSideMenu.swift in Sources */,
 				64CEB3A12916602100C38D56 /* CanvasHome.swift in Sources */,
 				64FE8F18293CFA0200AFB62C /* TaskManagementCoreDataDynamicFilteredView.swift in Sources */,
 				6419581D290CE46100B28259 /* ProfileEditor.swift in Sources */,
 				64D5661629421085004DE474 /* DrawerHome.swift in Sources */,
+				645D962A297F786100679AF6 /* WeatherForecast.swift in Sources */,
 				64B1741B290BADDF001DD5A8 /* DCardAnimationAlbum.swift in Sources */,
 				64F35456290B2C370072AA8B /* Tab.swift in Sources */,
 				64B2D4452944A4EF006B5524 /* SpotifyResponvieUIOffsetModifier.swift in Sources */,
@@ -2558,13 +2756,18 @@
 				6482DB932934FB9200F8B04D /* TaskAnimationCustomDatePicker.swift in Sources */,
 				64195826290CE46100B28259 /* HikeBadge.swift in Sources */,
 				64B17422290BB547001DD5A8 /* Food.swift in Sources */,
+				64F8AA712949E50600C3F5D5 /* LoginPageContentView.swift in Sources */,
+				645D9632297F789700679AF6 /* ApiClient.swift in Sources */,
 				64FE8EF2293CEE4C00AFB62C /* TaskManagerTaskViewModel.swift in Sources */,
 				64B2D421294477B7006B5524 /* TripAdvisorSplashScreen.swift in Sources */,
 				64CD005C29441AEB00758CA9 /* WeatherAppScrollingCustomCorner.swift in Sources */,
 				64B2D419294474EE006B5524 /* TravelUIContentView.swift in Sources */,
 				64CEB3C62918CB1C00C38D56 /* AnimatedHeaderHomeViewModel.swift in Sources */,
 				6482DB8E2934FB9200F8B04D /* TaskAnimationDateValue.swift in Sources */,
+				6480C3DD2999CE350055007D /* FormDemo.swift in Sources */,
 				647EB51929284826003A2336 /* HeroCarouselViewModel.swift in Sources */,
+				6476C645294EDDE700B3F699 /* CarouselForYou.swift in Sources */,
+				6476C62F294ED07B00B3F699 /* BottomSheetNewCustomCorner.swift in Sources */,
 				645927BF2905F79B00BA55BE /* examplesApp.swift in Sources */,
 				6482DBA02934FF3C00F8B04D /* MinimalAnimationFitnessStepsGraphView.swift in Sources */,
 				6482DB832934F23300F8B04D /* MatchedCarouselCarouselBodyView.swift in Sources */,
@@ -2578,9 +2781,11 @@
 				64F8AA612949226100C3F5D5 /* CoverFlowPageViewModel.swift in Sources */,
 				6455464E290BC3CD00205AD3 /* NetflixSplashScreen.swift in Sources */,
 				64B17427290BB874001DD5A8 /* PencilHome.swift in Sources */,
+				6476C634294ED32200B3F699 /* BottomSheetContentView.swift in Sources */,
 				64B1741C290BADDF001DD5A8 /* DCardAnimationHome.swift in Sources */,
 				64E7FCA829066D2D00D6AA9A /* ShoeUIBaseView.swift in Sources */,
 				64FFA64D2933460100922DF4 /* CustomSideMenu.swift in Sources */,
+				6476C648294EDDE700B3F699 /* CarouselHome.swift in Sources */,
 				64D5661929421085004DE474 /* DrawerOrders.swift in Sources */,
 				64CD006529441EAF00758CA9 /* Wheel_SpinnerFunctionButton.swift in Sources */,
 				6482DBA12934FF3C00F8B04D /* MinimalAnimationFitnessRingCardView.swift in Sources */,
@@ -2596,6 +2801,7 @@
 				64B2D4442944A4EF006B5524 /* SpotifyResponvieUIAlbum.swift in Sources */,
 				6482DB912934FB9200F8B04D /* TaskAnimationHome.swift in Sources */,
 				64D5661829421085004DE474 /* DrawerFavourites.swift in Sources */,
+				6476C647294EDDE700B3F699 /* CarouselVerticalCarouselList.swift in Sources */,
 				64D5661B29421085004DE474 /* DrawerMenuModel.swift in Sources */,
 				6482DB9E2934FF3C00F8B04D /* MinimalAnimationRing.swift in Sources */,
 				64CEB3CB2918CB1C00C38D56 /* AnimatedHeaderFood.swift in Sources */,
@@ -2607,6 +2813,7 @@
 				6419581A290CE46100B28259 /* LandmarkDetail.swift in Sources */,
 				64195815290CE46100B28259 /* FeatureCard.swift in Sources */,
 				64AA37FB29245E910094442B /* WaterWaveHome.swift in Sources */,
+				6476C630294ED07B00B3F699 /* BottomSheetNewHome.swift in Sources */,
 				64F8AA622949226100C3F5D5 /* CoverFlowPage.swift in Sources */,
 				6482DB8F2934FB9200F8B04D /* TaskAnimationUser.swift in Sources */,
 				64CEB39D29165BF800C38D56 /* AnimationsHome.swift in Sources */,
@@ -2621,9 +2828,11 @@
 				64E7FC9D29065A6900D6AA9A /* Character.swift in Sources */,
 				64195817290CE46100B28259 /* PageViewController.swift in Sources */,
 				6482DB9F2934FF3C00F8B04D /* MinimalAnimationHome.swift in Sources */,
+				6476C64C294EEBFE00B3F699 /* ChipsContentView.swift in Sources */,
 				64CD006629441EAF00758CA9 /* Wheel_SpinnerHome.swift in Sources */,
 				64FE8F16293CFA0200AFB62C /* TaskManagementCoreDataHome.swift in Sources */,
 				6455464D290BC3CD00205AD3 /* NetflixSplashScreenHome.swift in Sources */,
+				645D962C297F787200679AF6 /* WeatherViewModel.swift in Sources */,
 				6419582E290CE46100B28259 /* ModelData.swift in Sources */,
 				64FE8F17293CFA0200AFB62C /* TaskManagementCoreDataNewTask.swift in Sources */,
 				64B37B4E290D03C800E485E3 /* HSV.swift in Sources */,
@@ -2634,6 +2843,8 @@
 				64CEB393291659BB00C38D56 /* AnimationChallengeHome.swift in Sources */,
 				64E7FCB7290675BB00D6AA9A /* _DShoeHome.swift in Sources */,
 				64CEB39A29165BE100C38D56 /* AnimationsContent.swift in Sources */,
+				6476C646294EDDE700B3F699 /* CarouselCustomTabBar.swift in Sources */,
+				645D9630297F788E00679AF6 /* BaseRequest.swift in Sources */,
 				64F35458290B2C380072AA8B /* ResizableLottieView.swift in Sources */,
 				647EB51829284826003A2336 /* HeroCarouselDetailView.swift in Sources */,
 				6482DB822934F23300F8B04D /* MatchedCarouselHome.swift in Sources */,
@@ -2661,6 +2872,7 @@
 				647EB51529284826003A2336 /* HeroCarouselCard.swift in Sources */,
 				64CEB39B29165BE100C38D56 /* CustomTabBar.swift in Sources */,
 				64CD005B29441AEB00758CA9 /* WeatherAppScrollingHome.swift in Sources */,
+				6476C649294EDDE700B3F699 /* CarouselMovie.swift in Sources */,
 				64F8AA5F2949226100C3F5D5 /* CoverFlowHome.swift in Sources */,
 				64195829290CE46100B28259 /* BadgeSymbol.swift in Sources */,
 				6482DBA22934FF3C00F8B04D /* MinimalAnimationContentView.swift in Sources */,

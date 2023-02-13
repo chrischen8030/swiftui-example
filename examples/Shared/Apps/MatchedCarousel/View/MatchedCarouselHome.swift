@@ -53,6 +53,6 @@ struct MatchedCarouselHome: View {
 
 struct MatchedCarouselHome_Previews: PreviewProvider {
     static var previews: some View {
-        MatchedCarouselHome()
+        ContentView()
     }
 }
