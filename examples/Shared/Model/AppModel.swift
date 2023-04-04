@@ -44,6 +44,8 @@ enum SwiftUIApps: String, CaseIterable, Identifiable{
     case circleWalletHome = "CircleWalletHome"
     case customDropDwonContentView = "CustomDropDwonContentView"
     case cryptoAppAppHome = "CryptoAppAppHome(K线图)"
+    case draggableViewContentView = "DraggableViewContentView可以拖动视图"
+    case draggableView2 = "DraggableView2实现可拖动交换"
     case drawerHome = "DrawerHome(左侧边栏)"
     case dcardAnimationHome = "DCardAnimationHome"
     case heroCarouselHome = "HeroCarouselHome"
@@ -152,8 +154,12 @@ enum SwiftUIApps: String, CaseIterable, Identifiable{
                 WeatherAppScrollingHome(topEdge: topEdge)
                     .ignoresSafeArea(.all, edges: .top)
             }
+        case .draggableViewContentView:
+            DraggableViewContentView()
         case .drawerHome:
             DrawerHome()
+        case .draggableView2:
+            DraggableView2()
         case .taskManagerContentView:
             TaskManagerContentView()
         case .taskManagementCoreDataContentView:

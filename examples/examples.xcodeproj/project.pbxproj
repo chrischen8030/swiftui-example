@@ -107,6 +107,8 @@
 		64AA3802292470700094442B /* WalletAnimationHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AA37FE2924706F0094442B /* WalletAnimationHome.swift */; };
 		64AA3803292470700094442B /* WalletAnimationExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AA3800292470700094442B /* WalletAnimationExpense.swift */; };
 		64AA3804292470700094442B /* WalletAnimationCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AA3801292470700094442B /* WalletAnimationCard.swift */; };
+		64AD7C3629DBA16000D36FB6 /* DraggableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AD7C3529DBA16000D36FB6 /* DraggableView.swift */; };
+		64AD7C7429DBFF9E00D36FB6 /* DraggableView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AD7C7329DBFF9E00D36FB6 /* DraggableView2.swift */; };
 		64B1740C290B964F001DD5A8 /* ParseMarkdownToHTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B1740A290B964F001DD5A8 /* ParseMarkdownToHTML.swift */; };
 		64B1740D290B964F001DD5A8 /* MarkdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B1740B290B964F001DD5A8 /* MarkdownView.swift */; };
 		64B1740F290B9674001DD5A8 /* MarkdownHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B1740E290B9673001DD5A8 /* MarkdownHome.swift */; };
@@ -392,6 +394,8 @@
 		64AA37FE2924706F0094442B /* WalletAnimationHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletAnimationHome.swift; sourceTree = "<group>"; };
 		64AA3800292470700094442B /* WalletAnimationExpense.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletAnimationExpense.swift; sourceTree = "<group>"; };
 		64AA3801292470700094442B /* WalletAnimationCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletAnimationCard.swift; sourceTree = "<group>"; };
+		64AD7C3529DBA16000D36FB6 /* DraggableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggableView.swift; sourceTree = "<group>"; };
+		64AD7C7329DBFF9E00D36FB6 /* DraggableView2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggableView2.swift; sourceTree = "<group>"; };
 		64B1740A290B964F001DD5A8 /* ParseMarkdownToHTML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseMarkdownToHTML.swift; sourceTree = "<group>"; };
 		64B1740B290B964F001DD5A8 /* MarkdownView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkdownView.swift; sourceTree = "<group>"; };
 		64B1740E290B9673001DD5A8 /* MarkdownHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkdownHome.swift; sourceTree = "<group>"; };
@@ -1191,6 +1195,22 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		64AD7C3429DBA14300D36FB6 /* DragnableView */ = {
+			isa = PBXGroup;
+			children = (
+				64AD7C3529DBA16000D36FB6 /* DraggableView.swift */,
+			);
+			path = DragnableView;
+			sourceTree = "<group>";
+		};
+		64AD7C7229DBFE6200D36FB6 /* DraggableView2 */ = {
+			isa = PBXGroup;
+			children = (
+				64AD7C7329DBFF9E00D36FB6 /* DraggableView2.swift */,
+			);
+			path = DraggableView2;
+			sourceTree = "<group>";
+		};
 		64B17407290B917D001DD5A8 /* Markdown */ = {
 			isa = PBXGroup;
 			children = (
@@ -1942,6 +1962,8 @@
 		64E7FC8A290606B800D6AA9A /* Apps */ = {
 			isa = PBXGroup;
 			children = (
+				64AD7C7229DBFE6200D36FB6 /* DraggableView2 */,
+				64AD7C3429DBA14300D36FB6 /* DragnableView */,
 				645D9624297F77C600679AF6 /* WeatherReport */,
 				6476C64A294EEBED00B3F699 /* Chips */,
 				6476C63C294EDDCE00B3F699 /* Carousel */,
@@ -2672,6 +2694,7 @@
 				64B2D4712944B54B006B5524 /* Extensions.swift in Sources */,
 				64FE8F1A293CFA0200AFB62C /* TaskManagementCoreData.xcdatamodeld in Sources */,
 				64F8AA4E2948AE8F00C3F5D5 /* CustomHeaderScrollRefreshable.swift in Sources */,
+				64AD7C7429DBFF9E00D36FB6 /* DraggableView2.swift in Sources */,
 				64CEB3C92918CB1C00C38D56 /* AnimatedHeaderView.swift in Sources */,
 				64B37B4F290D03C800E485E3 /* RGB.swift in Sources */,
 				64B2D41529444773006B5524 /* VPNUI2Rings.swift in Sources */,
@@ -2745,6 +2768,7 @@
 				645D9627297F780600679AF6 /* WeatherReportContentView.swift in Sources */,
 				64B2D439294494F3006B5524 /* TwitterMenuSideMenu.swift in Sources */,
 				64CEB3A12916602100C38D56 /* CanvasHome.swift in Sources */,
+				64AD7C3629DBA16000D36FB6 /* DraggableView.swift in Sources */,
 				64FE8F18293CFA0200AFB62C /* TaskManagementCoreDataDynamicFilteredView.swift in Sources */,
 				6419581D290CE46100B28259 /* ProfileEditor.swift in Sources */,
 				64D5661629421085004DE474 /* DrawerHome.swift in Sources */,
