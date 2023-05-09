@@ -76,7 +76,13 @@ struct CarouselForYou: View {
 
 struct CarouselForYou_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        CarouselForYou(topEdge: 50)
+    }
+}
+
+struct CarouselMovieCardView_Previews: PreviewProvider {
+    static var previews: some View {
+        CarouselMovieCardView(movie: CarouselMovie(movieName: "Black Widow", artwork: "Carouselpost1"), topOffset: 150)
     }
 }
 

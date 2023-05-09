@@ -15,6 +15,8 @@ struct TaskAnimationHome: View {
     // Current Date
     @State var currentDate: Date = Date()
     
+    @Environment(\.presentationMode) var presentationMode;
+    
     var body: some View {
         ZStack{
             // If we hide the view while its transitioning it will give some opacity change in the view
@@ -37,7 +39,7 @@ struct TaskAnimationHome: View {
                     
                     // MARK: Nav Bar
                     Button {
-                        
+                        presentationMode.wrappedValue.dismiss()
                     } label: {
                      
                         Image(systemName: "rectangle.leadinghalf.inset.filled")
